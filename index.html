@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GutWise — Your Complete Digestive Health Companion</title>
 <link rel="stylesheet" href="styles.css"><script src="lang.js"></script>
+<script defer src="/_vercel/insights/script.js"></script>
 <link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="manifest" href="manifest.json"><meta name="theme-color" content="#4f46e5"><meta property="og:type" content="website"><meta property="og:site_name" content="GutWise"><meta property="og:url" content="https://aravindcleaerr.github.io/gastric-guide/"><meta property="og:description" content="Free educational digestive health guide. Not medical advice."><meta property="og:image" content="https://aravindcleaerr.github.io/gastric-guide/og-image.svg">
 </head>
 <body>
@@ -201,7 +202,7 @@
 
 <div class="disclaimer">This content is for educational purposes only and does not replace professional medical advice. The creators of GutWise are not medical professionals. Do not start, stop, or change any medication without consulting your doctor. In case of emergency, call 112 (India) or your local emergency number. <a href="terms-of-use.html">Read full Terms of Use &amp; Medical Disclaimer</a></div>
 <div class="privacy-notice">GutWise does not use cookies, collect personal data, or track users.</div>
-<div class="footer"><span class="ai-badge">AI-Assisted Content</span><br>GutWise &bull; Comprehensive Digestive Health Companion &bull; <a href="terms-of-use.html">Terms of Use</a> &bull; Last updated: February 2026</div>
+<div class="footer"><span class="ai-badge">AI-Assisted Content</span><br>GutWise &bull; Comprehensive Digestive Health Companion &bull; <a href="terms-of-use.html">Terms of Use</a> &bull; Last updated: February 2026<br><span class="visitor-counter">Visitors: <span class="visitor-count" id="visitorCount">...</span></span></div>
 <script>
 (function(){
   // Search
@@ -244,5 +245,15 @@
 <script>
 if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js');}
 (function(){var t=document.getElementById('themeToggle');var saved=localStorage.getItem('theme');if(saved){document.documentElement.setAttribute('data-theme',saved);t.textContent=saved==='dark'?'\u2600':'\u263E';}t.addEventListener('click',function(){var d=document.documentElement.getAttribute('data-theme')==='dark'?'':'dark';document.documentElement.setAttribute('data-theme',d);localStorage.setItem('theme',d);t.textContent=d==='dark'?'\u2600':'\u263E';});})();
+(function(){
+  var el=document.getElementById('visitorCount');
+  if(!el)return;
+  var key='gutwise_visited';
+  var counted=sessionStorage.getItem(key);
+  var endpoint='https://api.countapi.xyz/'+(counted?'get':'hit')+'/gutwise-guide/visits';
+  fetch(endpoint).then(function(r){return r.json();}).then(function(d){
+    if(d.value){el.textContent=d.value.toLocaleString();if(!counted)sessionStorage.setItem(key,'1');}
+  }).catch(function(){el.textContent='--';});
+})();
 </script></body>
 </html>

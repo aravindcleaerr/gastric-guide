@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ಎಚ್. ಪೈಲೋರಿ ಸೋಂಕು - ಗಟ್‌ವೈಸ್</title>
+<meta name="description" content="ಹೆಲಿಕೋಬ್ಯಾಕ್ಟರ್ ಪೈಲೋರಿ ಸೋಂಕಿನ ಸಂಪೂರ್ಣ ಮಾರ್ಗದರ್ಶಿ: ಹರಡುವಿಕೆ, ರೋಗಲಕ್ಷಣಗಳು, ಪರೀಕ್ಷೆ, ಚಿಕಿತ್ಸಾ ಪ್ರೋಟೋಕಾಲ್‌ಗಳು, ಮತ್ತು ದೀರ್ಘಕಾಲೀನ ಆರೋಗ್ಯ ಪರಿಣಾಮಗಳು.">
+<link rel="stylesheet" href="styles.css">
+<script src="lang.js"></script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#4f46e5">
+</head>
+<body>
+<a href="#main" class="skip-link">ವಿಷಯಕ್ಕೆ ಹೋಗಿ</a>
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="index-kn.html">ಗಟ್‌ವೈಸ್</a>
+    <div style="display:flex;align-items:center;gap:0.5rem;">
+      <a class="home-link" href="index-kn.html">ಎಲ್ಲಾ ವಿಷಯಗಳು</a>
+      <a class="lang-switch" href="h-pylori.html">English</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container" id="main" role="main">
+  <div class="page-header">
+    <h1>ಎಚ್. ಪೈಲೋರಿ ಸೋಂಕು</h1>
+    <p>ಹುಣ್ಣುಗಳು ಮತ್ತು ಹೊಟ್ಟೆ ಸಮಸ್ಯೆಗಳಿಗೆ ಕಾರಣವಾಗುವ ಬ್ಯಾಕ್ಟೀರಿಯಾವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು</p>
+  </div>
+  <p class="last-reviewed">ಕೊನೆಯ ಪರಿಶೀಲನೆ: ಫೆಬ್ರವರಿ 2026</p>
+
+  <!-- Animated SVG Illustration -->
+  <div class="illus">
+    <svg viewBox="0 0 400 240" width="340" height="200" role="img" aria-label="ಎಚ್. ಪೈಲೋರಿ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಚಿತ್ರಣ">
+      <defs>
+        <linearGradient id="bacteriaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#10b981;stop-opacity:1"/>
+          <stop offset="100%" style="stop-color:#059669;stop-opacity:1"/>
+        </linearGradient>
+      </defs>
+      <!-- Stomach lining background -->
+      <rect x="50" y="60" width="300" height="120" rx="10" fill="#fef3c7" opacity="0.5"/>
+      <path d="M50 100 Q100 90 150 100 Q200 110 250 100 Q300 90 350 100" stroke="#f59e0b" stroke-width="2" fill="none"/>
+      <!-- Mucus layer -->
+      <rect x="60" y="105" width="280" height="30" rx="5" fill="#fde68a" opacity="0.6"/>
+      <!-- H. pylori bacteria (spiral shaped) -->
+      <g transform="translate(120, 115)">
+        <ellipse cx="0" cy="0" rx="25" ry="8" fill="url(#bacteriaGrad)"/>
+        <!-- Flagella -->
+        <path d="M-25 0 Q-35 -10 -45 0 Q-55 10 -65 0" stroke="#10b981" stroke-width="2" fill="none">
+          <animate attributeName="d" values="M-25 0 Q-35 -10 -45 0 Q-55 10 -65 0;M-25 0 Q-35 10 -45 0 Q-55 -10 -65 0;M-25 0 Q-35 -10 -45 0 Q-55 10 -65 0" dur="0.5s" repeatCount="indefinite"/>
+        </path>
+        <path d="M-25 0 Q-35 5 -45 -5 Q-55 -10 -60 -5" stroke="#10b981" stroke-width="2" fill="none">
+          <animate attributeName="d" values="M-25 0 Q-35 5 -45 -5 Q-55 -10 -60 -5;M-25 0 Q-35 -5 -45 5 Q-55 10 -60 5;M-25 0 Q-35 5 -45 -5 Q-55 -10 -60 -5" dur="0.5s" repeatCount="indefinite"/>
+        </path>
+        <animate attributeName="transform" values="translate(120,115);translate(140,115);translate(120,115)" dur="3s" repeatCount="indefinite"/>
+      </g>
+      <!-- Second bacteria -->
+      <g transform="translate(220, 120)">
+        <ellipse cx="0" cy="0" rx="20" ry="6" fill="url(#bacteriaGrad)"/>
+        <path d="M-20 0 Q-28 -8 -36 0 Q-44 8 -52 0" stroke="#10b981" stroke-width="2" fill="none">
+          <animate attributeName="d" values="M-20 0 Q-28 -8 -36 0 Q-44 8 -52 0;M-20 0 Q-28 8 -36 0 Q-44 -8 -52 0;M-20 0 Q-28 -8 -36 0 Q-44 8 -52 0" dur="0.6s" repeatCount="indefinite"/>
+        </path>
+        <animate attributeName="transform" values="translate(220,120);translate(200,120);translate(220,120)" dur="4s" repeatCount="indefinite"/>
+      </g>
+      <!-- Third bacteria -->
+      <g transform="translate(280, 110)">
+        <ellipse cx="0" cy="0" rx="18" ry="5" fill="url(#bacteriaGrad)"/>
+        <path d="M-18 0 Q-25 -6 -32 0" stroke="#10b981" stroke-width="2" fill="none">
+          <animate attributeName="d" values="M-18 0 Q-25 -6 -32 0;M-18 0 Q-25 6 -32 0;M-18 0 Q-25 -6 -32 0" dur="0.4s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <!-- Labels -->
+      <text x="200" y="50" font-size="11" fill="#64748b" text-anchor="middle" font-weight="bold">ಹೆಲಿಕೋಬ್ಯಾಕ್ಟರ್ ಪೈಲೋರಿ</text>
+      <text x="200" y="195" font-size="9" fill="#64748b" text-anchor="middle">ಹೊಟ್ಟೆಯ ಮ್ಯೂಕಸ್‌ನಲ್ಲಿ ವಾಸಿಸುವ ಫ್ಲ್ಯಾಜೆಲ್ಲಾ ಹೊಂದಿರುವ ಸುರುಳಿ ಬ್ಯಾಕ್ಟೀರಿಯಾ</text>
+      <text x="330" y="80" font-size="9" fill="#f59e0b">ಹೊಟ್ಟೆಯ</text>
+      <text x="330" y="92" font-size="9" fill="#f59e0b">ಒಳಪದರ</text>
+      <text x="330" y="120" font-size="9" fill="#fbbf24">ಮ್ಯೂಕಸ್</text>
+      <text x="330" y="132" font-size="9" fill="#fbbf24">ಪದರ</text>
+    </svg>
+  </div>
+
+  <!-- Introduction -->
+  <div class="section">
+    <h2><span class="icon-sm">🦠</span> ಎಚ್. ಪೈಲೋರಿ ಎಂದರೇನು?</h2>
+    <p>ಹೆಲಿಕೋಬ್ಯಾಕ್ಟರ್ ಪೈಲೋರಿ (ಎಚ್. ಪೈಲೋರಿ) ಜಗತ್ತಿನ ಸುಮಾರು ಅರ್ಧ ಜನಸಂಖ್ಯೆಯ ಹೊಟ್ಟೆಯ ಒಳಪದರದಲ್ಲಿ ವಾಸಿಸುವ ಸುರುಳಿಯಾಕಾರದ ಬ್ಯಾಕ್ಟೀರಿಯಾ. ಹೊಟ್ಟೆಯ ಕಠಿಣ ಆಮ್ಲೀಯ ಪರಿಸರದಲ್ಲಿ ಬದುಕಲು ಇದು ವಿಶೇಷವಾಗಿ ಹೊಂದಿಕೊಂಡಿದೆ, ಯುರೇಸ್ ಎಂಬ ಎಂಜೈಮ್ ಉತ್ಪಾದಿಸುವ ಮೂಲಕ ಅದರ ಸಮೀಪದ ಹೊಟ್ಟೆಯ ಆಮ್ಲವನ್ನು ತಟಸ್ಥಗೊಳಿಸುತ್ತದೆ.</p>
+    <p>ಎಚ್. ಪೈಲೋರಿ ಸೋಂಕು ಮಾನವರಲ್ಲಿ ಅತ್ಯಂತ ಸಾಮಾನ್ಯ ದೀರ್ಘಕಾಲೀನ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಸೋಂಕು. ಹೆಚ್ಚಿನ ಸೋಂಕಿತ ಜನರಲ್ಲಿ ಎಂದಿಗೂ ರೋಗಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಳ್ಳದಿದ್ದರೂ, ಎಚ್. ಪೈಲೋರಿ ಪೆಪ್ಟಿಕ್ ಹುಣ್ಣುಗಳು ಮತ್ತು ಗ್ಯಾಸ್ಟ್ರೈಟಿಸ್‌ನ ಪ್ರಾಥಮಿಕ ಕಾರಣವಾಗಿದೆ, ಮತ್ತು ಹೊಟ್ಟೆಯ ಕ್ಯಾನ್ಸರ್‌ಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಗ್ರೂಪ್ 1 ಕಾರ್ಸಿನೋಜೆನ್ ಎಂದು ವರ್ಗೀಕರಿಸಲಾಗಿದೆ.</p>
+
+    <div class="info-cards">
+      <div class="info-card">
+        <span class="ic-icon">🌍</span>
+        <div class="ic-title">50%</div>
+        <div class="ic-text">ವಿಶ್ವ ಜನಸಂಖ್ಯೆ ಸೋಂಕಿತ</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">👶</span>
+        <div class="ic-title">ಬಾಲ್ಯ</div>
+        <div class="ic-text">ಹೆಚ್ಚಿನ ಸೋಂಕುಗಳು ಮೊದಲೇ ಪಡೆಯಲ್ಪಡುತ್ತವೆ</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">🤷</span>
+        <div class="ic-title">80%+</div>
+        <div class="ic-text">ರೋಗಲಕ್ಷಣಗಳಿಲ್ಲ</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">💊</span>
+        <div class="ic-title">ಗುಣಪಡಿಸಬಹುದಾದ</div>
+        <div class="ic-text">ಪ್ರತಿಜೀವಕಗಳು + PPIಗಳೊಂದಿಗೆ</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Transmission -->
+  <div class="section">
+    <h2><span class="icon-sm">🔄</span> ಎಚ್. ಪೈಲೋರಿ ಹೇಗೆ ಹರಡುತ್ತದೆ</h2>
+    <p>ಎಚ್. ಪೈಲೋರಿ ಸಾಮಾನ್ಯವಾಗಿ ಬಾಲ್ಯದಲ್ಲಿ ಸೋಂಕಿತವಾಗುತ್ತದೆ ಮತ್ತು ಚಿಕಿತ್ಸೆ ಇಲ್ಲದೆ ಜೀವನಪರ್ಯಂತ ಮುಂದುವರಿಯುತ್ತದೆ. ಹರಡುವ ಮಾರ್ಗಗಳು:</p>
+
+    <h3>ಹರಡುವ ಮಾರ್ಗಗಳು</h3>
+    <ul>
+      <li><strong>ಬಾಯಿ-ಬಾಯಿ:</strong> ಲಾಲಾರಸದ ಮೂಲಕ (ಚುಂಬನ, ಪಾತ್ರೆಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದು)</li>
+      <li><strong>ಮಲ-ಬಾಯಿ:</strong> ಕಲುಷಿತ ಆಹಾರ ಅಥವಾ ನೀರು</li>
+      <li><strong>ಜಠರ-ಬಾಯಿ:</strong> ವಾಂತಿಯೊಂದಿಗೆ ಸಂಪರ್ಕ</li>
+    </ul>
+
+    <h3>ಸೋಂಕಿಗೆ ಅಪಾಯ ಅಂಶಗಳು</h3>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>ಅಂಶ</th>
+          <th>ಅಪಾಯವನ್ನು ಏಕೆ ಹೆಚ್ಚಿಸುತ್ತದೆ</th>
+        </tr>
+        <tr>
+          <td>ಅಭಿವೃದ್ಧಿಶೀಲ ದೇಶಗಳಲ್ಲಿ ವಾಸ</td>
+          <td>ದಟ್ಟಣೆ, ನೈರ್ಮಲ್ಯ ಸಮಸ್ಯೆಗಳಿಂದ ಹೆಚ್ಚಿನ ದರಗಳು</td>
+        </tr>
+        <tr>
+          <td>ದಟ್ಟ ವಾಸದ ಪರಿಸ್ಥಿತಿಗಳು</td>
+          <td>ವ್ಯಕ್ತಿಯಿಂದ ವ್ಯಕ್ತಿಗೆ ಹರಡಲು ಹೆಚ್ಚಿನ ಅವಕಾಶಗಳು</td>
+        </tr>
+        <tr>
+          <td>ಶುದ್ಧ ನೀರಿನ ಕೊರತೆ</td>
+          <td>ನೀರಿನ ಮೂಲಕ ಹರಡುವಿಕೆ ಸಾಧ್ಯ</td>
+        </tr>
+        <tr>
+          <td>ಸೋಂಕಿತ ವ್ಯಕ್ತಿಯೊಂದಿಗೆ ವಾಸ</td>
+          <td>ಕುಟುಂಬ ಗುಂಪುಕೂಡುವಿಕೆ ಸಾಮಾನ್ಯ</td>
+        </tr>
+        <tr>
+          <td>ಕಡಿಮೆ ಸಾಮಾಜಿಕ-ಆರ್ಥಿಕ ಸ್ಥಿತಿ</td>
+          <td>ಮೇಲಿನ ಅನೇಕ ಅಂಶಗಳೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದೆ</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="note">
+      ಸುಧಾರಿತ ನೈರ್ಮಲ್ಯ, ಕಡಿಮೆ ಕುಟುಂಬ ಗಾತ್ರಗಳು, ಮತ್ತು ಪ್ರತಿಜೀವಕ ಬಳಕೆಯಿಂದಾಗಿ ಅಭಿವೃದ್ಧಿ ಹೊಂದಿದ ದೇಶಗಳಲ್ಲಿ ಎಚ್. ಪೈಲೋರಿ ದರಗಳು ಕಡಿಮೆಯಾಗುತ್ತಿವೆ. ಆದಾಗ್ಯೂ, ಅಭಿವೃದ್ಧಿಶೀಲ ಪ್ರದೇಶಗಳಲ್ಲಿ ಇದು ಇನ್ನೂ ಬಹಳ ಸಾಮಾನ್ಯವಾಗಿದೆ.
+    </div>
+  </div>
+
+  <!-- Symptoms and Conditions -->
+  <div class="section">
+    <h2><span class="icon-sm">🔍</span> ರೋಗಲಕ್ಷಣಗಳು ಮತ್ತು ಸಂಬಂಧಿತ ಸ್ಥಿತಿಗಳು</h2>
+    <p>ಎಚ್. ಪೈಲೋರಿ ಹೊಂದಿರುವ ಹೆಚ್ಚಿನ ಜನರಲ್ಲಿ ರೋಗಲಕ್ಷಣಗಳಿಲ್ಲ. ಸಮಸ್ಯೆಗಳು ಸಂಭವಿಸಿದಾಗ, ಅವು ಸಾಮಾನ್ಯವಾಗಿ ಸಂಬಂಧಿಸಿವೆ:</p>
+
+    <h3>ಗ್ಯಾಸ್ಟ್ರೈಟಿಸ್ (Gastritis)</h3>
+    <ul>
+      <li>ಹೊಟ್ಟೆಯಲ್ಲಿ ಉರಿಯುವ ಅಥವಾ ಕಡಿಯುವ ನೋವು</li>
+      <li>ವಾಕರಿಕೆ</li>
+      <li>ಉಬ್ಬುವಿಕೆ</li>
+      <li>ಹಸಿವು ಕಡಿಮೆಯಾಗುವುದು</li>
+      <li>ಆಗಾಗ್ಗೆ ಢರ್ಪಿಸುವುದು</li>
+    </ul>
+
+    <h3>ಪೆಪ್ಟಿಕ್ ಹುಣ್ಣುಗಳು (Peptic Ulcers)</h3>
+    <ul>
+      <li>ಹೊಟ್ಟೆಯಲ್ಲಿ ಉರಿಯುವ ನೋವು (ಹೊಟ್ಟೆ ಖಾಲಿಯಾಗಿದ್ದಾಗ ಕೆಟ್ಟದಾಗುತ್ತದೆ)</li>
+      <li>ರಾತ್ರಿ ನೋವು</li>
+      <li>ತಿನ್ನುವುದು ಅಥವಾ ಆಂಟಾಸಿಡ್‌ಗಳಿಂದ ನೋವು ಕಡಿಮೆಯಾಗುತ್ತದೆ</li>
+      <li>ವಾಕರಿಕೆ, ವಾಂತಿ</li>
+      <li>ತೂಕ ಕಡಿಮೆಯಾಗುವುದು</li>
+    </ul>
+
+    <h3>ಇತರ ಸಂಬಂಧಿತ ಸ್ಥಿತಿಗಳು</h3>
+    <ul>
+      <li><strong>ಡಿಸ್ಪೆಪ್ಸಿಯಾ (ಕ್ರಿಯಾತ್ಮಕ):</strong> ಹುಣ್ಣು ಇಲ್ಲದೆ ದೀರ್ಘಕಾಲೀನ ಅಜೀರ್ಣ</li>
+      <li><strong>ಹೊಟ್ಟೆಯ ಕ್ಯಾನ್ಸರ್:</strong> ದೀರ್ಘಕಾಲೀನ ಎಚ್. ಪೈಲೋರಿ ಅಪಾಯವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ (ಇನ್ನೂ ಅಸಾಮಾನ್ಯವಾದರೂ)</li>
+      <li><strong>MALT ಲಿಂಫೋಮಾ:</strong> ಎಚ್. ಪೈಲೋರಿ ಚಿಕಿತ್ಸೆಯೊಂದಿಗೆ ಹಿಂತಿರುಗಬಹುದಾದ ಅಪರೂಪದ ಹೊಟ್ಟೆಯ ಲಿಂಫೋಮಾ</li>
+      <li><strong>ಕಬ್ಬಿಣದ ಕೊರತೆ ರಕ್ತಹೀನತೆ:</strong> ಎಚ್. ಪೈಲೋರಿ ಕಬ್ಬಿಣ ಹೀರಿಕೊಳ್ಳುವಿಕೆಯನ್ನು ಕುಂಠಿತಗೊಳಿಸಬಹುದು</li>
+      <li><strong>ವಿಟಮಿನ್ B12 ಕೊರತೆ:</strong> ದೀರ್ಘಕಾಲೀನ ಗ್ಯಾಸ್ಟ್ರೈಟಿಸ್ B12 ಹೀರಿಕೊಳ್ಳುವಿಕೆಯ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ</li>
+      <li><strong>ITP (ಇಡಿಯೋಪಥಿಕ್ ಥ್ರಾಂಬೋಸೈಟೋಪೆನಿಕ್ ಪರ್ಪುರಾ):</strong> ಕಡಿಮೆ ಪ್ಲೇಟ್‌ಲೆಟ್‌ಗಳು ಕೆಲವೊಮ್ಮೆ ಸಂಬಂಧಿಸಿವೆ</li>
+    </ul>
+
+    <div class="warning">
+      <strong>ನೀವು ಈ ಕೆಳಗಿನವುಗಳನ್ನು ಹೊಂದಿದ್ದರೆ ವೈದ್ಯಕೀಯ ಗಮನ ಪಡೆಯಿರಿ:</strong>
+      <ul>
+        <li>ನಿರಂತರ ಹೊಟ್ಟೆ ನೋವು</li>
+        <li>ನುಂಗಲು ಕಷ್ಟ</li>
+        <li>ರಕ್ತ ಅಥವಾ ಕಾಫಿ ಗ್ರೌಂಡ್ಸ್ ತರಹದ ವಸ್ತುವನ್ನು ವಾಂತಿ ಮಾಡುವುದು</li>
+        <li>ಕಪ್ಪು, ಟಾರ್ ತರಹದ ಮಲ</li>
+        <li>ವಿವರಿಸಲಾಗದ ತೂಕ ನಷ್ಟ</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Diagnosis -->
+  <div class="section">
+    <h2><span class="icon-sm">🩺</span> ಎಚ್. ಪೈಲೋರಿ ಪರೀಕ್ಷೆ</h2>
+
+    <h3>ಆಕ್ರಮಣಕಾರಿಯಲ್ಲದ ಪರೀಕ್ಷೆಗಳು</h3>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>ಪರೀಕ್ಷೆ</th>
+          <th>ಇದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ</th>
+          <th>ನಿಖರತೆ</th>
+          <th>ಟಿಪ್ಪಣಿಗಳು</th>
+        </tr>
+        <tr>
+          <td><strong>ಯುರಿಯಾ ಉಸಿರು ಪರೀಕ್ಷೆ (UBT)</strong></td>
+          <td>ಯುರಿಯಾ ದ್ರಾವಣ ಕುಡಿಯಿರಿ; ಎಚ್. ಪೈಲೋರಿ ಅದನ್ನು ವಿಭಜಿಸುತ್ತದೆ, ನೀವು ಉಸಿರಾಡುವ CO2 ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ</td>
+          <td>&gt;95%</td>
+          <td>ಗೋಲ್ಡ್ ಸ್ಟ್ಯಾಂಡರ್ಡ್ ಆಕ್ರಮಣಕಾರಿಯಲ್ಲದ ಪರೀಕ್ಷೆ; 2 ವಾರಗಳ ಮೊದಲು PPIಗಳನ್ನು ನಿಲ್ಲಿಸಿ</td>
+        </tr>
+        <tr>
+          <td><strong>ಮಲ ಆಂಟಿಜೆನ್ ಪರೀಕ್ಷೆ</strong></td>
+          <td>ಮಲದಲ್ಲಿ ಎಚ್. ಪೈಲೋರಿ ಪ್ರೋಟೀನ್‌ಗಳನ್ನು ಪತ್ತೆ ಮಾಡುತ್ತದೆ</td>
+          <td>&gt;90%</td>
+          <td>ರೋಗನಿರ್ಣಯ ಮತ್ತು ನಿರ್ಮೂಲನೆ ಖಚಿತಪಡಿಸಲು ಉತ್ತಮ</td>
+        </tr>
+        <tr>
+          <td><strong>ರಕ್ತ ಆಂಟಿಬಾಡಿ ಪರೀಕ್ಷೆ</strong></td>
+          <td>ಎಚ್. ಪೈಲೋರಿ ವಿರುದ್ಧ ಆಂಟಿಬಾಡಿಗಳನ್ನು ಪತ್ತೆ ಮಾಡುತ್ತದೆ</td>
+          <td>85%</td>
+          <td>ಪ್ರಸ್ತುತ ಮತ್ತು ಹಿಂದಿನ ಸೋಂಕನ್ನು ಪ್ರತ್ಯೇಕಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ; ನಿರ್ಮೂಲನೆ ಖಚಿತಪಡಿಸಲು ಅಲ್ಲ</td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>ಆಕ್ರಮಣಕಾರಿ ಪರೀಕ್ಷೆಗಳು (ಎಂಡೋಸ್ಕೋಪಿ ಸಮಯದಲ್ಲಿ)</h3>
+    <ul>
+      <li><strong>ರ್ಯಾಪಿಡ್ ಯುರೇಸ್ ಟೆಸ್ಟ್ (CLO ಪರೀಕ್ಷೆ):</strong> ಬಯಾಪ್ಸಿಯನ್ನು ಯುರಿಯಾ ದ್ರಾವಣದಲ್ಲಿ ಇರಿಸಲಾಗುತ್ತದೆ; ಧನಾತ್ಮಕವಾಗಿದ್ದರೆ ಬಣ್ಣ ಬದಲಾವಣೆ</li>
+      <li><strong>ಹಿಸ್ಟಾಲಜಿ:</strong> ಮೈಕ್ರೋಸ್ಕೋಪ್ ಅಡಿಯಲ್ಲಿ ಬಯಾಪ್ಸಿ ಪರಿಶೀಲಿಸಲಾಗುತ್ತದೆ</li>
+      <li><strong>ಕಲ್ಚರ್:</strong> ಬಯಾಪ್ಸಿಯಿಂದ ಬ್ಯಾಕ್ಟೀರಿಯಾವನ್ನು ಬೆಳೆಸುವುದು (ಪ್ರತಿಜೀವಕ ಸೂಕ್ಷ್ಮತೆ ಪರೀಕ್ಷೆಗೆ ಅನುಮತಿಸುತ್ತದೆ)</li>
+    </ul>
+
+    <h3>ಪ್ರಮುಖ ಪರೀಕ್ಷಾ ಪರಿಗಣನೆಗಳು</h3>
+    <div class="warning">
+      <ul>
+        <li><strong>PPIಗಳನ್ನು ನಿಲ್ಲಿಸಿ:</strong> ಉಸಿರು ಅಥವಾ ಮಲ ಪರೀಕ್ಷೆಗಳ ಕನಿಷ್ಠ 2 ವಾರಗಳ ಮೊದಲು (ತಪ್ಪು ನಕಾರಾತ್ಮಕಗಳಿಗೆ ಕಾರಣವಾಗಬಹುದು)</li>
+        <li><strong>ಪ್ರತಿಜೀವಕಗಳನ್ನು ನಿಲ್ಲಿಸಿ:</strong> ಪರೀಕ್ಷೆಗೆ ಕನಿಷ್ಠ 4 ವಾರಗಳ ಮೊದಲು</li>
+        <li><strong>H2 ಬ್ಲಾಕರ್‌ಗಳು:</strong> ಸಾಮಾನ್ಯವಾಗಿ ಮುಂದುವರಿಸಬಹುದು, ಆದರೆ ಕೆಲವರು 24-48 ಗಂಟೆಗಳ ಮೊದಲು ನಿಲ್ಲಿಸಲು ಶಿಫಾರಸು ಮಾಡುತ್ತಾರೆ</li>
+        <li><strong>ಆಂಟಾಸಿಡ್‌ಗಳು:</strong> ಸಾಮಾನ್ಯವಾಗಿ ಫಲಿತಾಂಶಗಳ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುವುದಿಲ್ಲ</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Treatment -->
+  <div class="section">
+    <h2><span class="icon-sm">💊</span> ಚಿಕಿತ್ಸೆ</h2>
+    <p>ಎಚ್. ಪೈಲೋರಿ ಚಿಕಿತ್ಸೆಗೆ ಸಂಯೋಜನಾ ಚಿಕಿತ್ಸೆ ಅಗತ್ಯವಿದೆ ಏಕೆಂದರೆ ಒಂಟಿ ಪ್ರತಿಜೀವಕಗಳು ಪರಿಣಾಮಕಾರಿಯಲ್ಲ. ವಿಶಿಷ್ಟ ಕ್ರಮಗಳು:</p>
+
+    <h3>ಮೊದಲ-ಸಾಲಿನ ಚಿಕಿತ್ಸಾ ಆಯ್ಕೆಗಳು</h3>
+
+    <h4>ಟ್ರಿಪಲ್ ಥೆರಪಿ (14 ದಿನಗಳು)</h4>
+    <ul>
+      <li>PPI (ಉದಾ., ಒಮೆಪ್ರಾಜೋಲ್ 20mg) ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ</li>
+      <li>ಕ್ಲಾರಿಥ್ರೋಮೈಸಿನ್ 500mg ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ</li>
+      <li>ಅಮಾಕ್ಸಿಸಿಲಿನ್ 1000mg ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ (ಅಥವಾ ಪೆನಿಸಿಲಿನ್ ಅಲರ್ಜಿ ಇದ್ದರೆ ಮೆಟ್ರೋನಿಡಾಜೋಲ್ 500mg ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ)</li>
+    </ul>
+
+    <h4>ಬಿಸ್ಮತ್ ಕ್ವಾಡ್ರಪಲ್ ಥೆರಪಿ (10-14 ದಿನಗಳು)</h4>
+    <ul>
+      <li>PPI ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ</li>
+      <li>ಬಿಸ್ಮತ್ ಸಬ್‌ಸ್ಯಾಲಿಸಿಲೇಟ್ 525mg ದಿನಕ್ಕೆ ನಾಲ್ಕು ಬಾರಿ</li>
+      <li>ಮೆಟ್ರೋನಿಡಾಜೋಲ್ 500mg ದಿನಕ್ಕೆ ಮೂರು ಬಾರಿ</li>
+      <li>ಟೆಟ್ರಾಸೈಕ್ಲಿನ್ 500mg ದಿನಕ್ಕೆ ನಾಲ್ಕು ಬಾರಿ</li>
+    </ul>
+
+    <h4>ಕಾನ್ಕೊಮಿಟೆಂಟ್ ಥೆರಪಿ (14 ದಿನಗಳು)</h4>
+    <ul>
+      <li>PPI ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ</li>
+      <li>ಕ್ಲಾರಿಥ್ರೋಮೈಸಿನ್ 500mg ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ</li>
+      <li>ಅಮಾಕ್ಸಿಸಿಲಿನ್ 1000mg ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ</li>
+      <li>ಮೆಟ್ರೋನಿಡಾಜೋಲ್ 500mg ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ</li>
+    </ul>
+
+    <h3>ಚಿಕಿತ್ಸಾ ಸಲಹೆಗಳು</h3>
+    <ul class="checklist">
+      <li>ಸಂಪೂರ್ಣ ಕೋರ್ಸ್ ಪೂರ್ಣಗೊಳಿಸಿ—ನೀವು ಉತ್ತಮವಾಗಿದ್ದರೂ ಮೊದಲೇ ನಿಲ್ಲಿಸಬೇಡಿ</li>
+      <li>ಪ್ರತಿದಿನ ಒಂದೇ ಸಮಯದಲ್ಲಿ ಔಷಧಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ</li>
+      <li>ಊಟಕ್ಕೆ 30-60 ನಿಮಿಷ ಮೊದಲು PPIಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ</li>
+      <li>ಚಿಕಿತ್ಸೆಯ ಸಮಯದಲ್ಲಿ ಮದ್ಯವನ್ನು ತಪ್ಪಿಸಿ (ವಿಶೇಷವಾಗಿ ಮೆಟ್ರೋನಿಡಾಜೋಲ್ ಜೊತೆ)</li>
+      <li>ತೀವ್ರ ಅಡ್ಡ ಪರಿಣಾಮಗಳನ್ನು ನಿಮ್ಮ ವೈದ್ಯರಿಗೆ ವರದಿ ಮಾಡಿ</li>
+      <li>ನಿರ್ಮೂಲನೆ ಖಚಿತಪಡಿಸಲು ಚಿಕಿತ್ಸೆಯ 4+ ವಾರಗಳ ನಂತರ ಪರೀಕ್ಷೆ ಮಾಡಿಸಿ</li>
+    </ul>
+
+    <h3>ಸಾಮಾನ್ಯ ಅಡ್ಡ ಪರಿಣಾಮಗಳು</h3>
+    <ul>
+      <li>ಅತಿಸಾರ</li>
+      <li>ವಾಕರಿಕೆ</li>
+      <li>ಲೋಹದ ರುಚಿ (ಮೆಟ್ರೋನಿಡಾಜೋಲ್, ಕ್ಲಾರಿಥ್ರೋಮೈಸಿನ್)</li>
+      <li>ಹೊಟ್ಟೆ ಕೆಟ್ಟುಹೋಗುವುದು</li>
+      <li>ತಲೆನೋವು</li>
+    </ul>
+
+    <div class="note">
+      ಪ್ರತಿಜೀವಕ ಪ್ರತಿರೋಧದಿಂದಾಗಿ ಚಿಕಿತ್ಸೆ ಯಶಸ್ಸಿನ ದರಗಳು ಕಡಿಮೆಯಾಗಿವೆ, ವಿಶೇಷವಾಗಿ ಕ್ಲಾರಿಥ್ರೋಮೈಸಿನ್‌ಗೆ. ಮೊದಲ-ಸಾಲಿನ ಚಿಕಿತ್ಸೆ ವಿಫಲವಾದರೆ, ಎರಡನೇ-ಸಾಲಿನ ಚಿಕಿತ್ಸೆಗೆ ಬೇರೆ ಕ್ರಮವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.
+    </div>
+  </div>
+
+  <!-- After Treatment -->
+  <div class="section">
+    <h2><span class="icon-sm">✅</span> ಚಿಕಿತ್ಸೆಯ ನಂತರ</h2>
+
+    <h3>ನಿರ್ಮೂಲನೆ ಖಚಿತಪಡಿಸುವುದು</h3>
+    <ul>
+      <li>ಪ್ರತಿಜೀವಕಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ ನಂತರ ಕನಿಷ್ಠ 4 ವಾರಗಳು ಕಾಯಿರಿ</li>
+      <li>ಪರೀಕ್ಷೆಗೆ 2 ವಾರಗಳ ಮೊದಲು PPIಗಳನ್ನು ನಿಲ್ಲಿಸಿ</li>
+      <li>ಯುರಿಯಾ ಉಸಿರು ಪರೀಕ್ಷೆ ಅಥವಾ ಮಲ ಆಂಟಿಜೆನ್ ಪರೀಕ್ಷೆ ಶಿಫಾರಸು</li>
+      <li>ರಕ್ತ ಆಂಟಿಬಾಡಿ ಪರೀಕ್ಷೆಗಳು ಉಪಯುಕ್ತವಲ್ಲ (ವರ್ಷಗಳವರೆಗೆ ಧನಾತ್ಮಕವಾಗಿ ಉಳಿಯುತ್ತವೆ)</li>
+    </ul>
+
+    <h3>ಚಿಕಿತ್ಸೆ ವಿಫಲವಾದರೆ ಏನು?</h3>
+    <ul>
+      <li>ಬೇರೆ ಕ್ರಮವನ್ನು ಬಳಸಿ (ಹಿಂದೆ ಬಳಸಿದ ಪ್ರತಿಜೀವಕಗಳನ್ನು ತಪ್ಪಿಸಿ)</li>
+      <li>ದೀರ್ಘ ಚಿಕಿತ್ಸಾ ಅವಧಿ (ಆರಂಭದಲ್ಲಿ 10 ದಿನಗಳು ಬಳಸಿದ್ದರೆ 14 ದಿನಗಳು)</li>
+      <li>ಪ್ರತಿಜೀವಕ ಸೂಕ್ಷ್ಮತೆ ಪರೀಕ್ಷೆ ಸಹಾಯಕವಾಗಬಹುದು</li>
+      <li>ಔಷಧಗಳಿಗೆ ರೋಗಿಯ ಅನುಸರಣೆ ಖಚಿತಪಡಿಸಿ</li>
+    </ul>
+
+    <h3>ಮತ್ತೆ ಸೋಂಕು ಆಗಬಹುದೇ?</h3>
+    <p>ಯಶಸ್ವಿ ಚಿಕಿತ್ಸೆಯ ನಂತರ ವಯಸ್ಕರಲ್ಲಿ ಮರು-ಸೋಂಕು ಅಸಾಮಾನ್ಯ (ಅಭಿವೃದ್ಧಿ ಹೊಂದಿದ ದೇಶಗಳಲ್ಲಿ ವರ್ಷಕ್ಕೆ ಸುಮಾರು 1-2%). ಮರು-ಸೋಂಕನ್ನು ತಡೆಯಲು ಸಹಾಯ ಮಾಡುವ ಅಂಶಗಳು:</p>
+    <ul>
+      <li>ಉತ್ತಮ ನೈರ್ಮಲ್ಯ ಅಭ್ಯಾಸಗಳು</li>
+      <li>ಸೋಂಕಿತ ಕುಟುಂಬ ಸದಸ್ಯರನ್ನು ಪರೀಕ್ಷಿಸಿ ಚಿಕಿತ್ಸೆ ನೀಡುವುದು</li>
+      <li>ಸುರಕ್ಷಿತ ಆಹಾರ ಮತ್ತು ನೀರಿನ ಅಭ್ಯಾಸಗಳು</li>
+    </ul>
+  </div>
+
+  <!-- Who Should Be Tested -->
+  <div class="section">
+    <h2><span class="icon-sm">❓</span> ಯಾರು ಪರೀಕ್ಷಿಸಲ್ಪಡಬೇಕು ಮತ್ತು ಚಿಕಿತ್ಸೆ ಪಡೆಯಬೇಕು?</h2>
+
+    <h3>ಪರೀಕ್ಷಿಸಿ ಮತ್ತು ಚಿಕಿತ್ಸೆ ನೀಡಿ:</h3>
+    <ul>
+      <li>ಸಕ್ರಿಯ ಪೆಪ್ಟಿಕ್ ಹುಣ್ಣು ರೋಗ</li>
+      <li>ಪೆಪ್ಟಿಕ್ ಹುಣ್ಣಿನ ಇತಿಹಾಸ (ಹಿಂದೆ ಚಿಕಿತ್ಸೆ ನೀಡದಿದ್ದರೆ)</li>
+      <li>60 ವರ್ಷಕ್ಕಿಂತ ಕಡಿಮೆ ವಯಸ್ಸಿನ ಡಿಸ್ಪೆಪ್ಸಿಯಾ (ಅಜೀರ್ಣ)</li>
+      <li>MALT ಲಿಂಫೋಮಾ</li>
+      <li>ಆರಂಭಿಕ ಹೊಟ್ಟೆಯ ಕ್ಯಾನ್ಸರ್ ತೆಗೆದ ನಂತರ</li>
+      <li>ಹೊಟ್ಟೆಯ ಕ್ಯಾನ್ಸರ್ ಹೊಂದಿರುವ ಮೊದಲ-ದರ್ಜೆಯ ಸಂಬಂಧಿ</li>
+      <li>ದೀರ್ಘಕಾಲೀನ NSAID ಬಳಕೆ ಯೋಜಿಸಲಾಗಿದೆ</li>
+      <li>ವಿವರಿಸಲಾಗದ ಕಬ್ಬಿಣದ ಕೊರತೆ ರಕ್ತಹೀನತೆ</li>
+      <li>ಇಡಿಯೋಪಥಿಕ್ ಥ್ರಾಂಬೋಸೈಟೋಪೆನಿಕ್ ಪರ್ಪುರಾ (ITP)</li>
+    </ul>
+
+    <h3>ಪರೀಕ್ಷೆ ಪರಿಗಣಿಸಿ:</h3>
+    <ul>
+      <li>ದೀರ್ಘಕಾಲೀನ PPI ಬಳಕೆದಾರರು (PPIಗಳು ಇನ್ನೂ ಅಗತ್ಯವೇ ಎಂದು ನಿರ್ಧರಿಸಲು)</li>
+      <li>GERD ಹೊಂದಿರುವ ರೋಗಿಗಳು (ವಿವಾದಾತ್ಮಕ—ಕೆಲವು ಅಧ್ಯಯನಗಳು ಪ್ರಯೋಜನವನ್ನು ಸೂಚಿಸುತ್ತವೆ)</li>
+      <li>ಬ್ಯಾರಿಯಾಟ್ರಿಕ್ ಶಸ್ತ್ರಚಿಕಿತ್ಸೆಗೆ ಒಳಗಾಗುತ್ತಿರುವ ರೋಗಿಗಳು</li>
+    </ul>
+
+    <div class="note">
+      ಪಶ್ಚಿಮ ದೇಶಗಳಲ್ಲಿ ರೋಗಲಕ್ಷಣವಿಲ್ಲದ ವ್ಯಕ್ತಿಗಳ ದಿನನಿತ್ಯದ ಪರೀಕ್ಷೆ ಸಾಮಾನ್ಯವಾಗಿ ಶಿಫಾರಸು ಮಾಡುವುದಿಲ್ಲ. ಆದಾಗ್ಯೂ, ಹೊಟ್ಟೆಯ ಕ್ಯಾನ್ಸರ್ ದರಗಳು ಹೆಚ್ಚಿರುವ ಪ್ರದೇಶಗಳಲ್ಲಿ, ಸ್ಕ್ರೀನಿಂಗ್ ಪರಿಗಣಿಸಬಹುದು.
+    </div>
+  </div>
+
+  <!-- Long-term Implications -->
+  <div class="section">
+    <h2><span class="icon-sm">⚠️</span> ದೀರ್ಘಕಾಲೀನ ಆರೋಗ್ಯ ಪರಿಣಾಮಗಳು</h2>
+
+    <h3>ಹೊಟ್ಟೆಯ ಕ್ಯಾನ್ಸರ್ ಅಪಾಯ</h3>
+    <ul>
+      <li>ಎಚ್. ಪೈಲೋರಿಯನ್ನು ಗ್ರೂಪ್ 1 ಕಾರ್ಸಿನೋಜೆನ್ ಎಂದು ವರ್ಗೀಕರಿಸಲಾಗಿದೆ</li>
+      <li>ಹೊಟ್ಟೆಯ ಕ್ಯಾನ್ಸರ್ ಅಪಾಯವನ್ನು 2-6 ಪಟ್ಟು ಹೆಚ್ಚಿಸುತ್ತದೆ</li>
+      <li>ಹೆಚ್ಚಿನ ಹೊಟ್ಟೆಯ ಕ್ಯಾನ್ಸರ್‌ಗಳು ಎಚ್. ಪೈಲೋರಿ ಹೊಂದಿರುವ ಜನರಲ್ಲಿ ಸಂಭವಿಸುತ್ತವೆ</li>
+      <li><strong>ಆದರೆ:</strong> ಸಂಪೂರ್ಣ ಅಪಾಯ ಇನ್ನೂ ಕಡಿಮೆ—ಹೆಚ್ಚಿನ ಸೋಂಕಿತ ಜನರಲ್ಲಿ ಎಂದಿಗೂ ಕ್ಯಾನ್ಸರ್ ಬೆಳೆಯುವುದಿಲ್ಲ</li>
+      <li>ನಿರ್ಮೂಲನೆ ಕ್ಯಾನ್ಸರ್ ಅಪಾಯವನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು, ವಿಶೇಷವಾಗಿ ಮೊದಲೇ ಮಾಡಿದರೆ</li>
+    </ul>
+
+    <h3>ಸೋಂಕಿನ ಪ್ರಗತಿ</h3>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-title">ಆರಂಭಿಕ ಸೋಂಕು</div>
+        <div class="timeline-text">ಎಲ್ಲಾ ಸೋಂಕಿತ ವ್ಯಕ್ತಿಗಳಲ್ಲಿ ತೀವ್ರ ಗ್ಯಾಸ್ಟ್ರೈಟಿಸ್ ಬೆಳೆಯುತ್ತದೆ</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">ದೀರ್ಘಕಾಲೀನ ಗ್ಯಾಸ್ಟ್ರೈಟಿಸ್</div>
+        <div class="timeline-text">ಹೆಚ್ಚಿನವರಲ್ಲಿ ಮುಂದುವರಿಯುತ್ತದೆ; ರೋಗಲಕ್ಷಣಗಳಿಲ್ಲದಿರಬಹುದು</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">ಪೆಪ್ಟಿಕ್ ಹುಣ್ಣು (10-15%)</div>
+        <div class="timeline-text">ಕೆಲವರಲ್ಲಿ ವರ್ಷಗಳು/ದಶಕಗಳ ಅವಧಿಯಲ್ಲಿ ಬೆಳೆಯುತ್ತದೆ</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">ಅಟ್ರೋಫಿಕ್ ಗ್ಯಾಸ್ಟ್ರೈಟಿಸ್ (ಕೆಲವರಲ್ಲಿ)</div>
+        <div class="timeline-text">ಹೊಟ್ಟೆಯ ಒಳಪದರ ತೆಳುವಾಗುತ್ತದೆ; ಕ್ಯಾನ್ಸರ್‌ಗೆ ಪೂರ್ವಗಾಮಿ</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">ಕರುಳಿನ ಮೆಟಾಪ್ಲೇಸಿಯಾ (ಕೆಲವರಲ್ಲಿ)</div>
+        <div class="timeline-text">ಜೀವಕೋಶಗಳು ಪ್ರಕಾರ ಬದಲಾಗುತ್ತವೆ; ಹೆಚ್ಚಿನ ಕ್ಯಾನ್ಸರ್ ಅಪಾಯ</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">ಹೊಟ್ಟೆಯ ಕ್ಯಾನ್ಸರ್ (&lt;1%)</div>
+        <div class="timeline-text">ದಶಕಗಳ ಸೋಂಕಿನ ನಂತರ ಅಪರೂಪದ ಫಲಿತಾಂಶ</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ Section -->
+  <div class="section">
+    <h2><span class="icon-sm">❓</span> ಪದೇ ಪದೇ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು</h2>
+
+    <div class="accordion-item">
+      <div class="accordion-header">ನನಗೆ ಎಚ್. ಪೈಲೋರಿ ಇದ್ದು ರೋಗಲಕ್ಷಣಗಳಿಲ್ಲದಿದ್ದರೆ ಚಿಕಿತ್ಸೆ ಪಡೆಯಬೇಕೇ?</div>
+      <div class="accordion-body">
+        ಇದು ಚರ್ಚಾಸ್ಪದ. ಹೊಟ್ಟೆಯ ಕ್ಯಾನ್ಸರ್ ದರಗಳು ಹೆಚ್ಚಿರುವ ದೇಶಗಳಲ್ಲಿ, ರೋಗಲಕ್ಷಣವಿಲ್ಲದ ಸೋಂಕಿಗೂ ಚಿಕಿತ್ಸೆ ನೀಡುವುದು ಪ್ರಯೋಜನಕಾರಿಯಾಗಬಹುದು. ಕಡಿಮೆ-ಅಪಾಯದ ಪ್ರದೇಶಗಳಲ್ಲಿ, ನಿರ್ಧಾರವು ವೈಯಕ್ತಿಕ ಅಂಶಗಳ ಮೇಲೆ ಅವಲಂಬಿತವಾಗಿರುತ್ತದೆ. ನಿಮ್ಮ ವೈದ್ಯರೊಂದಿಗೆ ಚರ್ಚಿಸಿ—ಹೊಟ್ಟೆಯ ಕ್ಯಾನ್ಸರ್‌ನ ಕುಟುಂಬ ಇತಿಹಾಸ, ಜೀವನಪರ್ಯಂತ ಸೋಂಕಿನ ಬಗ್ಗೆ ನಿಮ್ಮ ಆರಾಮದ ಮಟ್ಟ, ಮತ್ತು ಸಂಭಾವ್ಯ ಔಷಧ ಅಡ್ಡ ಪರಿಣಾಮಗಳು ಪರಿಗಣನೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">ಎಚ್. ಪೈಲೋರಿ ಸಾಂಕ್ರಾಮಿಕವೇ?</div>
+      <div class="accordion-body">
+        ಹೌದು, ಎಚ್. ಪೈಲೋರಿ ವ್ಯಕ್ತಿಯಿಂದ ವ್ಯಕ್ತಿಗೆ ಹರಡಬಹುದು, ಸಾಮಾನ್ಯವಾಗಿ ಲಾಲಾರಸ, ಕಲುಷಿತ ಆಹಾರ ಅಥವಾ ನೀರಿನ ಮೂಲಕ. ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಕುಟುಂಬಗಳಲ್ಲಿ ಬಾಲ್ಯದಲ್ಲಿ ಹರಡುತ್ತದೆ. ವಯಸ್ಕರು ಅಪರೂಪವಾಗಿ ಹೊಸ ಸೋಂಕುಗಳನ್ನು ಪಡೆಯುತ್ತಾರೆ. ಸೋಂಕಿತ ವ್ಯಕ್ತಿಗಳ ನಿಕಟ ಕುಟುಂಬ ಸದಸ್ಯರಲ್ಲಿ ಹೆಚ್ಚಿನ ಸೋಂಕು ದರಗಳಿವೆ.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">ನನ್ನ ಕುಟುಂಬವನ್ನು ಪರೀಕ್ಷಿಸಬೇಕೇ?</div>
+      <div class="accordion-body">
+        ನಿಮಗೆ ಸಕ್ರಿಯ ಹುಣ್ಣು ಇದ್ದರೆ ಅಥವಾ ಹುಣ್ಣಿನ ತೊಂದರೆಗಳನ್ನು ಹೊಂದಿದ್ದರೆ, ಕುಟುಂಬ ಸದಸ್ಯರನ್ನು ಪರೀಕ್ಷಿಸುವುದು ಸಮಂಜಸವಾಗಿರಬಹುದು ಏಕೆಂದರೆ ಚಿಕಿತ್ಸೆ ಪಡೆಯದ ಸಂಪರ್ಕಗಳಿಂದ ಮರು-ಸೋಂಕು ಸಾಧ್ಯ. ತೊಂದರೆಯಿಲ್ಲದ ಸೋಂಕಿಗೆ, ಕುಟುಂಬ ಸದಸ್ಯರಿಗೆ ಸ್ವಂತ ರೋಗಲಕ್ಷಣಗಳಿಲ್ಲದಿದ್ದರೆ ದಿನನಿತ್ಯದ ಕುಟುಂಬ ಪರೀಕ್ಷೆ ಸಾಮಾನ್ಯವಾಗಿ ಶಿಫಾರಸು ಮಾಡುವುದಿಲ್ಲ.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">ಪ್ರೋಬಯೋಟಿಕ್‌ಗಳು ಎಚ್. ಪೈಲೋರಿಗೆ ಸಹಾಯ ಮಾಡಬಹುದೇ?</div>
+      <div class="accordion-body">
+        ಪ್ರೋಬಯೋಟಿಕ್‌ಗಳು ಸ್ವತಃ ಎಚ್. ಪೈಲೋರಿಯನ್ನು ನಿರ್ಮೂಲನೆ ಮಾಡುವುದಿಲ್ಲ, ಆದರೆ ಕೆಲವು ಅಧ್ಯಯನಗಳು ಎರಡು ವಿಧಗಳಲ್ಲಿ ಸಹಾಯ ಮಾಡಬಹುದು ಎಂದು ಸೂಚಿಸುತ್ತವೆ: 1) ಪ್ರತಿಜೀವಕ ಚಿಕಿತ್ಸೆಯ ಅಡ್ಡ ಪರಿಣಾಮಗಳನ್ನು ಕಡಿಮೆ ಮಾಡುವುದು, ಮತ್ತು 2) ಪ್ರಮಾಣಿತ ಚಿಕಿತ್ಸೆಗೆ ಸೇರಿಸಿದಾಗ ನಿರ್ಮೂಲನೆ ದರಗಳನ್ನು ಸ್ವಲ್ಪ ಸುಧಾರಿಸಬಹುದು. ಚಿಕಿತ್ಸೆಗೆ ಪೂರಕವಾಗಿ ಕೆಲವೊಮ್ಮೆ ಶಿಫಾರಸು ಮಾಡಲಾಗುತ್ತದೆ ಆದರೆ ಪ್ರತಿಜೀವಕಗಳನ್ನು ಬದಲಿಸಬಾರದು.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">ನಾನು ಶುದ್ಧ ಆಹಾರ ತಿನ್ನುತ್ತಿದ್ದರೂ ಎಚ್. ಪೈಲೋರಿ ಹೇಗೆ ಬಂತು?</div>
+      <div class="accordion-body">
+        ಹೆಚ್ಚಿನ ಜನರು ಬಾಲ್ಯದಲ್ಲಿ, ಸಾಮಾನ್ಯವಾಗಿ 10 ವರ್ಷಕ್ಕಿಂತ ಮೊದಲು, ನಿಕಟ ಕುಟುಂಬ ಸಂಪರ್ಕಗಳಿಂದ ಎಚ್. ಪೈಲೋರಿ ಪಡೆಯುತ್ತಾರೆ. ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಜೀವನಶೈಲಿಗಿಂತ ಭಿನ್ನವಾದ ಪರಿಸ್ಥಿತಿಗಳಲ್ಲಿ ದಶಕಗಳ ಹಿಂದೆ ನೀವು ಸೋಂಕಿತರಾಗಿರಬಹುದು. ಪ್ರಸ್ತುತ ಆಹಾರ ಅಥವಾ ನೈರ್ಮಲ್ಯ ಅಭ್ಯಾಸಗಳನ್ನು ಲೆಕ್ಕಿಸದೆ ಸೋಂಕು ಚಿಕಿತ್ಸೆ ಇಲ್ಲದೆ ಜೀವನಪರ್ಯಂತ ಮುಂದುವರಿಯುತ್ತದೆ.
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Navigation -->
+  <div class="page-nav">
+    <a href="peptic-ulcer-kn.html" class="prev">ಪೆಪ್ಟಿಕ್ ಹುಣ್ಣು ರೋಗ</a>
+    <a href="gastroparesis-kn.html" class="next">ಗ್ಯಾಸ್ಟ್ರೋಪರೇಸಿಸ್</a>
+  </div>
+</div>
+
+<div class="disclaimer">
+  ಈ ವಿಷಯವು ಶೈಕ್ಷಣಿಕ ಉದ್ದೇಶಗಳಿಗಾಗಿ ಮಾತ್ರ ಮತ್ತು ವೃತ್ತಿಪರ ವೈದ್ಯಕೀಯ ಸಲಹೆಯನ್ನು ಬದಲಿಸುವುದಿಲ್ಲ. ಗಟ್‌ವೈಸ್ ರಚನೆಕಾರರು ವೈದ್ಯಕೀಯ ವೃತ್ತಿಪರರಲ್ಲ. ನಿಮ್ಮ ವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸದೆ ಯಾವುದೇ ಔಷಧಿಯನ್ನು ಪ್ರಾರಂಭಿಸಬೇಡಿ, ನಿಲ್ಲಿಸಬೇಡಿ ಅಥವಾ ಬದಲಾಯಿಸಬೇಡಿ. ತುರ್ತು ಸಂದರ್ಭದಲ್ಲಿ, 112 (ಭಾರತ) ಅಥವಾ ನಿಮ್ಮ ಸ್ಥಳೀಯ ತುರ್ತು ಸಂಖ್ಯೆಗೆ ಕರೆ ಮಾಡಿ. <a href="terms-of-use-kn.html">ಸಂಪೂರ್ಣ ಬಳಕೆಯ ನಿಯಮಗಳು ಮತ್ತು ವೈದ್ಯಕೀಯ ಹಕ್ಕುತ್ಯಾಗವನ್ನು ಓದಿ</a>
+</div>
+<div class="privacy-notice">ಗಟ್‌ವೈಸ್ ಕುಕೀಗಳನ್ನು ಬಳಸುವುದಿಲ್ಲ, ವೈಯಕ್ತಿಕ ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ ಅಥವಾ ಬಳಕೆದಾರರನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡುವುದಿಲ್ಲ.</div>
+<div class="footer">
+  <span class="ai-badge">AI-ಸಹಾಯಿತ ವಿಷಯ</span><br>
+  ಗಟ್‌ವೈಸ್ &bull; ಸಮಗ್ರ ಜೀರ್ಣಾಂಗ ಆರೋಗ್ಯ ಸಂಗಾತಿ &bull; <a href="terms-of-use-kn.html">ಬಳಕೆಯ ನಿಯಮಗಳು</a> &bull; ಕೊನೆಯ ನವೀಕರಣ: ಫೆಬ್ರವರಿ 2026
+</div>
+
+<button class="theme-toggle" id="themeToggle" aria-label="ಡಾರ್ಕ್ ಮೋಡ್ ಟಾಗಲ್ ಮಾಡಿ" title="ಡಾರ್ಕ್ ಮೋಡ್ ಟಾಗಲ್ ಮಾಡಿ">&#9790;</button>
+<button class="scroll-top" aria-label="ಮೇಲಕ್ಕೆ ಸ್ಕ್ರಾಲ್ ಮಾಡಿ" id="scrollTop" title="ಮೇಲಕ್ಕೆ ಹಿಂತಿರುಗಿ">&uarr;</button>
+
+<script>
+// Accordion functionality
+document.querySelectorAll('.accordion-header').forEach(function(header) {
+  header.addEventListener('click', function() {
+    var item = this.parentElement;
+    item.classList.toggle('open');
+  });
+});
+
+// Checklist functionality
+document.querySelectorAll('.checklist li').forEach(function(li) {
+  li.addEventListener('click', function() {
+    this.classList.toggle('checked');
+  });
+});
+
+// Scroll to top
+var scrollBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', function() {
+  scrollBtn.classList.toggle('visible', window.scrollY > 400);
+});
+scrollBtn.addEventListener('click', function() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+});
+
+// Theme toggle
+(function(){
+  var t = document.getElementById('themeToggle');
+  var saved = localStorage.getItem('theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+    t.textContent = saved === 'dark' ? '\u2600' : '\u263E';
+  }
+  t.addEventListener('click', function() {
+    var d = document.documentElement.getAttribute('data-theme') === 'dark' ? '' : 'dark';
+    document.documentElement.setAttribute('data-theme', d);
+    localStorage.setItem('theme', d);
+    t.textContent = d === 'dark' ? '\u2600' : '\u263E';
+  });
+})();
+
+// Service Worker Registration
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+</body>
+</html>

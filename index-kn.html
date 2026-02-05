@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ಗಟ್‌ವೈಸ್ — ನಿಮ್ಮ ಸಂಪೂರ್ಣ ಜೀರ್ಣಾಂಗ ಆರೋಗ್ಯ ಸಂಗಾತಿ</title>
 <link rel="stylesheet" href="styles.css"><script src="lang.js"></script>
+<script defer src="/_vercel/insights/script.js"></script>
 <link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="manifest" href="manifest.json"><meta name="theme-color" content="#4f46e5"><meta property="og:type" content="website"><meta property="og:site_name" content="GutWise"><meta property="og:url" content="https://aravindcleaerr.github.io/gastric-guide/"><meta property="og:description" content="ಉಚಿತ ಶೈಕ್ಷಣಿಕ ಜೀರ್ಣಾಂಗ ಆರೋಗ್ಯ ಮಾರ್ಗದರ್ಶಿ. ವೈದ್ಯಕೀಯ ಸಲಹೆ ಅಲ್ಲ.">
 </head>
 <body>
@@ -201,7 +202,7 @@
 
 <div class="disclaimer">ಈ ವಿಷಯವು ಶೈಕ್ಷಣಿಕ ಉದ್ದೇಶಗಳಿಗಾಗಿ ಮಾತ್ರ ಮತ್ತು ವೃತ್ತಿಪರ ವೈದ್ಯಕೀಯ ಸಲಹೆಯನ್ನು ಬದಲಿಸುವುದಿಲ್ಲ. ಗಟ್‌ವೈಸ್‌ನ ಸೃಷ್ಟಿಕರ್ತರು ವೈದ್ಯಕೀಯ ವೃತ್ತಿಪರರಲ್ಲ. ನಿಮ್ಮ ವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸದೆ ಯಾವುದೇ ಔಷಧಿಯನ್ನು ಪ್ರಾರಂಭಿಸಬೇಡಿ, ನಿಲ್ಲಿಸಬೇಡಿ ಅಥವಾ ಬದಲಾಯಿಸಬೇಡಿ. ತುರ್ತು ಸಂದರ್ಭದಲ್ಲಿ, 112 (ಭಾರತ) ಅಥವಾ ನಿಮ್ಮ ಸ್ಥಳೀಯ ತುರ್ತು ಸಂಖ್ಯೆಗೆ ಕರೆ ಮಾಡಿ. <a href="terms-of-use-kn.html">ಪೂರ್ಣ ಬಳಕೆಯ ನಿಯಮಗಳು ಮತ್ತು ವೈದ್ಯಕೀಯ ಹಕ್ಕುತ್ಯಾಗ ಓದಿ</a></div>
 <div class="privacy-notice">ಗಟ್‌ವೈಸ್ ಕುಕೀಗಳನ್ನು ಬಳಸುವುದಿಲ್ಲ, ವೈಯಕ್ತಿಕ ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ ಅಥವಾ ಬಳಕೆದಾರರನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡುವುದಿಲ್ಲ.</div>
-<div class="footer"><span class="ai-badge">AI-ಸಹಾಯಿತ ವಿಷಯ</span><br>ಗಟ್‌ವೈಸ್ &bull; ಸಮಗ್ರ ಜೀರ್ಣಾಂಗ ಆರೋಗ್ಯ ಸಂಗಾತಿ &bull; <a href="terms-of-use-kn.html">ಬಳಕೆಯ ನಿಯಮಗಳು</a> &bull; ಕೊನೆಯದಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ: ಫೆಬ್ರವರಿ 2026</div>
+<div class="footer"><span class="ai-badge">AI-ಸಹಾಯಿತ ವಿಷಯ</span><br>ಗಟ್‌ವೈಸ್ &bull; ಸಮಗ್ರ ಜೀರ್ಣಾಂಗ ಆರೋಗ್ಯ ಸಂಗಾತಿ &bull; <a href="terms-of-use-kn.html">ಬಳಕೆಯ ನಿಯಮಗಳು</a> &bull; ಕೊನೆಯದಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ: ಫೆಬ್ರವರಿ 2026<br><span class="visitor-counter">ಸಂದರ್ಶಕರು: <span class="visitor-count" id="visitorCount">...</span></span></div>
 <script>
 (function(){
   var input = document.getElementById('searchInput');
@@ -241,5 +242,15 @@
 <script>
 if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js');}
 (function(){var t=document.getElementById('themeToggle');var saved=localStorage.getItem('theme');if(saved){document.documentElement.setAttribute('data-theme',saved);t.textContent=saved==='dark'?'\u2600':'\u263E';}t.addEventListener('click',function(){var d=document.documentElement.getAttribute('data-theme')==='dark'?'':'dark';document.documentElement.setAttribute('data-theme',d);localStorage.setItem('theme',d);t.textContent=d==='dark'?'\u2600':'\u263E';});})();
+(function(){
+  var el=document.getElementById('visitorCount');
+  if(!el)return;
+  var key='gutwise_visited';
+  var counted=sessionStorage.getItem(key);
+  var endpoint='https://api.countapi.xyz/'+(counted?'get':'hit')+'/gutwise-guide/visits';
+  fetch(endpoint).then(function(r){return r.json();}).then(function(d){
+    if(d.value){el.textContent=d.value.toLocaleString();if(!counted)sessionStorage.setItem(key,'1');}
+  }).catch(function(){el.textContent='--';});
+})();
 </script></body>
 </html>
