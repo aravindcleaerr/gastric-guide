@@ -198,6 +198,11 @@
 </div>
 
 <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
+<div class="font-size-controls">
+  <button class="font-size-btn" data-size="small" aria-label="Small text" title="Small text">A-</button>
+  <button class="font-size-btn active" data-size="normal" aria-label="Normal text" title="Normal text">A</button>
+  <button class="font-size-btn" data-size="large" aria-label="Large text" title="Large text">A+</button>
+</div>
 <button class="scroll-top" aria-label="Scroll to top" id="scrollTop" title="Back to top">&uarr;</button>
 
 <div class="disclaimer">This content is for educational purposes only and does not replace professional medical advice. The creators of GutWise are not medical professionals. Do not start, stop, or change any medication without consulting your doctor. In case of emergency, call 112 (India) or your local emergency number. <a href="terms-of-use.html">Read full Terms of Use &amp; Medical Disclaimer</a></div>
@@ -244,15 +249,34 @@
 </script>
 <script>
 if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js');}
+// Theme toggle
 (function(){var t=document.getElementById('themeToggle');var saved=localStorage.getItem('theme');if(saved){document.documentElement.setAttribute('data-theme',saved);t.textContent=saved==='dark'?'\u2600':'\u263E';}t.addEventListener('click',function(){var d=document.documentElement.getAttribute('data-theme')==='dark'?'':'dark';document.documentElement.setAttribute('data-theme',d);localStorage.setItem('theme',d);t.textContent=d==='dark'?'\u2600':'\u263E';});})();
+// Font size controls
+(function(){
+  var btns=document.querySelectorAll('.font-size-btn');
+  var saved=localStorage.getItem('fontSize')||'normal';
+  document.documentElement.className=document.documentElement.className.replace(/font-\w+/g,'');
+  document.documentElement.classList.add('font-'+saved);
+  btns.forEach(function(b){
+    if(b.dataset.size===saved)b.classList.add('active');
+    b.addEventListener('click',function(){
+      btns.forEach(function(x){x.classList.remove('active');});
+      b.classList.add('active');
+      document.documentElement.className=document.documentElement.className.replace(/font-\w+/g,'');
+      document.documentElement.classList.add('font-'+b.dataset.size);
+      localStorage.setItem('fontSize',b.dataset.size);
+    });
+  });
+})();
+// Visitor counter using counterapi.dev
 (function(){
   var el=document.getElementById('visitorCount');
   if(!el)return;
   var key='gutwise_visited';
   var counted=sessionStorage.getItem(key);
-  var endpoint='https://api.countapi.xyz/'+(counted?'get':'hit')+'/gutwise-guide/visits';
+  var endpoint='https://api.counterapi.dev/v1/gutwise-health/visits/'+(counted?'':'up');
   fetch(endpoint).then(function(r){return r.json();}).then(function(d){
-    if(d.value){el.textContent=d.value.toLocaleString();if(!counted)sessionStorage.setItem(key,'1');}
+    if(d.count!==undefined){el.textContent=d.count.toLocaleString();if(!counted)sessionStorage.setItem(key,'1');}
   }).catch(function(){el.textContent='--';});
 })();
 </script></body>

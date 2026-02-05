@@ -986,6 +986,48 @@ tr:last-child td { border-bottom: none; }
   box-shadow: var(--shadow-lg);
 }
 
+/* ---- FONT SIZE CONTROLS (Accessibility) ---- */
+.font-size-controls {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 4.5rem;
+  display: flex;
+  gap: 0.25rem;
+  z-index: 99;
+}
+.font-size-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--card-bg);
+  border: 2px solid var(--border);
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  color: var(--text);
+}
+.font-size-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  background: var(--primary-light);
+}
+.font-size-btn.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+/* Font size variations */
+html.font-small { font-size: 14px; }
+html.font-normal { font-size: 16px; }
+html.font-large { font-size: 18px; }
+html.font-xlarge { font-size: 20px; }
+
 /* ---- DARK MODE (WCAG AA Accessible) ---- */
 [data-theme="dark"] {
   --bg: #121212;
@@ -1284,6 +1326,21 @@ tr:last-child td { border-bottom: none; }
   background: #2a2a2a;
   border-color: #4a4a4a;
   color: #fbbf24;
+}
+
+/* Font size buttons */
+[data-theme="dark"] .font-size-btn {
+  background: #2a2a2a;
+  border-color: #4a4a4a;
+  color: #f5f5f5;
+}
+[data-theme="dark"] .font-size-btn:hover {
+  background: #3a3a3a;
+}
+[data-theme="dark"] .font-size-btn.active {
+  background: #818cf8;
+  color: #121212;
+  border-color: #818cf8;
 }
 
 /* Scroll to top button */
