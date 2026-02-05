@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ಜೀರ್ಣಾಂಗ ವ್ಯವಸ್ಥೆಯ ಅವಲೋಕನ - ಗಟ್‌ವೈಸ್</title>
+<meta name="description" content="ಮಾನವ ಜೀರ್ಣಾಂಗ ವ್ಯವಸ್ಥೆಯ ಅಂಗರಚನಾಶಾಸ್ತ್ರ, ಅಂಗಗಳು ಮತ್ತು ಅವುಗಳ ಕಾರ್ಯಗಳ ಸಂಪೂರ್ಣ ಮಾರ್ಗದರ್ಶಿ. ನಿಮ್ಮ GI ಪಥ ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ ಎಂದು ತಿಳಿಯಿರಿ.">
+<link rel="stylesheet" href="styles.css">
+<script src="lang.js"></script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#4f46e5">
+</head>
+<body>
+<a href="#main" class="skip-link">ವಿಷಯಕ್ಕೆ ಹೋಗಿ</a>
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="index-kn.html">ಗಟ್‌ವೈಸ್</a>
+    <div style="display:flex;align-items:center;gap:0.5rem;">
+      <a class="home-link" href="index-kn.html">ಎಲ್ಲಾ ವಿಷಯಗಳು</a>
+      <a class="lang-switch" href="digestive-system-overview.html">English</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container" id="main" role="main">
+  <div class="page-header">
+    <h1>ಜೀರ್ಣಾಂಗ ವ್ಯವಸ್ಥೆಯ ಅವಲೋಕನ</h1>
+    <p>ಆಹಾರವನ್ನು ಜೀರ್ಣಿಸುವ ಮತ್ತು ನಿಮ್ಮ ದೇಹಕ್ಕೆ ಶಕ್ತಿ ನೀಡುವ ಅದ್ಭುತ ಯಂತ್ರವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು</p>
+  </div>
+  <p class="last-reviewed">ಕೊನೆಯ ಪರಿಶೀಲನೆ: ಫೆಬ್ರವರಿ 2026</p>
+
+  <!-- Animated SVG Illustration -->
+  <div class="illus">
+    <svg viewBox="0 0 400 300" width="320" height="240" role="img" aria-label="ಜೀರ್ಣಾಂಗ ವ್ಯವಸ್ಥೆಯ ಚಿತ್ರಣ">
+      <defs>
+        <linearGradient id="organGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#f97316;stop-opacity:1"/>
+          <stop offset="100%" style="stop-color:#ea580c;stop-opacity:1"/>
+        </linearGradient>
+        <linearGradient id="tubeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:#fb923c;stop-opacity:1"/>
+          <stop offset="100%" style="stop-color:#f97316;stop-opacity:1"/>
+        </linearGradient>
+      </defs>
+      <!-- Body outline -->
+      <ellipse cx="200" cy="150" rx="120" ry="130" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+      <!-- Esophagus -->
+      <path d="M200 30 Q200 50 195 70 Q190 90 195 110" stroke="url(#tubeGrad)" stroke-width="12" fill="none" stroke-linecap="round">
+        <animate attributeName="stroke-dasharray" values="0,200;100,100;0,200" dur="3s" repeatCount="indefinite"/>
+      </path>
+      <!-- Stomach -->
+      <ellipse cx="185" cy="140" rx="40" ry="30" fill="url(#organGrad)">
+        <animate attributeName="rx" values="40;42;40" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="ry" values="30;32;30" dur="2s" repeatCount="indefinite"/>
+      </ellipse>
+      <!-- Small intestine -->
+      <path d="M185 170 Q220 180 210 200 Q200 220 230 230 Q260 240 240 260 Q220 280 180 270 Q140 260 160 240 Q180 220 150 210 Q120 200 140 180" stroke="#10b981" stroke-width="8" fill="none" stroke-linecap="round">
+        <animate attributeName="stroke-dashoffset" values="0;50;0" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <!-- Large intestine -->
+      <path d="M140 180 Q100 180 100 140 Q100 100 140 100 Q180 100 220 100 Q280 100 280 140 Q280 200 280 260 Q280 280 240 280" stroke="#0ea5e9" stroke-width="14" fill="none" stroke-linecap="round" stroke-opacity="0.8"/>
+      <!-- Liver -->
+      <ellipse cx="260" cy="120" rx="35" ry="25" fill="#7c3aed" opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.9;0.7" dur="3s" repeatCount="indefinite"/>
+      </ellipse>
+      <!-- Pancreas -->
+      <ellipse cx="220" cy="165" rx="25" ry="10" fill="#ec4899" opacity="0.7"/>
+      <!-- Labels -->
+      <text x="320" y="50" font-size="10" fill="#64748b">ಅನ್ನನಾಳ</text>
+      <text x="320" y="130" font-size="10" fill="#64748b">ಯಕೃತ್ತು</text>
+      <text x="320" y="145" font-size="10" fill="#64748b">ಹೊಟ್ಟೆ</text>
+      <text x="320" y="175" font-size="10" fill="#64748b">ಮೇದೋಜೀರಕ ಗ್ರಂಥಿ</text>
+      <text x="320" y="220" font-size="10" fill="#64748b">ಸಣ್ಣ ಕರುಳು</text>
+      <text x="320" y="260" font-size="10" fill="#64748b">ದೊಡ್ಡ ಕರುಳು</text>
+    </svg>
+  </div>
+
+  <!-- Quick Facts Section -->
+  <div class="section">
+    <h2><span class="icon-sm">📊</span> ನಿಮ್ಮ ಜೀರ್ಣಾಂಗ ವ್ಯವಸ್ಥೆಯ ಬಗ್ಗೆ ತ್ವರಿತ ಸಂಗತಿಗಳು</h2>
+    <div class="info-cards">
+      <div class="info-card">
+        <span class="ic-icon">📏</span>
+        <div class="ic-title">30 ಅಡಿ ಉದ್ದ</div>
+        <div class="ic-text">ವಯಸ್ಕರ GI ಪಥದ ಒಟ್ಟು ಉದ್ದ</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">⏱️</span>
+        <div class="ic-title">24-72 ಗಂಟೆಗಳು</div>
+        <div class="ic-text">ಸಂಪೂರ್ಣ ಜೀರ್ಣಕ್ರಿಯೆಯ ಸಮಯ</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">💧</span>
+        <div class="ic-title">7 ಲೀಟರ್</div>
+        <div class="ic-text">ದೈನಂದಿನ ಜೀರ್ಣ ಸ್ರವಿಕೆಗಳು</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">🦠</span>
+        <div class="ic-title">100 ಟ್ರಿಲಿಯನ್</div>
+        <div class="ic-text">ನಿಮ್ಮ ಕರುಳಿನಲ್ಲಿರುವ ಬ್ಯಾಕ್ಟೀರಿಯಾಗಳು</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- What is the Digestive System -->
+  <div class="section">
+    <h2><span class="icon-sm">🔬</span> ಜೀರ್ಣಾಂಗ ವ್ಯವಸ್ಥೆ ಎಂದರೇನು?</h2>
+    <p>ಜೀರ್ಣಾಂಗ ವ್ಯವಸ್ಥೆಯು ನೀವು ತಿನ್ನುವ ಆಹಾರವನ್ನು ಸಂಸ್ಕರಿಸುವ ಅಂಗಗಳು ಮತ್ತು ಗ್ರಂಥಿಗಳ ಸಂಕೀರ್ಣ ಸರಣಿಯಾಗಿದೆ. ಇದು ಆಹಾರವನ್ನು ನಿಮ್ಮ ದೇಹವು ಶಕ್ತಿ, ಬೆಳವಣಿಗೆ ಮತ್ತು ಜೀವಕೋಶ ದುರಸ್ತಿಗಾಗಿ ಬಳಸುವ ಅಗತ್ಯ ಪೋಷಕಾಂಶಗಳಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ. ಈ ವ್ಯವಸ್ಥೆಯು ಜಠರಗರುಳಿನ (GI) ಪಥ (ಜೀರ್ಣ ಪಥ ಎಂದೂ ಕರೆಯುತ್ತಾರೆ) ಮತ್ತು ಯಕೃತ್ತು, ಮೇದೋಜೀರಕ ಗ್ರಂಥಿ ಮತ್ತು ಪಿತ್ತಕೋಶ ಸೇರಿದಂತೆ ಸಹಾಯಕ ಅಂಗಗಳನ್ನು ಒಳಗೊಂಡಿದೆ.</p>
+    <p>ನಿಮ್ಮ ಜೀರ್ಣಾಂಗ ವ್ಯವಸ್ಥೆಯನ್ನು ಅತ್ಯಾಧುನಿಕ ಆಹಾರ ಸಂಸ್ಕರಣಾ ಘಟಕವೆಂದು ಭಾವಿಸಿ. ಆಹಾರವು ನಿಮ್ಮ ಬಾಯಿ ಮೂಲಕ ಪ್ರವೇಶಿಸುತ್ತದೆ, ವಿವಿಧ ಯಾಂತ್ರಿಕ ಮತ್ತು ರಾಸಾಯನಿಕ ಪರಿವರ್ತನೆಗಳಿಗೆ ಒಳಗಾಗುತ್ತಾ ಉದ್ದವಾದ ಕೊಳವೆಯ ಮೂಲಕ ಚಲಿಸುತ್ತದೆ, ಮತ್ತು ತ್ಯಾಜ್ಯ ಉತ್ಪನ್ನಗಳು ಅಂತಿಮವಾಗಿ ಗುದದ್ವಾರದ ಮೂಲಕ ಹೊರಹೋಗುತ್ತವೆ. ಈ ಪ್ರಯಾಣದ ಉದ್ದಕ್ಕೂ, ಪೋಷಕಾಂಶಗಳನ್ನು ಹೊರತೆಗೆದು ನಿಮ್ಮ ದೇಹದ ಪ್ರತಿಯೊಂದು ಜೀವಕೋಶಕ್ಕೆ ಪೋಷಣೆ ನೀಡಲು ರಕ್ತಪ್ರವಾಹಕ್ಕೆ ಹೀರಲಾಗುತ್ತದೆ.</p>
+    <div class="note">
+      ಜೀರ್ಣಾಂಗ ವ್ಯವಸ್ಥೆಯನ್ನು ಸಾಮಾನ್ಯವಾಗಿ "ಎರಡನೇ ಮೆದುಳು" ಎಂದು ಕರೆಯುತ್ತಾರೆ ಏಕೆಂದರೆ ಇದು ಸುಮಾರು 500 ಮಿಲಿಯನ್ ನರಕೋಶಗಳನ್ನು ಹೊಂದಿದೆ ಮತ್ತು ಎಂಟರಿಕ್ ನರಮಂಡಲದ (Enteric Nervous System) ಮೂಲಕ ಮೆದುಳಿನಿಂದ ಸ್ವತಂತ್ರವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸಬಲ್ಲದು.
+    </div>
+  </div>
+
+  <!-- Organs of the Digestive System -->
+  <div class="section">
+    <h2><span class="icon-sm">🫀</span> ಜೀರ್ಣಾಂಗ ವ್ಯವಸ್ಥೆಯ ಪ್ರಮುಖ ಅಂಗಗಳು</h2>
+
+    <h3>1. ಬಾಯಿ (ಮುಖ ಕುಹರ - Oral Cavity)</h3>
+    <p>ಜೀರ್ಣಕ್ರಿಯೆಯು ನಿಮ್ಮ ಬಾಯಿಯಲ್ಲಿ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ. ನಿಮ್ಮ ಹಲ್ಲುಗಳು ಅಗಿಯುವ (ಮ್ಯಾಸ್ಟಿಕೇಷನ್) ಮೂಲಕ ಆಹಾರವನ್ನು ಯಾಂತ್ರಿಕವಾಗಿ ಒಡೆಯುತ್ತವೆ, ಆದರೆ ಜೊಲ್ಲು ಗ್ರಂಥಿಗಳು ಅಮೈಲೇಸ್ (Amylase) ನಂತಹ ಕಿಣ್ವಗಳನ್ನು ಹೊಂದಿರುವ ಜೊಲ್ಲು ಉತ್ಪಾದಿಸುತ್ತವೆ, ಇದು ಕಾರ್ಬೋಹೈಡ್ರೇಟ್‌ಗಳನ್ನು ಒಡೆಯಲು ಪ್ರಾರಂಭಿಸುತ್ತದೆ. ನಾಲಿಗೆಯು ಆಹಾರವನ್ನು ಜೊಲ್ಲಿನೊಂದಿಗೆ ಬೆರೆಸಲು ಮತ್ತು ನುಂಗಲು ಬೋಲಸ್ ಆಗಿ ರೂಪಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ವಯಸ್ಕರು ದಿನಕ್ಕೆ ಸುಮಾರು 1-1.5 ಲೀಟರ್ ಜೊಲ್ಲು ಉತ್ಪಾದಿಸುತ್ತಾರೆ.</p>
+
+    <h3>2. ಗಂಟಲು (Pharynx) ಮತ್ತು ಅನ್ನನಾಳ (Esophagus)</h3>
+    <p>ಗಂಟಲು ಬಾಯಿಯನ್ನು ಅನ್ನನಾಳಕ್ಕೆ ಸಂಪರ್ಕಿಸುತ್ತದೆ. ನೀವು ನುಂಗಿದಾಗ, ಎಪಿಗ್ಲಾಟಿಸ್ ಶ್ವಾಸನಾಳದ ಮೇಲೆ ಮುಚ್ಚಿಕೊಳ್ಳುತ್ತದೆ, ಇದರಿಂದ ಆಹಾರವು ನಿಮ್ಮ ಉಸಿರಾಟದ ಮಾರ್ಗಗಳಿಗೆ ಪ್ರವೇಶಿಸುವುದನ್ನು ತಡೆಯುತ್ತದೆ. ಅನ್ನನಾಳವು ಸುಮಾರು 25 ಸೆಂಟಿಮೀಟರ್ ಉದ್ದದ ಸ್ನಾಯು ಕೊಳವೆಯಾಗಿದ್ದು, ಪೆರಿಸ್ಟಾಲ್ಸಿಸ್ (Peristalsis) ಎಂಬ ಸಮನ್ವಯಿತ ಸ್ನಾಯು ಸಂಕೋಚನಗಳ ಮೂಲಕ ಆಹಾರವನ್ನು ಹೊಟ್ಟೆಗೆ ಸಾಗಿಸುತ್ತದೆ. ಈ ಪ್ರಕ್ರಿಯೆಯು ಹೆಚ್ಚಿನ ಆಹಾರಗಳಿಗೆ ಸುಮಾರು 6-8 ಸೆಕೆಂಡುಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ.</p>
+
+    <h3>3. ಹೊಟ್ಟೆ (Stomach)</h3>
+    <p>ಹೊಟ್ಟೆಯು J-ಆಕಾರದ ಸ್ನಾಯು ಅಂಗವಾಗಿದ್ದು, ಆಹಾರ ಸಂಗ್ರಹಾಗಾರ ಮತ್ತು ಮಿಶ್ರಣ ಕೊಠಡಿಯಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. ಇದು 1.5 ಲೀಟರ್ ವರೆಗೆ ಆಹಾರ ಮತ್ತು ದ್ರವವನ್ನು ಹಿಡಿದಿಡಲು ವಿಸ್ತರಿಸಬಹುದು. ಹೊಟ್ಟೆಯ ಮುಖ್ಯ ಕಾರ್ಯಗಳು:</p>
+    <ul>
+      <li><strong>ಯಾಂತ್ರಿಕ ಜೀರ್ಣಕ್ರಿಯೆ:</strong> ಬಲವಾದ ಸ್ನಾಯು ಸಂಕೋಚನಗಳು ಆಹಾರವನ್ನು ಕಲಕಿ ಮಿಶ್ರಣ ಮಾಡುತ್ತವೆ</li>
+      <li><strong>ರಾಸಾಯನಿಕ ಜೀರ್ಣಕ್ರಿಯೆ:</strong> ಹೈಡ್ರೋಕ್ಲೋರಿಕ್ ಆಮ್ಲ (pH 1.5-3.5) ಮತ್ತು ಪೆಪ್ಸಿನ್ ಹೊಂದಿರುವ ಜಠರ ರಸಗಳು ಪ್ರೋಟೀನ್‌ಗಳನ್ನು ಒಡೆಯುತ್ತವೆ</li>
+      <li><strong>ಸಂಗ್ರಹಣೆ:</strong> ಆಹಾರವನ್ನು ಸಂಗ್ರಹಿಸಿ ಕ್ರಮೇಣ ಸಣ್ಣ ಕರುಳಿಗೆ ಬಿಡುಗಡೆ ಮಾಡಲಾಗುತ್ತದೆ</li>
+      <li><strong>ರಕ್ಷಣೆ:</strong> ಆಮ್ಲೀಯ ವಾತಾವರಣವು ಹೆಚ್ಚಿನ ಹಾನಿಕಾರಕ ಬ್ಯಾಕ್ಟೀರಿಯಾಗಳನ್ನು ಕೊಲ್ಲುತ್ತದೆ</li>
+    </ul>
+    <p>ಆಹಾರವು ಸಾಮಾನ್ಯವಾಗಿ ಅದರ ಸಂಯೋಜನೆಯನ್ನು ಅವಲಂಬಿಸಿ 2-5 ಗಂಟೆಗಳ ಕಾಲ ಹೊಟ್ಟೆಯಲ್ಲಿ ಉಳಿಯುತ್ತದೆ. ಹೆಚ್ಚಿನ ಕೊಬ್ಬಿನ ಊಟಗಳು ಕಾರ್ಬೋಹೈಡ್ರೇಟ್-ಸಮೃದ್ಧ ಆಹಾರಗಳಿಗಿಂತ ಜೀರ್ಣಿಸಲು ಹೆಚ್ಚು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತವೆ.</p>
+
+    <h3>4. ಸಣ್ಣ ಕರುಳು (Small Intestine)</h3>
+    <p>ಸಣ್ಣ ಕರುಳು ಪೋಷಕಾಂಶ ಹೀರಿಕೆಯ ಪ್ರಾಥಮಿಕ ಸ್ಥಳವಾಗಿದೆ. ಅದರ ಹೆಸರಿದ್ದರೂ, ಇದು GI ಪಥದ ಅತಿ ಉದ್ದವಾದ ಭಾಗವಾಗಿದ್ದು, ಸುಮಾರು 6 ಮೀಟರ್ (20 ಅಡಿ) ಉದ್ದವಿದೆ. ಇದು ಮೂರು ವಿಭಾಗಗಳನ್ನು ಒಳಗೊಂಡಿದೆ:</p>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>ವಿಭಾಗ</th>
+          <th>ಉದ್ದ</th>
+          <th>ಪ್ರಾಥಮಿಕ ಕಾರ್ಯ</th>
+        </tr>
+        <tr>
+          <td><strong>ಡ್ಯುಓಡಿನಮ್ (Duodenum)</strong></td>
+          <td>25-30 ಸೆಂ.ಮೀ</td>
+          <td>ಪಿತ್ತರಸ ಮತ್ತು ಮೇದೋಜೀರಕ ಕಿಣ್ವಗಳನ್ನು ಸ್ವೀಕರಿಸುತ್ತದೆ; ರಾಸಾಯನಿಕ ಜೀರ್ಣಕ್ರಿಯೆ ಮುಂದುವರಿಯುತ್ತದೆ</td>
+        </tr>
+        <tr>
+          <td><strong>ಜೆಜುನಮ್ (Jejunum)</strong></td>
+          <td>2.5 ಮೀಟರ್</td>
+          <td>ಪೋಷಕಾಂಶ ಹೀರಿಕೆಯ ಪ್ರಾಥಮಿಕ ಸ್ಥಳ</td>
+        </tr>
+        <tr>
+          <td><strong>ಇಲಿಯಮ್ (Ileum)</strong></td>
+          <td>3.5 ಮೀಟರ್</td>
+          <td>ವಿಟಮಿನ್ B12 ಮತ್ತು ಪಿತ್ತ ಲವಣಗಳನ್ನು ಹೀರುತ್ತದೆ; ದೊಡ್ಡ ಕರುಳಿಗೆ ಸಂಪರ್ಕಿಸುತ್ತದೆ</td>
+        </tr>
+      </table>
+    </div>
+    <p>ಸಣ್ಣ ಕರುಳಿನ ಒಳ ಮೇಲ್ಮೈ ವಿಲ್ಲಿ (Villi) ಎಂಬ ಬೆರಳಿನಂತಹ ಲಕ್ಷಾಂತರ ಉಬ್ಬುಗಳಿಂದ ಆವೃತವಾಗಿದ್ದು, ಇದು ಹೀರಿಕೆಗಾಗಿ ಮೇಲ್ಮೈ ವಿಸ್ತೀರ್ಣವನ್ನು ನಾಟಕೀಯವಾಗಿ ಸುಮಾರು 250 ಚದರ ಮೀಟರ್‌ಗಳಿಗೆ ಹೆಚ್ಚಿಸುತ್ತದೆ—ಇದು ಟೆನಿಸ್ ಕೋರ್ಟ್‌ನ ಗಾತ್ರದಷ್ಟು!</p>
+
+    <h3>5. ದೊಡ್ಡ ಕರುಳು (Large Intestine / Colon)</h3>
+    <p>ದೊಡ್ಡ ಕರುಳು ಸುಮಾರು 1.5 ಮೀಟರ್ (5 ಅಡಿ) ಉದ್ದ ಮತ್ತು 6-7 ಸೆಂಟಿಮೀಟರ್ ವ್ಯಾಸವಿದೆ. ಅದರ ಮುಖ್ಯ ಕಾರ್ಯಗಳು:</p>
+    <ul>
+      <li>ಜೀರ್ಣವಾಗದ ಆಹಾರ ಪದಾರ್ಥದಿಂದ ನೀರು ಮತ್ತು ವಿದ್ಯುದ್ವಿಚ್ಛೇದ್ಯಗಳನ್ನು ಹೀರುವುದು</li>
+      <li>ಕೆಲವು ವಿಟಮಿನ್‌ಗಳನ್ನು (K, B12, ಥಯಾಮಿನ್, ರೈಬೋಫ್ಲೇವಿನ್) ಸಂಶ್ಲೇಷಿಸುವ ಉಪಯುಕ್ತ ಬ್ಯಾಕ್ಟೀರಿಯಾಗಳನ್ನು ಹೊಂದುವುದು</li>
+      <li>ಮಲವಿಸರ್ಜನೆ ಮಾಡುವವರೆಗೆ ಮಲವನ್ನು ರೂಪಿಸಿ ಸಂಗ್ರಹಿಸುವುದು</li>
+      <li>ಕರುಳಿನ ಬ್ಯಾಕ್ಟೀರಿಯಾಗಳಿಂದ ಹೀರದ ವಸ್ತುಗಳ ಹುದುಗುವಿಕೆ</li>
+    </ul>
+    <p>ದೊಡ್ಡ ಕರುಳು ಸೀಕಮ್, ಆರೋಹಣ ಕೊಲೊನ್, ಅಡ್ಡ ಕೊಲೊನ್, ಅವರೋಹಣ ಕೊಲೊನ್, ಸಿಗ್ಮಾಯ್ಡ್ ಕೊಲೊನ್, ಗುದನಾಳ ಮತ್ತು ಗುದ ಕಾಲುವೆಯನ್ನು ಒಳಗೊಂಡಿದೆ. ದೊಡ್ಡ ಕರುಳಿನ ಮೂಲಕ ಸಾಗಲು ಸಾಮಾನ್ಯವಾಗಿ 12-36 ಗಂಟೆಗಳು ಬೇಕಾಗುತ್ತವೆ.</p>
+  </div>
+
+  <!-- Accessory Organs -->
+  <div class="section">
+    <h2><span class="icon-sm">🔧</span> ಸಹಾಯಕ ಜೀರ್ಣಾಂಗಗಳು</h2>
+
+    <h3>ಯಕೃತ್ತು (Liver)</h3>
+    <p>ಯಕೃತ್ತು ದೇಹದ ಅತಿ ದೊಡ್ಡ ಆಂತರಿಕ ಅಂಗವಾಗಿದ್ದು, ವಯಸ್ಕರಲ್ಲಿ ಸುಮಾರು 1.5 ಕೆ.ಜಿ ತೂಕವಿದೆ. ಇದು 500 ಕ್ಕಿಂತ ಹೆಚ್ಚು ಪ್ರಮುಖ ಕಾರ್ಯಗಳನ್ನು ನಿರ್ವಹಿಸುತ್ತದೆ:</p>
+    <ul>
+      <li>ಕೊಬ್ಬನ್ನು ಎಮಲ್ಸಿಫೈ ಮಾಡಲು ಪಿತ್ತರಸ (ದಿನಕ್ಕೆ 500-1000 ಮಿ.ಲೀ) ಉತ್ಪಾದಿಸುವುದು</li>
+      <li>ಕರುಳಿನಿಂದ ಹೀರಲ್ಪಟ್ಟ ಪೋಷಕಾಂಶಗಳನ್ನು ಸಂಸ್ಕರಿಸುವುದು</li>
+      <li>ಹಾನಿಕಾರಕ ವಸ್ತುಗಳನ್ನು ವಿಷಮುಕ್ತಗೊಳಿಸುವುದು</li>
+      <li>ಗ್ಲೈಕೋಜೆನ್, ವಿಟಮಿನ್‌ಗಳು ಮತ್ತು ಖನಿಜಗಳನ್ನು ಸಂಗ್ರಹಿಸುವುದು</li>
+      <li>ರಕ್ತ ಹೆಪ್ಪುಗಟ್ಟುವಿಕೆಗೆ ಅಗತ್ಯವಾದ ಪ್ರೋಟೀನ್‌ಗಳನ್ನು ಉತ್ಪಾದಿಸುವುದು</li>
+    </ul>
+
+    <h3>ಪಿತ್ತಕೋಶ (Gallbladder)</h3>
+    <p>ಈ ಸಣ್ಣ, ಪೇರು-ಆಕಾರದ ಅಂಗವು ಯಕೃತ್ತು ಉತ್ಪಾದಿಸುವ ಪಿತ್ತರಸವನ್ನು ಸಂಗ್ರಹಿಸಿ ಕೇಂದ್ರೀಕರಿಸುತ್ತದೆ. ಕೊಬ್ಬಿನ ಆಹಾರಗಳು ಡ್ಯುಓಡಿನಮ್‌ಗೆ ಪ್ರವೇಶಿಸಿದಾಗ, ಪಿತ್ತಕೋಶವು ಸಂಕುಚಿಸಿ ಕೊಬ್ಬಿನ ಜೀರ್ಣಕ್ರಿಯೆಗೆ ಸಹಾಯ ಮಾಡಲು ಸಾಮಾನ್ಯ ಪಿತ್ತನಾಳದ ಮೂಲಕ ಪಿತ್ತರಸವನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ.</p>
+
+    <h3>ಮೇದೋಜೀರಕ ಗ್ರಂಥಿ (Pancreas)</h3>
+    <p>ಮೇದೋಜೀರಕ ಗ್ರಂಥಿಯು ಜೀರ್ಣ ಮತ್ತು ಅಂತಃಸ್ರಾವಕ ಎರಡೂ ಕಾರ್ಯಗಳನ್ನು ನಿರ್ವಹಿಸುತ್ತದೆ. ಜೀರ್ಣಕ್ರಿಯೆಗಾಗಿ, ಇದು ಉತ್ಪಾದಿಸುತ್ತದೆ:</p>
+    <ul>
+      <li><strong>ಮೇದೋಜೀರಕ ಅಮೈಲೇಸ್ (Pancreatic Amylase):</strong> ಕಾರ್ಬೋಹೈಡ್ರೇಟ್‌ಗಳನ್ನು ಒಡೆಯುತ್ತದೆ</li>
+      <li><strong>ಲೈಪೇಸ್ (Lipase):</strong> ಕೊಬ್ಬನ್ನು ಜೀರ್ಣಿಸುತ್ತದೆ</li>
+      <li><strong>ಟ್ರಿಪ್ಸಿನ್ ಮತ್ತು ಕೈಮೊಟ್ರಿಪ್ಸಿನ್ (Trypsin & Chymotrypsin):</strong> ಪ್ರೋಟೀನ್‌ಗಳನ್ನು ಒಡೆಯುತ್ತವೆ</li>
+      <li><strong>ಬೈಕಾರ್ಬೊನೇಟ್ (Bicarbonate):</strong> ಡ್ಯುಓಡಿನಮ್‌ನಲ್ಲಿ ಹೊಟ್ಟೆಯ ಆಮ್ಲವನ್ನು ತಟಸ್ಥಗೊಳಿಸುತ್ತದೆ</li>
+    </ul>
+    <div class="tip">
+      ಮೇದೋಜೀರಕ ಗ್ರಂಥಿಯು ದಿನಕ್ಕೆ ಸುಮಾರು 1.5 ಲೀಟರ್ ಜೀರ್ಣ ರಸವನ್ನು ಉತ್ಪಾದಿಸುತ್ತದೆ, ಇದರಲ್ಲಿ ಎಲ್ಲಾ ಪ್ರಮುಖ ಪೋಷಕಾಂಶಗಳ ಸಂಪೂರ್ಣ ಜೀರ್ಣಕ್ರಿಯೆಗೆ ಅಗತ್ಯವಾದ ಕಿಣ್ವಗಳಿವೆ.
+    </div>
+  </div>
+
+  <!-- How Food Travels -->
+  <div class="section">
+    <h2><span class="icon-sm">🚀</span> ನಿಮ್ಮ ದೇಹದ ಮೂಲಕ ಆಹಾರದ ಪ್ರಯಾಣ</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-title">ಬಾಯಿ (0-30 ಸೆಕೆಂಡು)</div>
+        <div class="timeline-text">ಆಹಾರವನ್ನು ಅಗಿದು ಜೊಲ್ಲಿನೊಂದಿಗೆ ಬೆರೆಸಲಾಗುತ್ತದೆ. ಲಾಲಾಜಲ ಅಮೈಲೇಸ್‌ನೊಂದಿಗೆ ಕಾರ್ಬೋಹೈಡ್ರೇಟ್ ಜೀರ್ಣಕ್ರಿಯೆ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">ಅನ್ನನಾಳ (6-8 ಸೆಕೆಂಡು)</div>
+        <div class="timeline-text">ಪೆರಿಸ್ಟಾಲ್ಟಿಕ್ ಅಲೆಗಳು ಆಹಾರ ಮುದ್ದೆಯನ್ನು ಹೊಟ್ಟೆಯ ಕಡೆಗೆ ತಳ್ಳುತ್ತವೆ.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">ಹೊಟ್ಟೆ (2-5 ಗಂಟೆ)</div>
+        <div class="timeline-text">ಆಹಾರವನ್ನು ಕಲಕಿ ಜಠರ ರಸಗಳೊಂದಿಗೆ ಬೆರೆಸಲಾಗುತ್ತದೆ. ಪ್ರೋಟೀನ್‌ಗಳು ಒಡೆಯಲು ಪ್ರಾರಂಭಿಸುತ್ತವೆ.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">ಸಣ್ಣ ಕರುಳು (3-5 ಗಂಟೆ)</div>
+        <div class="timeline-text">ಹೆಚ್ಚಿನ ರಾಸಾಯನಿಕ ಜೀರ್ಣಕ್ರಿಯೆ ಮತ್ತು ಪೋಷಕಾಂಶ ಹೀರಿಕೆ ಇಲ್ಲಿ ನಡೆಯುತ್ತದೆ.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">ದೊಡ್ಡ ಕರುಳು (12-36 ಗಂಟೆ)</div>
+        <div class="timeline-text">ನೀರು ಹೀರಿಕೆ, ಬ್ಯಾಕ್ಟೀರಿಯಾ ಹುದುಗುವಿಕೆ ಮತ್ತು ಮಲ ರಚನೆ.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Functions Summary -->
+  <div class="section">
+    <h2><span class="icon-sm">⚡</span> ಜೀರ್ಣಕ್ರಿಯೆಯ ಆರು ಅಗತ್ಯ ಕಾರ್ಯಗಳು</h2>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>ಕಾರ್ಯ</th>
+          <th>ವಿವರಣೆ</th>
+          <th>ಎಲ್ಲಿ ನಡೆಯುತ್ತದೆ</th>
+        </tr>
+        <tr>
+          <td><strong>ಆಹಾರ ಸೇವನೆ (Ingestion)</strong></td>
+          <td>ಆಹಾರವನ್ನು ದೇಹಕ್ಕೆ ತೆಗೆದುಕೊಳ್ಳುವುದು</td>
+          <td>ಬಾಯಿ</td>
+        </tr>
+        <tr>
+          <td><strong>ಚಾಲನೆ (Propulsion)</strong></td>
+          <td>GI ಪಥದ ಮೂಲಕ ಆಹಾರವನ್ನು ಚಲಿಸುವುದು</td>
+          <td>ಪಥದ ಉದ್ದಕ್ಕೂ (ಪೆರಿಸ್ಟಾಲ್ಸಿಸ್)</td>
+        </tr>
+        <tr>
+          <td><strong>ಯಾಂತ್ರಿಕ ಜೀರ್ಣಕ್ರಿಯೆ</strong></td>
+          <td>ಆಹಾರದ ಭೌತಿಕ ವಿಘಟನೆ</td>
+          <td>ಬಾಯಿ, ಹೊಟ್ಟೆ</td>
+        </tr>
+        <tr>
+          <td><strong>ರಾಸಾಯನಿಕ ಜೀರ್ಣಕ್ರಿಯೆ</strong></td>
+          <td>ಪೋಷಕಾಂಶಗಳ ಕಿಣ್ವಕ ವಿಘಟನೆ</td>
+          <td>ಬಾಯಿ, ಹೊಟ್ಟೆ, ಸಣ್ಣ ಕರುಳು</td>
+        </tr>
+        <tr>
+          <td><strong>ಹೀರಿಕೆ (Absorption)</strong></td>
+          <td>ಪೋಷಕಾಂಶಗಳನ್ನು ರಕ್ತಪ್ರವಾಹಕ್ಕೆ ವರ್ಗಾಯಿಸುವುದು</td>
+          <td>ಮುಖ್ಯವಾಗಿ ಸಣ್ಣ ಕರುಳು</td>
+        </tr>
+        <tr>
+          <td><strong>ಮಲವಿಸರ್ಜನೆ (Defecation)</strong></td>
+          <td>ತ್ಯಾಜ್ಯ ಉತ್ಪನ್ನಗಳನ್ನು ಹೊರಹಾಕುವುದು</td>
+          <td>ದೊಡ್ಡ ಕರುಳು, ಗುದನಾಳ</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Keeping Your Digestive System Healthy -->
+  <div class="section">
+    <h2><span class="icon-sm">💪</span> ಆರೋಗ್ಯಕರ ಜೀರ್ಣಾಂಗ ವ್ಯವಸ್ಥೆಗಾಗಿ ಸಲಹೆಗಳು</h2>
+    <ul class="checklist">
+      <li>ಹಣ್ಣುಗಳು, ತರಕಾರಿಗಳು ಮತ್ತು ಧಾನ್ಯಗಳನ್ನು ಒಳಗೊಂಡ ಫೈಬರ್-ಸಮೃದ್ಧ ಆಹಾರ ಸೇವಿಸಿ (ದಿನಕ್ಕೆ 25-30 ಗ್ರಾಂ)</li>
+      <li>ದಿನಕ್ಕೆ 8-10 ಲೋಟ ನೀರು ಕುಡಿದು ಸಾಕಷ್ಟು ಜಲಸಂಚಯಿಸಿ</li>
+      <li>ಆಹಾರವನ್ನು ಚೆನ್ನಾಗಿ ಅಗಿಯಿರಿ—ಪ್ರತಿ ತುತ್ತಿಗೆ 20-30 ಬಾರಿ ಅಗಿಯುವುದನ್ನು ಗುರಿಯಾಗಿಸಿ</li>
+      <li>ಸ್ಥಿರ ಸಮಯಗಳಲ್ಲಿ ನಿಯಮಿತ ಊಟಗಳನ್ನು ಸೇವಿಸಿ</li>
+      <li>ಕರುಳಿನ ಚಲನಶೀಲತೆಯನ್ನು ಉತ್ತೇಜಿಸಲು ನಿಯಮಿತವಾಗಿ ವ್ಯಾಯಾಮ ಮಾಡಿ</li>
+      <li>ವಿಶ್ರಾಂತಿ ತಂತ್ರಗಳ ಮೂಲಕ ಒತ್ತಡವನ್ನು ನಿರ್ವಹಿಸಿ</li>
+      <li>ಸಂಸ್ಕರಿಸಿದ ಆಹಾರಗಳು, ಹೆಚ್ಚಿನ ಸಕ್ಕರೆ ಮತ್ತು ಅನಾರೋಗ್ಯಕರ ಕೊಬ್ಬುಗಳನ್ನು ಮಿತಿಗೊಳಿಸಿ</li>
+      <li>ಮೊಸರು ಮತ್ತು ಹುದುಗಿಸಿದ ತರಕಾರಿಗಳಂತಹ ಪ್ರೋಬಯಾಟಿಕ್-ಸಮೃದ್ಧ ಆಹಾರಗಳನ್ನು ಸೇರಿಸಿ</li>
+      <li>ಊಟದ ನಂತರ ತಕ್ಷಣ ಮಲಗುವುದನ್ನು ತಪ್ಪಿಸಿ</li>
+      <li>ಮದ್ಯಪಾನ ಮಿತಿಗೊಳಿಸಿ ಮತ್ತು ಧೂಮಪಾನ ತ್ಯಜಿಸಿ</li>
+    </ul>
+  </div>
+
+  <!-- Warning Signs -->
+  <div class="section">
+    <h2><span class="icon-sm">⚠️</span> ವೈದ್ಯರನ್ನು ಯಾವಾಗ ಭೇಟಿ ಮಾಡಬೇಕು</h2>
+    <p>ಆಗಾಗ್ಗೆ ಜೀರ್ಣಾಂಗ ಅಸ್ವಸ್ಥತೆ ಸಾಮಾನ್ಯವಾಗಿದ್ದರೂ, ಕೆಲವು ಲಕ್ಷಣಗಳಿಗೆ ವೈದ್ಯಕೀಯ ಗಮನ ಅಗತ್ಯವಿದೆ:</p>
+    <div class="warning">
+      <strong>ಈ ಲಕ್ಷಣಗಳನ್ನು ಅನುಭವಿಸಿದರೆ ವೈದ್ಯಕೀಯ ಸಲಹೆ ಪಡೆಯಿರಿ:</strong>
+      <ul>
+        <li>ನಿರಂತರ ಹೊಟ್ಟೆ ನೋವು ಅಥವಾ ಸೆಳೆತ</li>
+        <li>ವಿವರಿಸಲಾಗದ ತೂಕ ನಷ್ಟ</li>
+        <li>ಮಲದಲ್ಲಿ ರಕ್ತ ಅಥವಾ ಕಪ್ಪು, ಟಾರ್ ರೀತಿಯ ಮಲ</li>
+        <li>ದೀರ್ಘಕಾಲಿಕ ಅತಿಸಾರ ಅಥವಾ ಮಲಬದ್ಧತೆ</li>
+        <li>ನುಂಗಲು ಕಷ್ಟ</li>
+        <li>ನಿರಂತರ ಎದೆಯುರಿ ಅಥವಾ ಆಮ್ಲ ರಿಫ್ಲಕ್ಸ್</li>
+        <li>ತೀವ್ರ ವಾಕರಿಕೆ ಅಥವಾ ವಾಂತಿ</li>
+        <li>ಕಾಮಾಲೆ (ಚರ್ಮ ಅಥವಾ ಕಣ್ಣುಗಳ ಹಳದಿಯಾಗುವಿಕೆ)</li>
+      </ul>
+    </div>
+    <div class="danger">
+      <strong>ತಕ್ಷಣದ ತುರ್ತು ಆರೈಕೆ ಪಡೆಯಿರಿ:</strong> ತೀವ್ರ ಹೊಟ್ಟೆ ನೋವು, ರಕ್ತ ವಾಂತಿ ಅಥವಾ ಆಂತರಿಕ ರಕ್ತಸ್ರಾವದ ಚಿಹ್ನೆಗಳು. ತುರ್ತು ಸೇವೆಗಳಿಗೆ ಕರೆ ಮಾಡಿ (ಭಾರತದಲ್ಲಿ 112) ತಕ್ಷಣ.
+    </div>
+  </div>
+
+  <!-- FAQ Accordion -->
+  <div class="section">
+    <h2><span class="icon-sm">❓</span> ಪದೇ ಪದೇ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು</h2>
+
+    <div class="accordion-item">
+      <div class="accordion-header">ಜೀರ್ಣಕ್ರಿಯೆ ಎಷ್ಟು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ?</div>
+      <div class="accordion-body">
+        ಸಂಪೂರ್ಣ ಜೀರ್ಣಕ್ರಿಯೆ ಸಾಮಾನ್ಯವಾಗಿ 24-72 ಗಂಟೆಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ. ಆಹಾರವು ಹೊಟ್ಟೆ ಮತ್ತು ಸಣ್ಣ ಕರುಳಿನಲ್ಲಿ ಸುಮಾರು 6-8 ಗಂಟೆಗಳ ಕಾಲ ಇರುತ್ತದೆ, ಆದರೆ ಕೊಲೊನ್ ಮೂಲಕ ಸಾಗಲು ಹೆಚ್ಚು ಸಮಯ ಬೇಕಾಗುತ್ತದೆ—ಸಾಮಾನ್ಯವಾಗಿ 12-36 ಗಂಟೆಗಳು. ಫೈಬರ್ ಅಂಶ, ಜಲಸಂಚಯನ ಮತ್ತು ದೈಹಿಕ ಚಟುವಟಿಕೆಯಂತಹ ಅಂಶಗಳು ಸಾಗಾಣಿಕೆ ಸಮಯವನ್ನು ಪ್ರಭಾವಿಸುತ್ತವೆ.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">ನನ್ನ ಹೊಟ್ಟೆ ಏಕೆ ಗುರುಗುಡುತ್ತದೆ?</div>
+      <div class="accordion-body">
+        ಹೊಟ್ಟೆ ಗುರುಗುಡುವಿಕೆ (ಬೋರ್ಬೊರಿಗ್ಮಿ) ಅನಿಲ ಮತ್ತು ದ್ರವಗಳು ಕರುಳಿನ ಮೂಲಕ ಚಲಿಸುವಾಗ ಉಂಟಾಗುತ್ತದೆ. ಹೊಟ್ಟೆ ಖಾಲಿಯಾದಾಗ ಇದು ಹೆಚ್ಚು ಗಮನಕ್ಕೆ ಬರುತ್ತದೆ ಏಕೆಂದರೆ ಶಬ್ದವನ್ನು ಮಫಲ್ ಮಾಡಲು ಆಹಾರವಿಲ್ಲ. ಇದು ಜೀರ್ಣಾಂಗ ಕಾರ್ಯದ ಸಾಮಾನ್ಯ ಭಾಗವಾಗಿದೆ ಮತ್ತು ಕಳವಳಕ್ಕೆ ಕಾರಣವಲ್ಲ.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">ಜೀರ್ಣಾಂಗ ವ್ಯವಸ್ಥೆ ಸ್ವತಃ ದುರಸ್ತಿಯಾಗಬಲ್ಲದೇ?</div>
+      <div class="accordion-body">
+        ಹೌದು, ಜೀರ್ಣಾಂಗ ವ್ಯವಸ್ಥೆಯು ಅದ್ಭುತ ಪುನರುತ್ಪಾದನೆ ಸಾಮರ್ಥ್ಯಗಳನ್ನು ಹೊಂದಿದೆ. ಹೊಟ್ಟೆಯ ಒಳಪದರ ಪ್ರತಿ ಕೆಲವು ದಿನಗಳಿಗೊಮ್ಮೆ ಬದಲಾಗುತ್ತದೆ, ಮತ್ತು ಕರುಳಿನ ಒಳಪದರ ಪ್ರತಿ 3-5 ದಿನಗಳಿಗೊಮ್ಮೆ ನವೀಕರಣಗೊಳ್ಳುತ್ತದೆ. ಆದಾಗ್ಯೂ, GERD ಅಥವಾ IBD ನಂತಹ ಪರಿಸ್ಥಿತಿಗಳಿಂದ ದೀರ್ಘಕಾಲಿಕ ಹಾನಿ ಈ ಗುಣಪಡಿಸುವ ಪ್ರಕ್ರಿಯೆಯನ್ನು ದುರ್ಬಲಗೊಳಿಸಬಹುದು.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">ಒತ್ತಡವು ಜೀರ್ಣಕ್ರಿಯೆಯ ಮೇಲೆ ಹೇಗೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ?</div>
+      <div class="accordion-body">
+        ಒತ್ತಡವು "ಹೋರಾಟ ಅಥವಾ ಪಲಾಯನ" ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ, ಜೀರ್ಣಾಂಗಗಳಿಂದ ರಕ್ತ ಪ್ರವಾಹವನ್ನು ಬೇರೆಡೆಗೆ ತಿರುಗಿಸಿ ಜೀರ್ಣಕ್ರಿಯೆಯನ್ನು ನಿಧಾನಗೊಳಿಸುತ್ತದೆ. ಇದು ಹೊಟ್ಟೆ ನೋವು, ವಾಕರಿಕೆ, ಅತಿಸಾರ ಅಥವಾ ಮಲಬದ್ಧತೆಯಂತಹ ಲಕ್ಷಣಗಳನ್ನು ಉಂಟುಮಾಡಬಹುದು. ದೀರ್ಘಕಾಲಿಕ ಒತ್ತಡವು IBS ಮತ್ತು ಆಮ್ಲ ರಿಫ್ಲಕ್ಸ್‌ನಂತಹ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಇನ್ನಷ್ಟು ಹದಗೆಡಿಸಬಹುದು.
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Navigation -->
+  <div class="page-nav">
+    <a href="index-kn.html" class="prev">ಮುಖಪುಟ</a>
+    <a href="how-digestion-works-kn.html" class="next">ಜೀರ್ಣಕ್ರಿಯೆ ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ</a>
+  </div>
+</div>
+
+<div class="disclaimer">
+  ಈ ವಿಷಯವು ಶೈಕ್ಷಣಿಕ ಉದ್ದೇಶಗಳಿಗಾಗಿ ಮಾತ್ರ ಮತ್ತು ವೃತ್ತಿಪರ ವೈದ್ಯಕೀಯ ಸಲಹೆಯನ್ನು ಬದಲಿಸುವುದಿಲ್ಲ. ಗಟ್‌ವೈಸ್‌ನ ಸೃಷ್ಟಿಕರ್ತರು ವೈದ್ಯಕೀಯ ವೃತ್ತಿಪರರಲ್ಲ. ನಿಮ್ಮ ವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸದೆ ಯಾವುದೇ ಔಷಧಿಯನ್ನು ಪ್ರಾರಂಭಿಸಬೇಡಿ, ನಿಲ್ಲಿಸಬೇಡಿ ಅಥವಾ ಬದಲಾಯಿಸಬೇಡಿ. ತುರ್ತು ಸಂದರ್ಭದಲ್ಲಿ, 112 (ಭಾರತ) ಅಥವಾ ನಿಮ್ಮ ಸ್ಥಳೀಯ ತುರ್ತು ಸಂಖ್ಯೆಗೆ ಕರೆ ಮಾಡಿ. <a href="terms-of-use-kn.html">ಪೂರ್ಣ ಬಳಕೆಯ ನಿಯಮಗಳು ಮತ್ತು ವೈದ್ಯಕೀಯ ಹಕ್ಕುತ್ಯಾಗ ಓದಿ</a>
+</div>
+<div class="privacy-notice">ಗಟ್‌ವೈಸ್ ಕುಕೀಗಳನ್ನು ಬಳಸುವುದಿಲ್ಲ, ವೈಯಕ್ತಿಕ ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ ಅಥವಾ ಬಳಕೆದಾರರನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡುವುದಿಲ್ಲ.</div>
+<div class="footer">
+  <span class="ai-badge">AI-ಸಹಾಯಿತ ವಿಷಯ</span><br>
+  ಗಟ್‌ವೈಸ್ &bull; ಸಮಗ್ರ ಜೀರ್ಣಾಂಗ ಆರೋಗ್ಯ ಸಂಗಾತಿ &bull; <a href="terms-of-use-kn.html">ಬಳಕೆಯ ನಿಯಮಗಳು</a> &bull; ಕೊನೆಯದಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ: ಫೆಬ್ರವರಿ 2026
+</div>
+
+<button class="theme-toggle" id="themeToggle" aria-label="ಡಾರ್ಕ್ ಮೋಡ್ ಟಾಗಲ್" title="ಡಾರ್ಕ್ ಮೋಡ್ ಟಾಗಲ್">&#9790;</button>
+<button class="scroll-top" aria-label="ಮೇಲಕ್ಕೆ ಸ್ಕ್ರಾಲ್ ಮಾಡಿ" id="scrollTop" title="ಮೇಲಕ್ಕೆ ಹಿಂತಿರುಗಿ">&uarr;</button>
+
+<script>
+// Accordion functionality
+document.querySelectorAll('.accordion-header').forEach(function(header) {
+  header.addEventListener('click', function() {
+    var item = this.parentElement;
+    item.classList.toggle('open');
+  });
+});
+
+// Checklist functionality
+document.querySelectorAll('.checklist li').forEach(function(li) {
+  li.addEventListener('click', function() {
+    this.classList.toggle('checked');
+  });
+});
+
+// Scroll to top
+var scrollBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', function() {
+  scrollBtn.classList.toggle('visible', window.scrollY > 400);
+});
+scrollBtn.addEventListener('click', function() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+});
+
+// Theme toggle
+(function(){
+  var t = document.getElementById('themeToggle');
+  var saved = localStorage.getItem('theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+    t.textContent = saved === 'dark' ? '\u2600' : '\u263E';
+  }
+  t.addEventListener('click', function() {
+    var d = document.documentElement.getAttribute('data-theme') === 'dark' ? '' : 'dark';
+    document.documentElement.setAttribute('data-theme', d);
+    localStorage.setItem('theme', d);
+    t.textContent = d === 'dark' ? '\u2600' : '\u263E';
+  });
+})();
+
+// Service Worker Registration
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+</body>
+</html>

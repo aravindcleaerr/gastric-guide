@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found — GutWise</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#4f46e5">
+</head>
+<body>
+<nav class="navbar"><div class="navbar-inner"><a class="brand" href="index.html">GutWise</a></div></nav>
+<div class="container" style="text-align:center;padding-top:3rem;">
+
+<div class="hero" style="max-width:500px;margin:0 auto 2rem;">
+  <span class="hero-icon">🔍</span>
+  <h1>Page Not Found</h1>
+  <p>Sorry, the page you're looking for doesn't exist or has been moved.</p>
+</div>
+
+<div class="section" style="max-width:500px;margin:0 auto;">
+  <h2>What can you do?</h2>
+  <ul style="text-align:left;">
+    <li>Check if the URL is spelled correctly</li>
+    <li>Go back to the <a href="index.html">home page</a></li>
+    <li>Use the search feature to find what you need</li>
+    <li>Browse our <a href="index.html">complete topic list</a></li>
+  </ul>
+  <div style="margin-top:1.5rem;">
+    <a href="index.html" class="page-nav" style="display:inline-block;margin:0;">
+      <span style="padding:0.65rem 1.5rem;background:linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);color:#fff;border-radius:8px;text-decoration:none;font-weight:600;">← Back to Home</span>
+    </a>
+  </div>
+</div>
+
+</div>
+<div class="disclaimer">This content is for educational purposes only and does not replace professional medical advice.</div>
+<div class="footer">GutWise &bull; Comprehensive Digestive Health Companion</div>
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
+<script>
+(function(){var t=document.getElementById('themeToggle');var saved=localStorage.getItem('theme');if(saved){document.documentElement.setAttribute('data-theme',saved);t.textContent=saved==='dark'?'\u2600':'\u263E';}t.addEventListener('click',function(){var d=document.documentElement.getAttribute('data-theme')==='dark'?'':'dark';document.documentElement.setAttribute('data-theme',d);localStorage.setItem('theme',d);t.textContent=d==='dark'?'\u2600':'\u263E';});})();
+</script>
+</body>
+</html>

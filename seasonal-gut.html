@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seasonal Digestive Issues - GutWise</title>
+<link rel="stylesheet" href="styles.css">
+<script src="lang.js"></script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#4f46e5">
+<meta name="description" content="Understanding how seasons affect digestion - monsoon illnesses, summer heat, winter constipation, and seasonal eating for gut health.">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="navbar">
+<div class="navbar-inner">
+<a class="brand" href="index.html">GutWise</a>
+<div style="display:flex;align-items:center;gap:0.5rem;">
+<a class="home-link" href="index.html">All Topics</a>
+<a class="lang-switch" href="seasonal-gut-kn.html">ಕನ್ನಡ</a>
+</div>
+</div>
+</nav>
+
+<div class="container" id="main" role="main">
+<p class="last-reviewed">Last reviewed: February 2026</p>
+
+<div class="page-header">
+<h1><span class="icon-sm">🌦️</span> Seasonal Digestive Issues</h1>
+<p>How different seasons affect your gut and how to adapt</p>
+</div>
+
+<div class="section">
+<h2><span class="icon-sm">🌧️</span> Monsoon Season</h2>
+<p>The monsoon brings increased risk of waterborne and foodborne illnesses.</p>
+
+<h3>Common Issues</h3>
+<ul>
+<li>Gastroenteritis (stomach flu)</li>
+<li>Typhoid, hepatitis A</li>
+<li>Cholera (in endemic areas)</li>
+<li>Food poisoning</li>
+<li>Worm infections</li>
+</ul>
+
+<h3>Prevention</h3>
+<ul>
+<li>Drink only boiled or purified water</li>
+<li>Avoid street food and cut fruits</li>
+<li>Wash vegetables and fruits thoroughly</li>
+<li>Eat freshly cooked, hot food</li>
+<li>Maintain strict hand hygiene</li>
+<li>Keep ORS at home</li>
+</ul>
+</div>
+
+<div class="section">
+<h2><span class="icon-sm">☀️</span> Summer Season</h2>
+
+<h3>Common Issues</h3>
+<ul>
+<li>Dehydration</li>
+<li>Heat-related food spoilage</li>
+<li>Increased acid reflux</li>
+<li>Loss of appetite</li>
+</ul>
+
+<h3>Prevention</h3>
+<ul>
+<li>Stay well hydrated (water, nimbu pani, coconut water)</li>
+<li>Eat cooling foods (cucumber, watermelon, curd)</li>
+<li>Avoid very spicy and oily foods</li>
+<li>Store food properly - refrigerate promptly</li>
+<li>Eat lighter meals</li>
+</ul>
+</div>
+
+<div class="section">
+<h2><span class="icon-sm">❄️</span> Winter Season</h2>
+
+<h3>Common Issues</h3>
+<ul>
+<li>Constipation (reduced fluid intake)</li>
+<li>Heavy eating leading to indigestion</li>
+<li>Reduced physical activity</li>
+</ul>
+
+<h3>Prevention</h3>
+<ul>
+<li>Maintain adequate fluid intake despite less thirst</li>
+<li>Continue regular exercise</li>
+<li>Include warming, fiber-rich foods</li>
+<li>Don't overeat despite increased appetite</li>
+</ul>
+</div>
+
+<div class="section">
+<h2><span class="icon-sm">🍃</span> Seasonal Eating (Ayurvedic Approach)</h2>
+<ul>
+<li><strong>Summer:</strong> Cooling foods - cucumber, melons, buttermilk</li>
+<li><strong>Monsoon:</strong> Light, easily digestible, warm foods</li>
+<li><strong>Winter:</strong> Warming spices, heavier foods in moderation</li>
+<li><strong>Eat seasonal produce:</strong> Naturally suited to current conditions</li>
+</ul>
+</div>
+
+<div class="section">
+<h2><span class="icon-sm">📚</span> Key Takeaways</h2>
+<ul>
+<li>Monsoon increases infection risk - strict food/water hygiene essential</li>
+<li>Summer requires attention to hydration and food storage</li>
+<li>Winter constipation preventable with fluids and fiber</li>
+<li>Seasonal eating supports digestive health</li>
+<li>Adjust diet based on season and body's needs</li>
+</ul>
+</div>
+
+<div class="page-nav">
+<a href="fasting-gut.html" class="prev">Fasting & Gut Health</a>
+<a href="doctor-communication.html" class="next">Doctor Communication</a>
+</div>
+</div>
+
+<div class="disclaimer">This content is for educational purposes only and does not replace professional medical advice. The creators of GutWise are not medical professionals. Do not start, stop, or change any medication without consulting your doctor. In case of emergency, call 112 (India) or your local emergency number. <a href="terms-of-use.html">Read full Terms of Use & Medical Disclaimer</a></div>
+<div class="privacy-notice">GutWise does not use cookies, collect personal data, or track users.</div>
+<div class="footer"><span class="ai-badge">AI-Assisted Content</span><br>GutWise &bull; Comprehensive Digestive Health Companion &bull; <a href="terms-of-use.html">Terms of Use</a> &bull; Last updated: February 2026</div>
+
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
+<button class="scroll-top" aria-label="Scroll to top" id="scrollTop" title="Back to top">&uarr;</button>
+
+<script>
+var scrollBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', function() {
+  scrollBtn.classList.toggle('visible', window.scrollY > 400);
+});
+scrollBtn.addEventListener('click', function() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+});
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js'); }
+(function(){var t=document.getElementById('themeToggle');var saved=localStorage.getItem('theme');if(saved){document.documentElement.setAttribute('data-theme',saved);t.textContent=saved==='dark'?'\u2600':'\u263E';}t.addEventListener('click',function(){var d=document.documentElement.getAttribute('data-theme')==='dark'?'':'dark';document.documentElement.setAttribute('data-theme',d);localStorage.setItem('theme',d);t.textContent=d==='dark'?'\u2600':'\u263E';});})();
+</script>
+</body>
+</html>

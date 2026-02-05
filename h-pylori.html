@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>H. pylori Infection - GutWise</title>
+<meta name="description" content="Complete guide to Helicobacter pylori infection: transmission, symptoms, testing, treatment protocols, and long-term health implications.">
+<link rel="stylesheet" href="styles.css">
+<script src="lang.js"></script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#4f46e5">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="index.html">GutWise</a>
+    <div style="display:flex;align-items:center;gap:0.5rem;">
+      <a class="home-link" href="index.html">All Topics</a>
+      <a class="lang-switch" href="h-pylori-kn.html">ಕನ್ನಡ</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container" id="main" role="main">
+  <div class="page-header">
+    <h1>H. pylori Infection</h1>
+    <p>Understanding the bacterium that causes ulcers and stomach problems</p>
+  </div>
+  <p class="last-reviewed">Last reviewed: February 2026</p>
+
+  <!-- Animated SVG Illustration -->
+  <div class="illus">
+    <svg viewBox="0 0 400 240" width="340" height="200" role="img" aria-label="H. pylori bacteria illustration">
+      <defs>
+        <linearGradient id="bacteriaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#10b981;stop-opacity:1"/>
+          <stop offset="100%" style="stop-color:#059669;stop-opacity:1"/>
+        </linearGradient>
+      </defs>
+      <!-- Stomach lining background -->
+      <rect x="50" y="60" width="300" height="120" rx="10" fill="#fef3c7" opacity="0.5"/>
+      <path d="M50 100 Q100 90 150 100 Q200 110 250 100 Q300 90 350 100" stroke="#f59e0b" stroke-width="2" fill="none"/>
+      <!-- Mucus layer -->
+      <rect x="60" y="105" width="280" height="30" rx="5" fill="#fde68a" opacity="0.6"/>
+      <!-- H. pylori bacteria (spiral shaped) -->
+      <g transform="translate(120, 115)">
+        <ellipse cx="0" cy="0" rx="25" ry="8" fill="url(#bacteriaGrad)"/>
+        <!-- Flagella -->
+        <path d="M-25 0 Q-35 -10 -45 0 Q-55 10 -65 0" stroke="#10b981" stroke-width="2" fill="none">
+          <animate attributeName="d" values="M-25 0 Q-35 -10 -45 0 Q-55 10 -65 0;M-25 0 Q-35 10 -45 0 Q-55 -10 -65 0;M-25 0 Q-35 -10 -45 0 Q-55 10 -65 0" dur="0.5s" repeatCount="indefinite"/>
+        </path>
+        <path d="M-25 0 Q-35 5 -45 -5 Q-55 -10 -60 -5" stroke="#10b981" stroke-width="2" fill="none">
+          <animate attributeName="d" values="M-25 0 Q-35 5 -45 -5 Q-55 -10 -60 -5;M-25 0 Q-35 -5 -45 5 Q-55 10 -60 5;M-25 0 Q-35 5 -45 -5 Q-55 -10 -60 -5" dur="0.5s" repeatCount="indefinite"/>
+        </path>
+        <animate attributeName="transform" values="translate(120,115);translate(140,115);translate(120,115)" dur="3s" repeatCount="indefinite"/>
+      </g>
+      <!-- Second bacteria -->
+      <g transform="translate(220, 120)">
+        <ellipse cx="0" cy="0" rx="20" ry="6" fill="url(#bacteriaGrad)"/>
+        <path d="M-20 0 Q-28 -8 -36 0 Q-44 8 -52 0" stroke="#10b981" stroke-width="2" fill="none">
+          <animate attributeName="d" values="M-20 0 Q-28 -8 -36 0 Q-44 8 -52 0;M-20 0 Q-28 8 -36 0 Q-44 -8 -52 0;M-20 0 Q-28 -8 -36 0 Q-44 8 -52 0" dur="0.6s" repeatCount="indefinite"/>
+        </path>
+        <animate attributeName="transform" values="translate(220,120);translate(200,120);translate(220,120)" dur="4s" repeatCount="indefinite"/>
+      </g>
+      <!-- Third bacteria -->
+      <g transform="translate(280, 110)">
+        <ellipse cx="0" cy="0" rx="18" ry="5" fill="url(#bacteriaGrad)"/>
+        <path d="M-18 0 Q-25 -6 -32 0" stroke="#10b981" stroke-width="2" fill="none">
+          <animate attributeName="d" values="M-18 0 Q-25 -6 -32 0;M-18 0 Q-25 6 -32 0;M-18 0 Q-25 -6 -32 0" dur="0.4s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <!-- Labels -->
+      <text x="200" y="50" font-size="11" fill="#64748b" text-anchor="middle" font-weight="bold">Helicobacter pylori</text>
+      <text x="200" y="195" font-size="9" fill="#64748b" text-anchor="middle">Spiral bacteria with flagella living in stomach mucus</text>
+      <text x="330" y="80" font-size="9" fill="#f59e0b">Stomach</text>
+      <text x="330" y="92" font-size="9" fill="#f59e0b">lining</text>
+      <text x="330" y="120" font-size="9" fill="#fbbf24">Mucus</text>
+      <text x="330" y="132" font-size="9" fill="#fbbf24">layer</text>
+    </svg>
+  </div>
+
+  <!-- Introduction -->
+  <div class="section">
+    <h2><span class="icon-sm">🦠</span> What is H. pylori?</h2>
+    <p>Helicobacter pylori (H. pylori) is a spiral-shaped bacterium that lives in the stomach lining of approximately half the world's population. It's uniquely adapted to survive the stomach's harsh acidic environment by producing an enzyme called urease, which neutralizes stomach acid in its immediate vicinity.</p>
+    <p>H. pylori infection is the most common chronic bacterial infection in humans. While most infected people never develop symptoms, H. pylori is the primary cause of peptic ulcers and gastritis, and it's classified as a Group 1 carcinogen due to its link to stomach cancer.</p>
+
+    <div class="info-cards">
+      <div class="info-card">
+        <span class="ic-icon">🌍</span>
+        <div class="ic-title">50%</div>
+        <div class="ic-text">World population infected</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">👶</span>
+        <div class="ic-title">Childhood</div>
+        <div class="ic-text">Most infections acquired early</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">🤷</span>
+        <div class="ic-title">80%+</div>
+        <div class="ic-text">Have no symptoms</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">💊</span>
+        <div class="ic-title">Curable</div>
+        <div class="ic-text">With antibiotics + PPIs</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Transmission -->
+  <div class="section">
+    <h2><span class="icon-sm">🔄</span> How H. pylori Spreads</h2>
+    <p>H. pylori is typically acquired in childhood and persists lifelong without treatment. Transmission routes include:</p>
+
+    <h3>Routes of Transmission</h3>
+    <ul>
+      <li><strong>Oral-oral:</strong> Through saliva (kissing, sharing utensils)</li>
+      <li><strong>Fecal-oral:</strong> Contaminated food or water</li>
+      <li><strong>Gastric-oral:</strong> Contact with vomit</li>
+    </ul>
+
+    <h3>Risk Factors for Infection</h3>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Factor</th>
+          <th>Why It Increases Risk</th>
+        </tr>
+        <tr>
+          <td>Living in developing countries</td>
+          <td>Higher rates due to crowding, sanitation issues</td>
+        </tr>
+        <tr>
+          <td>Crowded living conditions</td>
+          <td>More opportunities for person-to-person spread</td>
+        </tr>
+        <tr>
+          <td>Lack of clean water</td>
+          <td>Waterborne transmission possible</td>
+        </tr>
+        <tr>
+          <td>Living with infected person</td>
+          <td>Family clustering is common</td>
+        </tr>
+        <tr>
+          <td>Lower socioeconomic status</td>
+          <td>Associated with many of above factors</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="note">
+      H. pylori rates have been declining in developed countries due to improved sanitation, smaller family sizes, and antibiotic use. However, it remains very common in developing regions.
+    </div>
+  </div>
+
+  <!-- Symptoms and Conditions -->
+  <div class="section">
+    <h2><span class="icon-sm">🔍</span> Symptoms and Related Conditions</h2>
+    <p>Most people with H. pylori have no symptoms. When problems do occur, they're usually related to:</p>
+
+    <h3>Gastritis</h3>
+    <ul>
+      <li>Burning or gnawing stomach pain</li>
+      <li>Nausea</li>
+      <li>Bloating</li>
+      <li>Loss of appetite</li>
+      <li>Frequent burping</li>
+    </ul>
+
+    <h3>Peptic Ulcers</h3>
+    <ul>
+      <li>Burning stomach pain (worse when stomach is empty)</li>
+      <li>Night pain</li>
+      <li>Pain relieved by eating or antacids</li>
+      <li>Nausea, vomiting</li>
+      <li>Weight loss</li>
+    </ul>
+
+    <h3>Other Associated Conditions</h3>
+    <ul>
+      <li><strong>Dyspepsia (functional):</strong> Chronic indigestion without ulcer</li>
+      <li><strong>Stomach cancer:</strong> Long-term H. pylori increases risk (though still uncommon)</li>
+      <li><strong>MALT lymphoma:</strong> Rare stomach lymphoma that can regress with H. pylori treatment</li>
+      <li><strong>Iron deficiency anemia:</strong> H. pylori can impair iron absorption</li>
+      <li><strong>Vitamin B12 deficiency:</strong> Chronic gastritis affects B12 absorption</li>
+      <li><strong>ITP (Idiopathic thrombocytopenic purpura):</strong> Low platelets sometimes linked</li>
+    </ul>
+
+    <div class="warning">
+      <strong>Seek medical attention if you have:</strong>
+      <ul>
+        <li>Persistent stomach pain</li>
+        <li>Difficulty swallowing</li>
+        <li>Vomiting blood or material like coffee grounds</li>
+        <li>Black, tarry stools</li>
+        <li>Unexplained weight loss</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Diagnosis -->
+  <div class="section">
+    <h2><span class="icon-sm">🩺</span> Testing for H. pylori</h2>
+
+    <h3>Non-Invasive Tests</h3>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Test</th>
+          <th>How It Works</th>
+          <th>Accuracy</th>
+          <th>Notes</th>
+        </tr>
+        <tr>
+          <td><strong>Urea Breath Test (UBT)</strong></td>
+          <td>Drink urea solution; H. pylori breaks it down, releasing CO2 you breathe out</td>
+          <td>&gt;95%</td>
+          <td>Gold standard non-invasive test; stop PPIs 2 weeks before</td>
+        </tr>
+        <tr>
+          <td><strong>Stool Antigen Test</strong></td>
+          <td>Detects H. pylori proteins in stool</td>
+          <td>&gt;90%</td>
+          <td>Good for diagnosis and confirming eradication</td>
+        </tr>
+        <tr>
+          <td><strong>Blood Antibody Test</strong></td>
+          <td>Detects antibodies against H. pylori</td>
+          <td>85%</td>
+          <td>Can't distinguish current from past infection; not for confirming eradication</td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>Invasive Tests (During Endoscopy)</h3>
+    <ul>
+      <li><strong>Rapid Urease Test (CLO test):</strong> Biopsy placed in urea solution; color change if positive</li>
+      <li><strong>Histology:</strong> Biopsy examined under microscope</li>
+      <li><strong>Culture:</strong> Growing bacteria from biopsy (allows antibiotic sensitivity testing)</li>
+    </ul>
+
+    <h3>Important Testing Considerations</h3>
+    <div class="warning">
+      <ul>
+        <li><strong>Stop PPIs:</strong> At least 2 weeks before breath or stool tests (can cause false negatives)</li>
+        <li><strong>Stop antibiotics:</strong> At least 4 weeks before testing</li>
+        <li><strong>H2 blockers:</strong> Can usually continue, but some recommend stopping 24-48 hours before</li>
+        <li><strong>Antacids:</strong> Generally don't affect results</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Treatment -->
+  <div class="section">
+    <h2><span class="icon-sm">💊</span> Treatment</h2>
+    <p>H. pylori treatment requires combination therapy because single antibiotics are ineffective. Typical regimens include:</p>
+
+    <h3>First-Line Treatment Options</h3>
+
+    <h4>Triple Therapy (14 days)</h4>
+    <ul>
+      <li>PPI (e.g., omeprazole 20mg) twice daily</li>
+      <li>Clarithromycin 500mg twice daily</li>
+      <li>Amoxicillin 1000mg twice daily (or metronidazole 500mg twice daily if penicillin-allergic)</li>
+    </ul>
+
+    <h4>Bismuth Quadruple Therapy (10-14 days)</h4>
+    <ul>
+      <li>PPI twice daily</li>
+      <li>Bismuth subsalicylate 525mg four times daily</li>
+      <li>Metronidazole 500mg three times daily</li>
+      <li>Tetracycline 500mg four times daily</li>
+    </ul>
+
+    <h4>Concomitant Therapy (14 days)</h4>
+    <ul>
+      <li>PPI twice daily</li>
+      <li>Clarithromycin 500mg twice daily</li>
+      <li>Amoxicillin 1000mg twice daily</li>
+      <li>Metronidazole 500mg twice daily</li>
+    </ul>
+
+    <h3>Treatment Tips</h3>
+    <ul class="checklist">
+      <li>Complete the full course—don't stop early even if you feel better</li>
+      <li>Take medications at the same times each day</li>
+      <li>Take PPIs 30-60 minutes before meals</li>
+      <li>Avoid alcohol during treatment (especially with metronidazole)</li>
+      <li>Report severe side effects to your doctor</li>
+      <li>Get tested 4+ weeks after treatment to confirm eradication</li>
+    </ul>
+
+    <h3>Common Side Effects</h3>
+    <ul>
+      <li>Diarrhea</li>
+      <li>Nausea</li>
+      <li>Metallic taste (metronidazole, clarithromycin)</li>
+      <li>Stomach upset</li>
+      <li>Headache</li>
+    </ul>
+
+    <div class="note">
+      Treatment success rates have declined due to antibiotic resistance, especially to clarithromycin. If first-line treatment fails, a different regimen will be used for second-line therapy.
+    </div>
+  </div>
+
+  <!-- After Treatment -->
+  <div class="section">
+    <h2><span class="icon-sm">✅</span> After Treatment</h2>
+
+    <h3>Confirming Eradication</h3>
+    <ul>
+      <li>Wait at least 4 weeks after completing antibiotics</li>
+      <li>Stop PPIs 2 weeks before testing</li>
+      <li>Urea breath test or stool antigen test recommended</li>
+      <li>Blood antibody tests not useful (stay positive for years)</li>
+    </ul>
+
+    <h3>What If Treatment Fails?</h3>
+    <ul>
+      <li>Use a different regimen (avoid antibiotics used before)</li>
+      <li>Longer treatment duration (14 days if 10 days used initially)</li>
+      <li>Antibiotic sensitivity testing may be helpful</li>
+      <li>Ensure patient adherence to medications</li>
+    </ul>
+
+    <h3>Can You Get Reinfected?</h3>
+    <p>Reinfection after successful treatment is uncommon in adults (about 1-2% per year in developed countries). Factors that help prevent reinfection:</p>
+    <ul>
+      <li>Good hygiene practices</li>
+      <li>Testing and treating infected family members</li>
+      <li>Safe food and water practices</li>
+    </ul>
+  </div>
+
+  <!-- Who Should Be Tested -->
+  <div class="section">
+    <h2><span class="icon-sm">❓</span> Who Should Be Tested and Treated?</h2>
+
+    <h3>Test and Treat If:</h3>
+    <ul>
+      <li>Active peptic ulcer disease</li>
+      <li>History of peptic ulcer (if not previously treated)</li>
+      <li>Dyspepsia (indigestion) under age 60</li>
+      <li>MALT lymphoma</li>
+      <li>After resection of early gastric cancer</li>
+      <li>First-degree relative with gastric cancer</li>
+      <li>Long-term NSAID use planned</li>
+      <li>Unexplained iron deficiency anemia</li>
+      <li>Idiopathic thrombocytopenic purpura (ITP)</li>
+    </ul>
+
+    <h3>Consider Testing:</h3>
+    <ul>
+      <li>Chronic PPI users (to determine if PPIs still needed)</li>
+      <li>Patients with GERD (controversial—some studies suggest benefit)</li>
+      <li>Patients undergoing bariatric surgery</li>
+    </ul>
+
+    <div class="note">
+      Routine testing of asymptomatic individuals is not generally recommended in Western countries. However, in areas with high stomach cancer rates, screening may be considered.
+    </div>
+  </div>
+
+  <!-- Long-term Implications -->
+  <div class="section">
+    <h2><span class="icon-sm">⚠️</span> Long-term Health Implications</h2>
+
+    <h3>Stomach Cancer Risk</h3>
+    <ul>
+      <li>H. pylori is classified as a Group 1 carcinogen</li>
+      <li>Increases stomach cancer risk 2-6 fold</li>
+      <li>Most stomach cancers occur in people with H. pylori</li>
+      <li><strong>BUT:</strong> The absolute risk is still low—most infected people never develop cancer</li>
+      <li>Eradication may reduce cancer risk, especially if done early</li>
+    </ul>
+
+    <h3>Progression of Infection</h3>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-title">Initial Infection</div>
+        <div class="timeline-text">Acute gastritis develops in all infected individuals</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">Chronic Gastritis</div>
+        <div class="timeline-text">Persists in most; may cause no symptoms</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">Peptic Ulcer (10-15%)</div>
+        <div class="timeline-text">Develops in a minority over years/decades</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">Atrophic Gastritis (Some)</div>
+        <div class="timeline-text">Stomach lining thins; precursor to cancer</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">Intestinal Metaplasia (Few)</div>
+        <div class="timeline-text">Cells change type; further cancer risk</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">Stomach Cancer (&lt;1%)</div>
+        <div class="timeline-text">Rare outcome after decades of infection</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ Section -->
+  <div class="section">
+    <h2><span class="icon-sm">❓</span> Frequently Asked Questions</h2>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Should I get treated if I have H. pylori but no symptoms?</div>
+      <div class="accordion-body">
+        This is debated. In countries with high stomach cancer rates, treating even asymptomatic infection may be beneficial. In low-risk areas, the decision depends on individual factors. Discuss with your doctor—considerations include family history of stomach cancer, your comfort level with lifelong infection, and potential medication side effects.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Is H. pylori contagious?</div>
+      <div class="accordion-body">
+        Yes, H. pylori can spread from person to person, usually through saliva, contaminated food, or water. It's most commonly transmitted in childhood within families. Adults rarely acquire new infections. Close family members of infected individuals have higher infection rates.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Should my family be tested?</div>
+      <div class="accordion-body">
+        If you have an active ulcer or have had ulcer complications, testing family members may be reasonable since reinfection from untreated contacts is possible. For uncomplicated infection, routine family testing isn't typically recommended unless family members have their own symptoms.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Can probiotics help with H. pylori?</div>
+      <div class="accordion-body">
+        Probiotics don't eradicate H. pylori on their own, but some studies suggest they may help in two ways: 1) Reducing side effects of antibiotic treatment, and 2) Possibly modestly improving eradication rates when added to standard therapy. They're sometimes recommended as an adjunct to treatment but shouldn't replace antibiotics.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">How did I get H. pylori if I eat clean food?</div>
+      <div class="accordion-body">
+        Most people acquire H. pylori in childhood, often before age 10, usually from close family contacts. You may have been infected decades ago in conditions different from your current lifestyle. The infection persists lifelong without treatment, regardless of current diet or hygiene practices.
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Navigation -->
+  <div class="page-nav">
+    <a href="peptic-ulcer.html" class="prev">Peptic Ulcer Disease</a>
+    <a href="gastroparesis.html" class="next">Gastroparesis</a>
+  </div>
+</div>
+
+<div class="disclaimer">
+  This content is for educational purposes only and does not replace professional medical advice. The creators of GutWise are not medical professionals. Do not start, stop, or change any medication without consulting your doctor. In case of emergency, call 112 (India) or your local emergency number. <a href="terms-of-use.html">Read full Terms of Use & Medical Disclaimer</a>
+</div>
+<div class="privacy-notice">GutWise does not use cookies, collect personal data, or track users.</div>
+<div class="footer">
+  <span class="ai-badge">AI-Assisted Content</span><br>
+  GutWise &bull; Comprehensive Digestive Health Companion &bull; <a href="terms-of-use.html">Terms of Use</a> &bull; Last updated: February 2026
+</div>
+
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
+<button class="scroll-top" aria-label="Scroll to top" id="scrollTop" title="Back to top">&uarr;</button>
+
+<script>
+// Accordion functionality
+document.querySelectorAll('.accordion-header').forEach(function(header) {
+  header.addEventListener('click', function() {
+    var item = this.parentElement;
+    item.classList.toggle('open');
+  });
+});
+
+// Checklist functionality
+document.querySelectorAll('.checklist li').forEach(function(li) {
+  li.addEventListener('click', function() {
+    this.classList.toggle('checked');
+  });
+});
+
+// Scroll to top
+var scrollBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', function() {
+  scrollBtn.classList.toggle('visible', window.scrollY > 400);
+});
+scrollBtn.addEventListener('click', function() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+});
+
+// Theme toggle
+(function(){
+  var t = document.getElementById('themeToggle');
+  var saved = localStorage.getItem('theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+    t.textContent = saved === 'dark' ? '\u2600' : '\u263E';
+  }
+  t.addEventListener('click', function() {
+    var d = document.documentElement.getAttribute('data-theme') === 'dark' ? '' : 'dark';
+    document.documentElement.setAttribute('data-theme', d);
+    localStorage.setItem('theme', d);
+    t.textContent = d === 'dark' ? '\u2600' : '\u263E';
+  });
+})();
+
+// Service Worker Registration
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+</body>
+</html>

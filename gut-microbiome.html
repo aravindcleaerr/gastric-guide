@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gut Microbiome & Health - GutWise</title>
+<meta name="description" content="Comprehensive guide to gut bacteria and microbiome health. Learn how trillions of microbes in your gut affect digestion, immunity, and overall health.">
+<link rel="stylesheet" href="styles.css">
+<script src="lang.js"></script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#4f46e5">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="index.html">GutWise</a>
+    <div style="display:flex;align-items:center;gap:0.5rem;">
+      <a class="home-link" href="index.html">All Topics</a>
+      <a class="lang-switch" href="gut-microbiome-kn.html">ಕನ್ನಡ</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container" id="main" role="main">
+  <div class="page-header">
+    <h1>Gut Microbiome & Health</h1>
+    <p>Discover the trillions of microorganisms that call your gut home and how they shape your health</p>
+  </div>
+  <p class="last-reviewed">Last reviewed: February 2026</p>
+
+  <!-- Animated SVG Illustration -->
+  <div class="illus">
+    <svg viewBox="0 0 400 260" width="340" height="220" role="img" aria-label="Gut microbiome illustration">
+      <defs>
+        <linearGradient id="gutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:0.3"/>
+          <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.3"/>
+        </linearGradient>
+      </defs>
+      <!-- Intestine shape -->
+      <path d="M50 130 Q100 80 150 130 Q200 180 250 130 Q300 80 350 130" stroke="#f97316" stroke-width="40" fill="none" stroke-linecap="round" opacity="0.3"/>
+      <!-- Bacteria - different types -->
+      <!-- Round bacteria (cocci) -->
+      <circle cx="80" cy="120" r="8" fill="#10b981">
+        <animate attributeName="cy" values="120;115;120" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="95" cy="135" r="6" fill="#10b981">
+        <animate attributeName="cy" values="135;140;135" dur="2.3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="110" cy="125" r="7" fill="#22c55e">
+        <animate attributeName="cy" values="125;120;125" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <!-- Rod bacteria (bacilli) -->
+      <ellipse cx="150" cy="140" rx="12" ry="5" fill="#0ea5e9" transform="rotate(-20 150 140)">
+        <animate attributeName="rx" values="12;14;12" dur="2s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="170" cy="125" rx="10" ry="4" fill="#06b6d4" transform="rotate(15 170 125)">
+        <animate attributeName="rx" values="10;12;10" dur="2.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="185" cy="145" rx="11" ry="4" fill="#0ea5e9" transform="rotate(-10 185 145)">
+        <animate attributeName="rx" values="11;13;11" dur="1.9s" repeatCount="indefinite"/>
+      </ellipse>
+      <!-- Spiral bacteria -->
+      <path d="M220 130 Q225 120 230 130 Q235 140 240 130 Q245 120 250 130" stroke="#8b5cf6" stroke-width="4" fill="none">
+        <animate attributeName="d" values="M220 130 Q225 120 230 130 Q235 140 240 130 Q245 120 250 130;M220 130 Q225 140 230 130 Q235 120 240 130 Q245 140 250 130;M220 130 Q225 120 230 130 Q235 140 240 130 Q245 120 250 130" dur="2s" repeatCount="indefinite"/>
+      </path>
+      <!-- More bacteria clusters -->
+      <circle cx="280" cy="125" r="5" fill="#ec4899">
+        <animate attributeName="r" values="5;6;5" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="295" cy="135" r="6" fill="#f472b6">
+        <animate attributeName="r" values="6;7;6" dur="1.7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="310" cy="120" r="7" fill="#ec4899">
+        <animate attributeName="r" values="7;8;7" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <ellipse cx="330" cy="140" rx="9" ry="4" fill="#f97316">
+        <animate attributeName="ry" values="4;5;4" dur="1.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <!-- Labels -->
+      <text x="200" y="200" font-size="12" fill="#64748b" text-anchor="middle" font-weight="bold">Your Gut Microbiome: 100 Trillion Bacteria</text>
+      <text x="200" y="220" font-size="10" fill="#94a3b8" text-anchor="middle">1000+ species working together</text>
+    </svg>
+  </div>
+
+  <!-- Quick Facts -->
+  <div class="section">
+    <h2><span class="icon-sm">📊</span> Microbiome Quick Facts</h2>
+    <div class="info-cards">
+      <div class="info-card">
+        <span class="ic-icon">🦠</span>
+        <div class="ic-title">100 Trillion</div>
+        <div class="ic-text">Bacteria in your gut</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">🧬</span>
+        <div class="ic-title">1000+ Species</div>
+        <div class="ic-text">Different bacterial types</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">⚖️</span>
+        <div class="ic-title">1-2 kg</div>
+        <div class="ic-text">Weight of gut bacteria</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">🧪</span>
+        <div class="ic-title">3 Million+</div>
+        <div class="ic-text">Bacterial genes (150x human)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- What is the Microbiome -->
+  <div class="section">
+    <h2><span class="icon-sm">🔬</span> What is the Gut Microbiome?</h2>
+    <p>The gut microbiome refers to the vast community of microorganisms—bacteria, viruses, fungi, and other microbes—that live in your digestive tract, primarily in the large intestine. This complex ecosystem contains approximately 100 trillion microorganisms, outnumbering your own human cells by about 10 to 1.</p>
+    <p>Think of your gut as a bustling city where trillions of residents (microbes) live, work, and interact. These microscopic inhabitants aren't just passive residents—they actively participate in your body's daily functions, from digesting food to fighting off pathogens and even influencing your mood.</p>
+    <div class="note">
+      Your gut microbiome is as unique as your fingerprint. No two people—not even identical twins—have exactly the same microbial composition.
+    </div>
+    <p>The collective genetic material of these microbes, called the microbiome, contains over 3 million genes—about 150 times more than the human genome. This genetic diversity allows your gut bacteria to perform functions that human cells cannot, making them essential partners in your health.</p>
+  </div>
+
+  <!-- Major Bacterial Groups -->
+  <div class="section">
+    <h2><span class="icon-sm">🦠</span> Major Bacterial Groups in Your Gut</h2>
+    <p>While over 1000 species can inhabit the human gut, a few major groups dominate:</p>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Phylum</th>
+          <th>Proportion</th>
+          <th>Key Members</th>
+          <th>Functions</th>
+        </tr>
+        <tr>
+          <td><strong>Firmicutes</strong></td>
+          <td>40-60%</td>
+          <td>Lactobacillus, Clostridium, Faecalibacterium</td>
+          <td>Energy extraction, short-chain fatty acid production</td>
+        </tr>
+        <tr>
+          <td><strong>Bacteroidetes</strong></td>
+          <td>20-40%</td>
+          <td>Bacteroides, Prevotella</td>
+          <td>Carbohydrate breakdown, vitamin synthesis</td>
+        </tr>
+        <tr>
+          <td><strong>Actinobacteria</strong></td>
+          <td>5-10%</td>
+          <td>Bifidobacterium</td>
+          <td>Immune support, pathogen defense</td>
+        </tr>
+        <tr>
+          <td><strong>Proteobacteria</strong></td>
+          <td>1-5%</td>
+          <td>E. coli (some strains)</td>
+          <td>Vitamin K production (in small amounts)</td>
+        </tr>
+        <tr>
+          <td><strong>Verrucomicrobia</strong></td>
+          <td>1-3%</td>
+          <td>Akkermansia</td>
+          <td>Gut barrier integrity, metabolism</td>
+        </tr>
+      </table>
+    </div>
+    <div class="tip">
+      The ratio of Firmicutes to Bacteroidetes is being studied as a potential marker for obesity and metabolic health, though the science is still evolving.
+    </div>
+  </div>
+
+  <!-- Functions of Gut Bacteria -->
+  <div class="section">
+    <h2><span class="icon-sm">⚡</span> What Do Gut Bacteria Do?</h2>
+
+    <h3>1. Digestive Functions</h3>
+    <ul>
+      <li><strong>Fiber Fermentation:</strong> Break down dietary fiber that human enzymes cannot digest, producing beneficial short-chain fatty acids (SCFAs) like butyrate, propionate, and acetate</li>
+      <li><strong>Nutrient Production:</strong> Synthesize vitamins including K, B12, biotin, folate, and thiamine</li>
+      <li><strong>Mineral Absorption:</strong> Enhance absorption of calcium, magnesium, and iron</li>
+      <li><strong>Calorie Extraction:</strong> Help extract additional calories from food, especially complex carbohydrates</li>
+    </ul>
+
+    <h3>2. Immune System Support</h3>
+    <ul>
+      <li><strong>Training Immunity:</strong> Help develop and train the immune system from birth</li>
+      <li><strong>Pathogen Defense:</strong> Compete with harmful bacteria for resources and space</li>
+      <li><strong>Barrier Function:</strong> Strengthen the intestinal lining to prevent "leaky gut"</li>
+      <li><strong>Anti-inflammatory:</strong> Produce compounds that reduce inflammation</li>
+    </ul>
+    <p>Approximately 70-80% of your immune cells reside in the gut, making the microbiome crucial for immune function.</p>
+
+    <h3>3. Metabolic Functions</h3>
+    <ul>
+      <li><strong>Energy Regulation:</strong> Influence how efficiently you extract and store energy from food</li>
+      <li><strong>Blood Sugar Control:</strong> Affect insulin sensitivity and glucose metabolism</li>
+      <li><strong>Lipid Metabolism:</strong> Impact cholesterol levels and fat storage</li>
+      <li><strong>Drug Metabolism:</strong> Modify how your body processes medications</li>
+    </ul>
+
+    <h3>4. Brain and Mental Health</h3>
+    <ul>
+      <li><strong>Neurotransmitter Production:</strong> Produce about 95% of the body's serotonin and significant amounts of dopamine and GABA</li>
+      <li><strong>Gut-Brain Communication:</strong> Send signals to the brain via the vagus nerve</li>
+      <li><strong>Stress Response:</strong> Influence the body's stress hormone (cortisol) levels</li>
+      <li><strong>Mood Regulation:</strong> Linked to anxiety, depression, and cognitive function</li>
+    </ul>
+
+    <div class="note">
+      The gut is often called the "second brain" because of its extensive neural network (enteric nervous system) and its profound influence on mental health through the gut-brain axis.
+    </div>
+  </div>
+
+  <!-- Factors Affecting Microbiome -->
+  <div class="section">
+    <h2><span class="icon-sm">🔄</span> What Shapes Your Microbiome?</h2>
+    <p>Your gut microbiome is constantly changing, influenced by many factors throughout life:</p>
+
+    <h3>Early Life Factors</h3>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Factor</th>
+          <th>Impact on Microbiome</th>
+        </tr>
+        <tr>
+          <td>Birth Method</td>
+          <td>Vaginal delivery exposes baby to mother's vaginal microbes; C-section babies initially colonized by skin bacteria</td>
+        </tr>
+        <tr>
+          <td>Feeding Method</td>
+          <td>Breast milk contains prebiotics (HMOs) that feed beneficial Bifidobacteria; formula-fed babies have different profiles</td>
+        </tr>
+        <tr>
+          <td>Antibiotic Exposure</td>
+          <td>Early antibiotics can disrupt microbial development and may have lasting effects</td>
+        </tr>
+        <tr>
+          <td>Environment</td>
+          <td>Exposure to pets, siblings, and diverse environments increases microbial diversity</td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>Ongoing Influences</h3>
+    <ul>
+      <li><strong>Diet:</strong> The single most important modifiable factor. High-fiber, plant-rich diets promote diversity; processed foods reduce it</li>
+      <li><strong>Medications:</strong> Antibiotics dramatically alter the microbiome; PPIs, NSAIDs, and metformin also have effects</li>
+      <li><strong>Stress:</strong> Chronic stress reduces beneficial bacteria and increases harmful ones</li>
+      <li><strong>Sleep:</strong> Poor sleep quality negatively impacts microbial composition</li>
+      <li><strong>Exercise:</strong> Regular physical activity increases microbial diversity</li>
+      <li><strong>Age:</strong> Diversity tends to decrease with age</li>
+      <li><strong>Geography:</strong> Diet and environmental differences create distinct regional microbiome patterns</li>
+    </ul>
+  </div>
+
+  <!-- Signs of Unhealthy Microbiome -->
+  <div class="section">
+    <h2><span class="icon-sm">⚠️</span> Signs of an Imbalanced Microbiome (Dysbiosis)</h2>
+    <p>When the balance of gut bacteria is disrupted, various symptoms may occur:</p>
+
+    <div class="warning">
+      <strong>Common signs of dysbiosis include:</strong>
+      <ul>
+        <li>Chronic digestive issues (bloating, gas, constipation, diarrhea)</li>
+        <li>Food intolerances or sensitivities</li>
+        <li>Frequent infections or weakened immunity</li>
+        <li>Skin problems (acne, eczema, rashes)</li>
+        <li>Persistent fatigue</li>
+        <li>Mood disturbances (anxiety, depression)</li>
+        <li>Brain fog and difficulty concentrating</li>
+        <li>Unexplained weight changes</li>
+        <li>Sugar cravings</li>
+        <li>Bad breath</li>
+      </ul>
+    </div>
+
+    <h3>Conditions Linked to Dysbiosis</h3>
+    <ul>
+      <li>Irritable Bowel Syndrome (IBS)</li>
+      <li>Inflammatory Bowel Disease (IBD)</li>
+      <li>Obesity and metabolic syndrome</li>
+      <li>Type 2 diabetes</li>
+      <li>Allergies and asthma</li>
+      <li>Autoimmune conditions</li>
+      <li>Mental health disorders</li>
+      <li>Cardiovascular disease</li>
+    </ul>
+  </div>
+
+  <!-- How to Improve Microbiome -->
+  <div class="section">
+    <h2><span class="icon-sm">💪</span> How to Support a Healthy Microbiome</h2>
+
+    <h3>Dietary Strategies</h3>
+    <ul class="checklist">
+      <li>Eat a diverse range of plant foods (aim for 30+ different plants weekly)</li>
+      <li>Include plenty of fiber (25-30g daily) from vegetables, fruits, legumes, and whole grains</li>
+      <li>Consume fermented foods regularly (yogurt, kefir, sauerkraut, kimchi, miso)</li>
+      <li>Add prebiotic-rich foods (garlic, onions, leeks, asparagus, bananas, oats)</li>
+      <li>Include polyphenol-rich foods (berries, dark chocolate, green tea, olive oil)</li>
+      <li>Limit processed foods, artificial sweeteners, and excessive sugar</li>
+      <li>Reduce red meat consumption</li>
+      <li>Stay well-hydrated with water</li>
+    </ul>
+
+    <h3>Lifestyle Strategies</h3>
+    <ul class="checklist">
+      <li>Exercise regularly (at least 150 minutes moderate activity weekly)</li>
+      <li>Prioritize quality sleep (7-9 hours nightly)</li>
+      <li>Manage stress through meditation, yoga, or deep breathing</li>
+      <li>Spend time outdoors and in nature</li>
+      <li>Avoid unnecessary antibiotics</li>
+      <li>Don't over-sanitize—some microbial exposure is healthy</li>
+      <li>Consider getting a pet—they increase household microbial diversity</li>
+    </ul>
+
+    <div class="tip">
+      <strong>The "30 Plants a Week" Challenge:</strong> Research shows that people who eat 30 or more different plant foods per week have significantly more diverse gut microbiomes. This includes fruits, vegetables, grains, legumes, nuts, seeds, herbs, and spices!
+    </div>
+  </div>
+
+  <!-- Probiotics and Prebiotics -->
+  <div class="section">
+    <h2><span class="icon-sm">🥛</span> Probiotics vs. Prebiotics</h2>
+
+    <div class="info-cards">
+      <div class="info-card">
+        <span class="ic-icon">🦠</span>
+        <div class="ic-title">Probiotics</div>
+        <div class="ic-text">Live beneficial bacteria that add to your gut population</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">🌾</span>
+        <div class="ic-title">Prebiotics</div>
+        <div class="ic-text">Fiber that feeds your existing beneficial bacteria</div>
+      </div>
+    </div>
+
+    <h3>Probiotic-Rich Foods</h3>
+    <ul>
+      <li>Yogurt (with live cultures)</li>
+      <li>Kefir</li>
+      <li>Sauerkraut (unpasteurized)</li>
+      <li>Kimchi</li>
+      <li>Miso</li>
+      <li>Tempeh</li>
+      <li>Kombucha</li>
+      <li>Traditional buttermilk</li>
+      <li>Some cheeses (aged cheddar, gouda, mozzarella)</li>
+    </ul>
+
+    <h3>Prebiotic-Rich Foods</h3>
+    <ul>
+      <li>Garlic and onions</li>
+      <li>Leeks and asparagus</li>
+      <li>Bananas (especially slightly green)</li>
+      <li>Oats and barley</li>
+      <li>Apples</li>
+      <li>Chicory root</li>
+      <li>Jerusalem artichokes</li>
+      <li>Legumes (beans, lentils, chickpeas)</li>
+      <li>Flaxseeds</li>
+    </ul>
+
+    <div class="note">
+      While probiotic supplements can be helpful in specific situations, getting probiotics from food is generally preferred as foods provide a wider variety of strains plus additional nutrients.
+    </div>
+  </div>
+
+  <!-- Testing Your Microbiome -->
+  <div class="section">
+    <h2><span class="icon-sm">🧪</span> Microbiome Testing</h2>
+    <p>Commercial gut microbiome tests have become widely available. Here's what you should know:</p>
+
+    <h3>What Tests Can Tell You</h3>
+    <ul>
+      <li>Which bacterial species are present in your gut</li>
+      <li>Relative abundance of different bacterial groups</li>
+      <li>Diversity metrics</li>
+      <li>Comparison to population averages</li>
+    </ul>
+
+    <h3>Limitations of Current Testing</h3>
+    <ul>
+      <li>Results can vary significantly between companies using different methods</li>
+      <li>Your microbiome changes daily based on diet and other factors</li>
+      <li>We don't yet fully understand what constitutes an "ideal" microbiome</li>
+      <li>Actionable recommendations are often limited</li>
+      <li>Results are a snapshot—not a complete picture</li>
+    </ul>
+
+    <div class="warning">
+      <strong>Important:</strong> Currently, there's no consensus on what constitutes an "optimal" gut microbiome. Be cautious of companies making dramatic health claims based on test results. For specific health concerns, consult a gastroenterologist or registered dietitian.
+    </div>
+  </div>
+
+  <!-- FAQ Section -->
+  <div class="section">
+    <h2><span class="icon-sm">❓</span> Frequently Asked Questions</h2>
+
+    <div class="accordion-item">
+      <div class="accordion-header">How long does it take to change your microbiome?</div>
+      <div class="accordion-body">
+        Your microbiome can begin changing within 24-48 hours of dietary changes, with more significant shifts occurring over 2-4 weeks. However, establishing lasting changes typically requires consistent dietary and lifestyle habits over several months. Some changes may be reversible if you return to old habits.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Do antibiotics permanently damage the microbiome?</div>
+      <div class="accordion-body">
+        While antibiotics can significantly disrupt the microbiome, it typically begins recovering within days to weeks after treatment ends. However, full recovery can take months, and some studies suggest certain species may not fully return. Supporting your microbiome with probiotics and prebiotics during and after antibiotic use can help recovery.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Should everyone take probiotic supplements?</div>
+      <div class="accordion-body">
+        Not necessarily. Probiotics can be beneficial in specific situations (after antibiotics, for certain digestive conditions), but routine supplementation isn't necessary for everyone. Getting probiotics from fermented foods is often more beneficial as these contain diverse strains plus additional nutrients. Consult a healthcare provider for personalized advice.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Can gut bacteria affect weight?</div>
+      <div class="accordion-body">
+        Yes, research shows that the gut microbiome influences energy extraction from food, fat storage, and metabolic hormones. Studies have found differences in the microbiomes of lean versus obese individuals. However, the relationship is complex, and gut bacteria are just one of many factors affecting weight.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">What is a fecal microbiota transplant (FMT)?</div>
+      <div class="accordion-body">
+        FMT involves transferring stool from a healthy donor to a patient's intestinal tract to restore healthy microbial balance. It's highly effective for treating recurrent C. difficile infections (90%+ success rate) and is being researched for other conditions. FMT should only be performed under medical supervision.
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Navigation -->
+  <div class="page-nav">
+    <a href="how-digestion-works.html" class="prev">How Digestion Works</a>
+    <a href="gut-brain-connection.html" class="next">Gut-Brain Connection</a>
+  </div>
+</div>
+
+<div class="disclaimer">
+  This content is for educational purposes only and does not replace professional medical advice. The creators of GutWise are not medical professionals. Do not start, stop, or change any medication without consulting your doctor. In case of emergency, call 112 (India) or your local emergency number. <a href="terms-of-use.html">Read full Terms of Use & Medical Disclaimer</a>
+</div>
+<div class="privacy-notice">GutWise does not use cookies, collect personal data, or track users.</div>
+<div class="footer">
+  <span class="ai-badge">AI-Assisted Content</span><br>
+  GutWise &bull; Comprehensive Digestive Health Companion &bull; <a href="terms-of-use.html">Terms of Use</a> &bull; Last updated: February 2026
+</div>
+
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
+<button class="scroll-top" aria-label="Scroll to top" id="scrollTop" title="Back to top">&uarr;</button>
+
+<script>
+// Accordion functionality
+document.querySelectorAll('.accordion-header').forEach(function(header) {
+  header.addEventListener('click', function() {
+    var item = this.parentElement;
+    item.classList.toggle('open');
+  });
+});
+
+// Checklist functionality
+document.querySelectorAll('.checklist li').forEach(function(li) {
+  li.addEventListener('click', function() {
+    this.classList.toggle('checked');
+  });
+});
+
+// Scroll to top
+var scrollBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', function() {
+  scrollBtn.classList.toggle('visible', window.scrollY > 400);
+});
+scrollBtn.addEventListener('click', function() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+});
+
+// Theme toggle
+(function(){
+  var t = document.getElementById('themeToggle');
+  var saved = localStorage.getItem('theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+    t.textContent = saved === 'dark' ? '\u2600' : '\u263E';
+  }
+  t.addEventListener('click', function() {
+    var d = document.documentElement.getAttribute('data-theme') === 'dark' ? '' : 'dark';
+    document.documentElement.setAttribute('data-theme', d);
+    localStorage.setItem('theme', d);
+    t.textContent = d === 'dark' ? '\u2600' : '\u263E';
+  });
+})();
+
+// Service Worker Registration
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+</body>
+</html>

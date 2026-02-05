@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GERD & Acid Reflux - GutWise</title>
+<meta name="description" content="Comprehensive guide to GERD (Gastroesophageal Reflux Disease) and acid reflux: causes, symptoms, diagnosis, treatment, and lifestyle management strategies.">
+<link rel="stylesheet" href="styles.css">
+<script src="lang.js"></script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#4f46e5">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="index.html">GutWise</a>
+    <div style="display:flex;align-items:center;gap:0.5rem;">
+      <a class="home-link" href="index.html">All Topics</a>
+      <a class="lang-switch" href="gerd-acid-reflux-kn.html">ಕನ್ನಡ</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container" id="main" role="main">
+  <div class="page-header">
+    <h1>GERD & Acid Reflux</h1>
+    <p>Understanding and managing gastroesophageal reflux disease effectively</p>
+  </div>
+  <p class="last-reviewed">Last reviewed: February 2026</p>
+
+  <!-- Animated SVG Illustration -->
+  <div class="illus">
+    <svg viewBox="0 0 400 240" width="340" height="200" role="img" aria-label="GERD illustration showing acid reflux">
+      <defs>
+        <linearGradient id="acidGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+          <stop offset="0%" style="stop-color:#f97316;stop-opacity:1"/>
+          <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:1"/>
+        </linearGradient>
+        <linearGradient id="stomachGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style="stop-color:#fca5a5;stop-opacity:1"/>
+          <stop offset="100%" style="stop-color:#f87171;stop-opacity:1"/>
+        </linearGradient>
+      </defs>
+      <!-- Esophagus -->
+      <rect x="185" y="20" width="30" height="80" rx="10" fill="#fecaca" stroke="#ef4444" stroke-width="2"/>
+      <!-- LES (sphincter) - weak/open -->
+      <ellipse cx="200" cy="100" rx="20" ry="8" fill="#ef4444" opacity="0.5">
+        <animate attributeName="ry" values="8;12;8" dur="2s" repeatCount="indefinite"/>
+      </ellipse>
+      <!-- Stomach -->
+      <path d="M140 110 Q120 130 130 170 Q140 210 200 210 Q260 210 270 170 Q280 130 260 110 Q240 100 200 100 Q160 100 140 110" fill="url(#stomachGrad)" stroke="#ef4444" stroke-width="2"/>
+      <!-- Acid in stomach -->
+      <ellipse cx="200" cy="170" rx="50" ry="25" fill="url(#acidGrad)" opacity="0.8"/>
+      <!-- Acid refluxing up -->
+      <ellipse cx="200" cy="85" rx="8" ry="12" fill="#f97316" opacity="0.9">
+        <animate attributeName="cy" values="95;60;95" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="195" cy="75" rx="6" ry="8" fill="#fbbf24" opacity="0.7">
+        <animate attributeName="cy" values="90;50;90" dur="2.3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <!-- Labels -->
+      <text x="280" y="50" font-size="10" fill="#64748b">Esophagus</text>
+      <text x="280" y="100" font-size="10" fill="#ef4444">Weak LES</text>
+      <text x="280" y="150" font-size="10" fill="#64748b">Stomach</text>
+      <text x="280" y="175" font-size="10" fill="#f97316">Acid</text>
+      <line x1="215" y1="50" x2="275" y2="50" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+      <line x1="220" y1="100" x2="275" y2="100" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+      <line x1="270" y1="150" x2="275" y2="150" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+    </svg>
+  </div>
+
+  <!-- Quick Facts -->
+  <div class="section">
+    <h2><span class="icon-sm">📊</span> GERD at a Glance</h2>
+    <div class="info-cards">
+      <div class="info-card">
+        <span class="ic-icon">📈</span>
+        <div class="ic-title">20%</div>
+        <div class="ic-text">Adults affected worldwide</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">🔥</span>
+        <div class="ic-title">2x Weekly</div>
+        <div class="ic-text">Symptoms define GERD</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">⚠️</span>
+        <div class="ic-title">Treatable</div>
+        <div class="ic-text">Lifestyle + medications help</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">🩺</span>
+        <div class="ic-title">Chronic</div>
+        <div class="ic-text">Requires ongoing management</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- What is GERD -->
+  <div class="section">
+    <h2><span class="icon-sm">🔬</span> What is GERD?</h2>
+    <p>Gastroesophageal Reflux Disease (GERD) is a chronic digestive condition where stomach acid frequently flows back into the esophagus—the tube connecting your mouth to your stomach. This backwash (acid reflux) can irritate and damage the esophageal lining.</p>
+    <p>While occasional acid reflux is common and usually harmless, GERD is diagnosed when reflux occurs frequently (typically twice a week or more) and causes troublesome symptoms or complications.</p>
+
+    <h3>The Mechanism</h3>
+    <p>At the bottom of the esophagus is a ring of muscle called the lower esophageal sphincter (LES). Normally, the LES:</p>
+    <ul>
+      <li>Opens to allow food and liquid into the stomach</li>
+      <li>Closes tightly to prevent stomach contents from flowing back up</li>
+    </ul>
+    <p>In GERD, the LES is weakened or relaxes inappropriately, allowing acidic stomach contents to reflux into the esophagus. Unlike the stomach, the esophagus lacks protective mucus, making it vulnerable to acid damage.</p>
+
+    <div class="note">
+      GERD is different from occasional heartburn. If you experience heartburn twice weekly or more, or if it interferes with your daily life, you may have GERD.
+    </div>
+  </div>
+
+  <!-- Causes and Risk Factors -->
+  <div class="section">
+    <h2><span class="icon-sm">⚡</span> Causes and Risk Factors</h2>
+
+    <h3>What Causes the LES to Weaken?</h3>
+    <ul>
+      <li><strong>Hiatal hernia:</strong> Part of stomach pushes through diaphragm</li>
+      <li><strong>Obesity:</strong> Increased abdominal pressure</li>
+      <li><strong>Pregnancy:</strong> Hormonal changes and physical pressure</li>
+      <li><strong>Connective tissue disorders:</strong> Scleroderma</li>
+      <li><strong>Delayed stomach emptying:</strong> Gastroparesis</li>
+    </ul>
+
+    <h3>Factors That Worsen Reflux</h3>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Category</th>
+          <th>Factors</th>
+        </tr>
+        <tr>
+          <td><strong>Foods</strong></td>
+          <td>Fatty/fried foods, spicy foods, citrus, tomatoes, chocolate, mint, garlic, onions</td>
+        </tr>
+        <tr>
+          <td><strong>Beverages</strong></td>
+          <td>Alcohol, coffee, tea, carbonated drinks</td>
+        </tr>
+        <tr>
+          <td><strong>Lifestyle</strong></td>
+          <td>Smoking, eating late at night, large meals, lying down after eating</td>
+        </tr>
+        <tr>
+          <td><strong>Medications</strong></td>
+          <td>Aspirin, NSAIDs, certain blood pressure medications, sedatives</td>
+        </tr>
+        <tr>
+          <td><strong>Other</strong></td>
+          <td>Tight clothing, stress, obesity</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Symptoms -->
+  <div class="section">
+    <h2><span class="icon-sm">🔍</span> Symptoms of GERD</h2>
+
+    <h3>Common Symptoms</h3>
+    <ul>
+      <li><strong>Heartburn:</strong> Burning sensation in chest, often after eating, worse when lying down</li>
+      <li><strong>Regurgitation:</strong> Sour or bitter-tasting acid backing up into throat or mouth</li>
+      <li><strong>Difficulty swallowing (dysphagia):</strong> Sensation of food stuck in throat</li>
+      <li><strong>Chest pain:</strong> Can mimic heart pain</li>
+      <li><strong>Sensation of lump in throat (globus)</strong></li>
+    </ul>
+
+    <h3>Less Common (Atypical) Symptoms</h3>
+    <ul>
+      <li>Chronic cough, especially at night</li>
+      <li>Laryngitis and hoarseness</li>
+      <li>New or worsening asthma</li>
+      <li>Disrupted sleep</li>
+      <li>Dental erosion</li>
+      <li>Bad breath</li>
+      <li>Excessive saliva (water brash)</li>
+    </ul>
+
+    <div class="danger">
+      <strong>Chest pain can indicate a heart attack.</strong> Seek emergency care if you have chest pain with shortness of breath, jaw or arm pain, or if you're at risk for heart disease. Don't assume chest pain is just heartburn.
+    </div>
+  </div>
+
+  <!-- Complications -->
+  <div class="section">
+    <h2><span class="icon-sm">⚠️</span> Complications of Untreated GERD</h2>
+    <p>Long-term, untreated GERD can lead to serious complications:</p>
+
+    <div class="warning">
+      <ul>
+        <li><strong>Esophagitis:</strong> Inflammation of esophageal lining, causing pain and difficulty swallowing</li>
+        <li><strong>Esophageal stricture:</strong> Scar tissue narrows the esophagus, making swallowing difficult</li>
+        <li><strong>Barrett's esophagus:</strong> Precancerous changes to esophageal cells (see our <a href="barretts-esophagus.html">Barrett's guide</a>)</li>
+        <li><strong>Esophageal ulcers:</strong> Open sores that can bleed and cause pain</li>
+        <li><strong>Respiratory problems:</strong> Aspiration pneumonia, worsening asthma</li>
+        <li><strong>Esophageal adenocarcinoma:</strong> Cancer (rare, but risk increases with Barrett's)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Diagnosis -->
+  <div class="section">
+    <h2><span class="icon-sm">🩺</span> Diagnosis</h2>
+    <p>GERD is often diagnosed based on symptoms and response to treatment. Further testing may be needed if:</p>
+    <ul>
+      <li>Symptoms don't improve with treatment</li>
+      <li>Difficulty swallowing is present</li>
+      <li>Symptoms are atypical</li>
+      <li>Long-term medication is needed</li>
+    </ul>
+
+    <h3>Diagnostic Tests</h3>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Test</th>
+          <th>Purpose</th>
+        </tr>
+        <tr>
+          <td><strong>Upper Endoscopy (EGD)</strong></td>
+          <td>Visualize esophagus, take biopsies, check for Barrett's or other damage</td>
+        </tr>
+        <tr>
+          <td><strong>Ambulatory pH Monitoring</strong></td>
+          <td>Measures acid exposure over 24-48 hours; gold standard for diagnosis</td>
+        </tr>
+        <tr>
+          <td><strong>Esophageal Manometry</strong></td>
+          <td>Measures esophageal muscle function and LES pressure</td>
+        </tr>
+        <tr>
+          <td><strong>Barium Swallow</strong></td>
+          <td>X-ray imaging to detect strictures, hiatal hernia</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Treatment -->
+  <div class="section">
+    <h2><span class="icon-sm">💊</span> Treatment Options</h2>
+
+    <h3>Lifestyle Modifications (First Line)</h3>
+    <ul class="checklist">
+      <li>Lose weight if overweight</li>
+      <li>Elevate head of bed 6-8 inches</li>
+      <li>Don't eat 2-3 hours before lying down</li>
+      <li>Avoid trigger foods and beverages</li>
+      <li>Eat smaller, more frequent meals</li>
+      <li>Quit smoking</li>
+      <li>Avoid tight-fitting clothing</li>
+      <li>Don't lie down immediately after eating</li>
+    </ul>
+
+    <h3>Medications</h3>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Type</th>
+          <th>Examples</th>
+          <th>How They Work</th>
+        </tr>
+        <tr>
+          <td><strong>Antacids</strong></td>
+          <td>Tums, Rolaids, Mylanta</td>
+          <td>Neutralize existing stomach acid; quick but short-term relief</td>
+        </tr>
+        <tr>
+          <td><strong>H2 Blockers</strong></td>
+          <td>Famotidine (Pepcid), Ranitidine</td>
+          <td>Reduce acid production; work within 1-3 hours</td>
+        </tr>
+        <tr>
+          <td><strong>PPIs</strong></td>
+          <td>Omeprazole, Pantoprazole, Esomeprazole</td>
+          <td>Strongly suppress acid production; most effective but take days for full effect</td>
+        </tr>
+        <tr>
+          <td><strong>Prokinetics</strong></td>
+          <td>Metoclopramide</td>
+          <td>Speed stomach emptying and strengthen LES</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="note">
+      PPIs are highly effective but should be used at the lowest effective dose for the shortest necessary time. Long-term use may be associated with risks including nutrient deficiencies and infections. Discuss with your doctor.
+    </div>
+
+    <h3>Surgical Options</h3>
+    <p>Surgery may be considered when medications fail or aren't tolerable:</p>
+    <ul>
+      <li><strong>Fundoplication (Nissen):</strong> Wrapping top of stomach around LES to strengthen it</li>
+      <li><strong>LINX device:</strong> Magnetic bead ring placed around LES junction</li>
+      <li><strong>Transoral incisionless fundoplication (TIF):</strong> Endoscopic procedure creating valve</li>
+    </ul>
+  </div>
+
+  <!-- Dietary Management -->
+  <div class="section">
+    <h2><span class="icon-sm">🥗</span> Dietary Management</h2>
+
+    <h3>Foods to Avoid or Limit</h3>
+    <ul>
+      <li>Fatty and fried foods</li>
+      <li>Spicy foods</li>
+      <li>Citrus fruits and juices</li>
+      <li>Tomatoes and tomato-based products</li>
+      <li>Chocolate</li>
+      <li>Peppermint and spearmint</li>
+      <li>Garlic and onions (for some people)</li>
+      <li>Coffee and caffeinated beverages</li>
+      <li>Alcohol</li>
+      <li>Carbonated drinks</li>
+    </ul>
+
+    <h3>Foods Generally Well-Tolerated</h3>
+    <ul>
+      <li>Lean proteins (chicken, fish, turkey)</li>
+      <li>Vegetables (except tomatoes, onions for some)</li>
+      <li>Non-citrus fruits (bananas, melons, apples)</li>
+      <li>Whole grains (oatmeal, brown rice, whole wheat bread)</li>
+      <li>Low-fat dairy</li>
+      <li>Ginger</li>
+      <li>Healthy fats in moderation (olive oil, avocado)</li>
+    </ul>
+
+    <div class="tip">
+      <strong>Keep a food diary</strong> to identify your personal triggers. GERD triggers vary significantly between individuals—what bothers one person may be fine for another.
+    </div>
+  </div>
+
+  <!-- Living with GERD -->
+  <div class="section">
+    <h2><span class="icon-sm">🏠</span> Living with GERD</h2>
+
+    <h3>Daily Management Tips</h3>
+    <ul class="checklist">
+      <li>Eat breakfast within an hour of waking</li>
+      <li>Have your largest meal at lunch, not dinner</li>
+      <li>Take a short walk after meals</li>
+      <li>Wear loose, comfortable clothing</li>
+      <li>Practice stress reduction techniques</li>
+      <li>Keep antacids available for breakthrough symptoms</li>
+      <li>Sleep on your left side (may reduce reflux)</li>
+      <li>Chew gum after meals (increases saliva)</li>
+    </ul>
+
+    <h3>When Traveling</h3>
+    <ul>
+      <li>Bring your medications and extra supplies</li>
+      <li>Request a room pillow or use a travel wedge</li>
+      <li>Be cautious with unfamiliar cuisine</li>
+      <li>Avoid eating close to sleep time despite schedule changes</li>
+    </ul>
+  </div>
+
+  <!-- FAQ Section -->
+  <div class="section">
+    <h2><span class="icon-sm">❓</span> Frequently Asked Questions</h2>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Can GERD be cured?</div>
+      <div class="accordion-body">
+        GERD is typically a chronic condition that requires ongoing management rather than a one-time cure. However, many people achieve excellent symptom control through lifestyle changes and medications. Some may need long-term medication, while others can manage with lifestyle modifications alone. Surgery can provide long-term relief for some patients.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Is it safe to take PPIs long-term?</div>
+      <div class="accordion-body">
+        While PPIs are generally safe and effective, long-term use (especially at high doses) has been associated with potential risks including vitamin B12 deficiency, magnesium deficiency, increased fracture risk, and C. difficile infection. However, for many patients, the benefits outweigh the risks. Discuss with your doctor about using the lowest effective dose and whether periodic attempts to reduce or stop are appropriate.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Can GERD cause cancer?</div>
+      <div class="accordion-body">
+        Long-standing GERD can lead to Barrett's esophagus, a condition where the esophageal lining changes. Barrett's slightly increases the risk of esophageal adenocarcinoma. However, most people with GERD never develop Barrett's, and most with Barrett's never develop cancer. Regular monitoring and treatment significantly reduce this risk.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Why is GERD worse at night?</div>
+      <div class="accordion-body">
+        Several factors make nighttime reflux worse: lying flat allows gravity to work against you, saliva production decreases during sleep (less natural acid neutralization), and the LES may relax more during sleep. This is why elevating the head of the bed and not eating before sleep are so important.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Can stress cause GERD?</div>
+      <div class="accordion-body">
+        While stress doesn't directly cause GERD, it can worsen symptoms. Stress may increase acid production, slow digestion, and heighten your perception of symptoms. Many people notice more severe reflux during stressful periods. Stress management is an important part of GERD management.
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Navigation -->
+  <div class="page-nav">
+    <a href="common-symptoms.html" class="prev">Common GI Symptoms</a>
+    <a href="heartburn.html" class="next">Heartburn Management</a>
+  </div>
+</div>
+
+<div class="disclaimer">
+  This content is for educational purposes only and does not replace professional medical advice. The creators of GutWise are not medical professionals. Do not start, stop, or change any medication without consulting your doctor. In case of emergency, call 112 (India) or your local emergency number. <a href="terms-of-use.html">Read full Terms of Use & Medical Disclaimer</a>
+</div>
+<div class="privacy-notice">GutWise does not use cookies, collect personal data, or track users.</div>
+<div class="footer">
+  <span class="ai-badge">AI-Assisted Content</span><br>
+  GutWise &bull; Comprehensive Digestive Health Companion &bull; <a href="terms-of-use.html">Terms of Use</a> &bull; Last updated: February 2026
+</div>
+
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
+<button class="scroll-top" aria-label="Scroll to top" id="scrollTop" title="Back to top">&uarr;</button>
+
+<script>
+// Accordion functionality
+document.querySelectorAll('.accordion-header').forEach(function(header) {
+  header.addEventListener('click', function() {
+    var item = this.parentElement;
+    item.classList.toggle('open');
+  });
+});
+
+// Checklist functionality
+document.querySelectorAll('.checklist li').forEach(function(li) {
+  li.addEventListener('click', function() {
+    this.classList.toggle('checked');
+  });
+});
+
+// Scroll to top
+var scrollBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', function() {
+  scrollBtn.classList.toggle('visible', window.scrollY > 400);
+});
+scrollBtn.addEventListener('click', function() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+});
+
+// Theme toggle
+(function(){
+  var t = document.getElementById('themeToggle');
+  var saved = localStorage.getItem('theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+    t.textContent = saved === 'dark' ? '\u2600' : '\u263E';
+  }
+  t.addEventListener('click', function() {
+    var d = document.documentElement.getAttribute('data-theme') === 'dark' ? '' : 'dark';
+    document.documentElement.setAttribute('data-theme', d);
+    localStorage.setItem('theme', d);
+    t.textContent = d === 'dark' ? '\u2600' : '\u263E';
+  });
+})();
+
+// Service Worker Registration
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+</body>
+</html>

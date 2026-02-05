@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aravindcleaerr.github.io/gastric-guide/sitemap.xml

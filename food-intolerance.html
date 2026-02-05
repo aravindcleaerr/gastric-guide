@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Intolerances Guide - GutWise</title>
+<link rel="stylesheet" href="styles.css">
+<script src="lang.js"></script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#4f46e5">
+<meta name="description" content="Comprehensive guide to food intolerances - symptoms, causes, diagnosis, and management strategies for common food sensitivities.">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="navbar">
+<div class="navbar-inner">
+<a class="brand" href="index.html">GutWise</a>
+<a class="lang-switch" href="food-intolerance-kn.html">ಕನ್ನಡ</a>
+<a class="home-link" href="index.html">All Topics</a>
+</div>
+</nav>
+
+<div class="container" id="main" role="main">
+<div class="page-header">
+<h1>Food Intolerances Guide</h1>
+<p>Understanding food sensitivities that affect digestion and overall health</p>
+</div>
+<p class="last-reviewed">Last reviewed: February 2026</p>
+
+<div class="illus">
+<svg viewBox="0 0 400 200" width="320" height="160" aria-label="Food intolerance illustration">
+<defs>
+<linearGradient id="foodGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color:#4f46e5;stop-opacity:0.2"/>
+<stop offset="100%" style="stop-color:#10b981;stop-opacity:0.2"/>
+</linearGradient>
+</defs>
+<rect fill="url(#foodGrad)" width="400" height="200" rx="20"/>
+<!-- Stomach outline -->
+<ellipse cx="200" cy="100" rx="60" ry="50" fill="#fef3c7" stroke="#f59e0b" stroke-width="3">
+<animate attributeName="ry" values="50;52;50" dur="2s" repeatCount="indefinite"/>
+</ellipse>
+<!-- Question marks for food sensitivities -->
+<text x="120" y="80" font-size="24" fill="#ef4444" opacity="0.8">?</text>
+<text x="260" y="90" font-size="28" fill="#ef4444" opacity="0.8">?</text>
+<text x="180" y="130" font-size="20" fill="#ef4444" opacity="0.6">?</text>
+<!-- Food items -->
+<circle cx="80" cy="60" r="18" fill="#fbbf24" stroke="#f59e0b" stroke-width="2">
+<animate attributeName="cy" values="60;55;60" dur="3s" repeatCount="indefinite"/>
+</circle>
+<rect x="300" y="50" width="30" height="25" rx="5" fill="#a78bfa" stroke="#7c3aed" stroke-width="2">
+<animate attributeName="y" values="50;45;50" dur="2.5s" repeatCount="indefinite"/>
+</rect>
+<ellipse cx="320" cy="140" rx="20" ry="15" fill="#86efac" stroke="#22c55e" stroke-width="2">
+<animate attributeName="rx" values="20;22;20" dur="2s" repeatCount="indefinite"/>
+</ellipse>
+<!-- Warning symbol -->
+<path d="M195 60 L205 60 L200 45 Z" fill="#ef4444" stroke="#dc2626" stroke-width="1">
+<animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite"/>
+</path>
+</svg>
+</div>
+
+<div class="info-cards">
+<div class="info-card">
+<span class="ic-icon">20%</span>
+<span class="ic-title">Global Prevalence</span>
+<span class="ic-text">Of population reports food intolerance</span>
+</div>
+<div class="info-card">
+<span class="ic-icon">65%</span>
+<span class="ic-title">Lactose Intolerance</span>
+<span class="ic-text">Worldwide prevalence in adults</span>
+</div>
+<div class="info-card">
+<span class="ic-icon">6-8 hrs</span>
+<span class="ic-title">Symptom Onset</span>
+<span class="ic-text">Typical time after eating trigger foods</span>
+</div>
+<div class="info-card">
+<span class="ic-icon">2-4 wks</span>
+<span class="ic-title">Elimination Diet</span>
+<span class="ic-text">Minimum duration for effective testing</span>
+</div>
+</div>
+
+<div class="section">
+<h2><span class="icon-sm">📋</span> What Is Food Intolerance?</h2>
+<p>Food intolerance is a digestive system response that occurs when your body has difficulty digesting certain foods. Unlike food allergies, which involve the immune system, food intolerances typically affect the gastrointestinal tract and produce symptoms that, while uncomfortable, are not life-threatening.</p>
+
+<h3>Key Differences: Intolerance vs. Allergy</h3>
+<div class="table-wrap">
+<table>
+<tr><th>Characteristic</th><th>Food Intolerance</th><th>Food Allergy</th></tr>
+<tr><td>System Involved</td><td>Digestive system</td><td>Immune system</td></tr>
+<tr><td>Onset Time</td><td>Hours to days</td><td>Minutes to hours</td></tr>
+<tr><td>Severity</td><td>Uncomfortable but not dangerous</td><td>Can be life-threatening</td></tr>
+<tr><td>Amount Matters</td><td>Yes - small amounts may be tolerated</td><td>No - even traces can trigger reactions</td></tr>
+<tr><td>Common Symptoms</td><td>Bloating, gas, diarrhea, headaches</td><td>Hives, swelling, anaphylaxis</td></tr>
+<tr><td>Diagnosis</td><td>Elimination diet, breath tests</td><td>Skin prick tests, blood tests</td></tr>
+</table>
+</div>
+</div>
+
+<div class="section">
+<h2><span class="icon-sm">🔬</span> Types of Food Intolerances</h2>
+
+<h3>1. Enzyme Deficiencies</h3>
+<p>The most common cause of food intolerance occurs when your body lacks specific enzymes needed to digest certain food components.</p>
+<ul>
+<li><strong>Lactose intolerance:</strong> Deficiency of lactase enzyme to digest milk sugar</li>
+<li><strong>Fructose malabsorption:</strong> Inability to properly absorb fruit sugar</li>
+<li><strong>Histamine intolerance:</strong> Deficiency of diamine oxidase (DAO) enzyme</li>
+<li><strong>Sucrase-isomaltase deficiency:</strong> Rare inability to digest sucrose and starch</li>
+</ul>
+
+<h3>2. Chemical Sensitivities</h3>
+<p>Some people react to naturally occurring or added chemicals in foods:</p>
+<ul>
+<li><strong>Salicylates:</strong> Found in many fruits, vegetables, and spices</li>
+<li><strong>Amines:</strong> Including histamine and tyramine in aged foods</li>
+<li><strong>Glutamates:</strong> Natural and added MSG</li>
+<li><strong>Caffeine:</strong> In coffee, tea, and chocolate</li>
+<li><strong>Sulfites:</strong> Preservatives in wine, dried fruits</li>
+</ul>
+
+<h3>3. FODMAPs Sensitivity</h3>
+<p>Fermentable Oligosaccharides, Disaccharides, Monosaccharides, and Polyols can cause symptoms in susceptible individuals, particularly those with IBS.</p>
+
+<h3>4. Gluten Sensitivity (Non-Celiac)</h3>
+<p>Some people experience symptoms from gluten-containing foods without having celiac disease or wheat allergy. This condition is known as non-celiac gluten sensitivity (NCGS).</p>
+</div>
+
+<div class="section">
+<h2><span class="icon-sm">🩺</span> Common Symptoms</h2>
+
+<h3>Digestive Symptoms</h3>
+<ul>
+<li>Bloating and abdominal distension</li>
+<li>Excessive gas (flatulence)</li>
+<li>Abdominal pain or cramping</li>
+<li>Diarrhea or loose stools</li>
+<li>Constipation (in some cases)</li>
+<li>Nausea and occasional vomiting</li>
+<li>Heartburn or acid reflux</li>
+</ul>
+
+<h3>Non-Digestive Symptoms</h3>
+<p>Food intolerances can cause symptoms beyond the gut:</p>
+<ul>
+<li>Headaches or migraines</li>
+<li>Fatigue and low energy</li>
+<li>Joint or muscle pain</li>
+<li>Skin problems (eczema, rashes)</li>
+<li>Brain fog and difficulty concentrating</li>
+<li>Mood changes (anxiety, irritability)</li>
+<li>Nasal congestion or runny nose</li>
+</ul>
+
+<div class="warning">
+<strong>When to Seek Medical Help:</strong> If you experience severe abdominal pain, blood in stools, unexplained weight loss, difficulty swallowing, or symptoms that significantly impact your daily life, consult a healthcare provider promptly.
+</div>
+</div>
+
+<div class="section">
+<h2><span class="icon-sm">🔍</span> Diagnosis Methods</h2>
+
+<h3>Medical Evaluation</h3>
+<p>Proper diagnosis of food intolerances involves several steps:</p>
+
+<div class="accordion-item">
+<div class="accordion-header">1. Medical History and Physical Exam</div>
+<div class="accordion-body">
+<p>Your doctor will review your symptoms, their timing, and relationship to foods. They'll examine your abdomen and overall health to rule out other conditions.</p>
+</div>
+</div>
+
+<div class="accordion-item">
+<div class="accordion-header">2. Food and Symptom Diary</div>
+<div class="accordion-body">
+<p>Keeping a detailed record of everything you eat and any symptoms for 2-4 weeks can help identify patterns. Note the type of food, portion size, timing of symptoms, and symptom severity.</p>
+</div>
+</div>
+
+<div class="accordion-item">
+<div class="accordion-header">3. Elimination Diet</div>
+<div class="accordion-body">
+<p>The gold standard for identifying food intolerances involves removing suspected foods for 2-6 weeks, then systematically reintroducing them one at a time while monitoring symptoms. This should be done under professional guidance.</p>
+</div>
+</div>
+
+<div class="accordion-item">
+<div class="accordion-header">4. Breath Tests</div>
+<div class="accordion-body">
+<p>Hydrogen and methane breath tests can diagnose lactose intolerance, fructose malabsorption, and SIBO. After consuming a specific sugar, breath samples are analyzed for bacterial fermentation gases.</p>
+</div>
+</div>
+
+<div class="accordion-item">
+<div class="accordion-header">5. Blood Tests</div>
+<div class="accordion-body">
+<p>While not definitive for intolerances, blood tests help rule out celiac disease, food allergies, and other conditions. Tests for tissue transglutaminase (tTG) antibodies screen for celiac disease.</p>
+</div>
+</div>
+
+<div class="note">
+<strong>Important:</strong> Commercial IgG food sensitivity tests are widely marketed but lack scientific validation. Medical organizations do not recommend them for diagnosing food intolerances.
+</div>
+</div>
+
+<div class="section">
+<h2><span class="icon-sm">🥗</span> Management Strategies</h2>
+
+<h3>Dietary Modifications</h3>
+<p>Once trigger foods are identified, management primarily involves dietary changes:</p>
+
+<ul class="checklist">
+<li>Eliminate or reduce trigger foods based on personal tolerance</li>
+<li>Read food labels carefully for hidden ingredients</li>
+<li>Maintain a balanced diet to prevent nutritional deficiencies</li>
+<li>Consider enzyme supplements (e.g., lactase for lactose intolerance)</li>
+<li>Work with a registered dietitian for personalized guidance</li>
+<li>Gradually test tolerance levels - small amounts may be okay</li>
+</ul>
+
+<h3>Common Food Substitutions</h3>
+<div class="table-wrap">
+<table>
+<tr><th>If Intolerant To</th><th>Try These Alternatives</th></tr>
+<tr><td>Dairy/Lactose</td><td>Lactose-free milk, almond milk, oat milk, coconut yogurt</td></tr>
+<tr><td>Wheat/Gluten</td><td>Rice, quinoa, millet, buckwheat, gluten-free oats</td></tr>
+<tr><td>Fructose</td><td>Glucose-based sweeteners, maple syrup (in moderation)</td></tr>
+<tr><td>Eggs</td><td>Flax eggs, chia eggs, commercial egg replacers</td></tr>
+<tr><td>Soy</td><td>Coconut aminos, other legumes (if tolerated)</td></tr>
+</table>
+</div>
+
+<div class="tip">
+<strong>Tip:</strong> Keep a "safe foods" list that you can rely on when symptoms flare up. This makes meal planning easier and reduces stress around eating.
+</div>
+</div>
+
+<div class="section">
+<h2><span class="icon-sm">🍽️</span> Eating Out and Social Situations</h2>
+
+<h3>Restaurant Strategies</h3>
+<ul>
+<li>Research menus online before visiting restaurants</li>
+<li>Call ahead to discuss your dietary needs</li>
+<li>Ask detailed questions about ingredients and preparation methods</li>
+<li>Request simple preparations to reduce unknown ingredients</li>
+<li>Carry emergency snacks in case suitable options aren't available</li>
+</ul>
+
+<h3>Social Gatherings</h3>
+<ul>
+<li>Inform hosts about your food intolerances in advance</li>
+<li>Offer to bring a dish you know is safe</li>
+<li>Eat a small meal before events if unsure about food options</li>
+<li>Focus on naturally safe foods at buffets</li>
+<li>Don't be afraid to politely decline foods that may cause problems</li>
+</ul>
+</div>
+
+<div class="section">
+<h2><span class="icon-sm">💊</span> Supplements and Medications</h2>
+
+<h3>Digestive Enzyme Supplements</h3>
+<p>Enzyme supplements can help manage certain intolerances:</p>
+<ul>
+<li><strong>Lactase:</strong> Take before consuming dairy products</li>
+<li><strong>Alpha-galactosidase (Beano):</strong> Helps digest beans and vegetables</li>
+<li><strong>DAO supplements:</strong> May help with histamine intolerance</li>
+<li><strong>Broad-spectrum digestive enzymes:</strong> Can aid overall digestion</li>
+</ul>
+
+<h3>Other Supportive Treatments</h3>
+<ul>
+<li><strong>Probiotics:</strong> May improve gut health and tolerance</li>
+<li><strong>Peppermint oil:</strong> Can relieve bloating and cramping</li>
+<li><strong>Ginger:</strong> Helps with nausea and digestive discomfort</li>
+<li><strong>Simethicone:</strong> Reduces gas and bloating symptoms</li>
+</ul>
+
+<div class="warning">
+<strong>Caution:</strong> Always consult a healthcare provider before starting any supplements, especially if you take other medications or have underlying health conditions.
+</div>
+</div>
+
+<div class="section">
+<h2><span class="icon-sm">🧠</span> Psychological Impact</h2>
+
+<p>Living with food intolerances can affect mental health and quality of life. It's important to address these aspects:</p>
+
+<ul>
+<li><strong>Anxiety around eating:</strong> Work with a therapist if food anxiety becomes overwhelming</li>
+<li><strong>Social isolation:</strong> Find support groups and connect with others who understand</li>
+<li><strong>Orthorexia risk:</strong> Be cautious about excessive dietary restriction becoming obsessive</li>
+<li><strong>Stress management:</strong> Stress can worsen digestive symptoms, creating a vicious cycle</li>
+</ul>
+
+<div class="tip">
+<strong>Self-Care Reminder:</strong> Managing food intolerances is about finding balance. Perfect avoidance isn't always possible or necessary. Focus on what you can eat rather than what you can't.
+</div>
+</div>
+
+<div class="section">
+<h2><span class="icon-sm">👨‍👩‍👧</span> Food Intolerances in Children</h2>
+
+<p>Children can develop food intolerances at any age. Special considerations include:</p>
+
+<ul>
+<li>Growth monitoring to ensure adequate nutrition</li>
+<li>Working with pediatric dietitians for meal planning</li>
+<li>School communication about dietary restrictions</li>
+<li>Age-appropriate explanations about their condition</li>
+<li>Some childhood intolerances may improve with age</li>
+</ul>
+
+<div class="note">
+<strong>Note:</strong> Never eliminate major food groups from a child's diet without professional guidance. Nutritional deficiencies during growth can have lasting effects.
+</div>
+</div>
+
+<div class="section">
+<h2><span class="icon-sm">📈</span> Long-Term Outlook</h2>
+
+<p>With proper management, most people with food intolerances can lead normal, healthy lives:</p>
+
+<ul>
+<li>Symptoms typically improve significantly with dietary modifications</li>
+<li>Some intolerances may change over time - periodic retesting is worthwhile</li>
+<li>Gut health improvements may increase tolerance levels</li>
+<li>New food products and alternatives are constantly becoming available</li>
+<li>Research continues to improve our understanding and treatment options</li>
+</ul>
+</div>
+
+<div class="page-nav">
+<a class="prev" href="abdominal-pain.html">Abdominal Pain Guide</a>
+<a class="next" href="lactose-intolerance.html">Lactose Intolerance</a>
+</div>
+
+</div>
+
+<div class="disclaimer">
+This content is for educational purposes only and does not replace professional medical advice. The creators of GutWise are not medical professionals. Do not start, stop, or change any medication without consulting your doctor. In case of emergency, call 112 (India) or your local emergency number. <a href="terms-of-use.html">Read full Terms of Use & Medical Disclaimer</a>
+</div>
+<div class="privacy-notice">GutWise does not use cookies, collect personal data, or track users.</div>
+<div class="footer"><span class="ai-badge">AI-Assisted Content</span><br>GutWise &bull; Comprehensive Digestive Health Companion &bull; <a href="terms-of-use.html">Terms of Use</a> &bull; Last updated: February 2026</div>
+
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
+<button class="scroll-top" aria-label="Scroll to top" id="scrollTop" title="Back to top">&uarr;</button>
+
+<script>
+document.querySelectorAll('.accordion-header').forEach(function(header) {
+header.addEventListener('click', function() {
+this.parentElement.classList.toggle('open');
+});
+});
+document.querySelectorAll('.checklist li').forEach(function(item) {
+item.addEventListener('click', function() {
+this.classList.toggle('checked');
+});
+});
+var scrollBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', function() {
+scrollBtn.classList.toggle('visible', window.scrollY > 400);
+});
+scrollBtn.addEventListener('click', function() {
+window.scrollTo({top: 0, behavior: 'smooth'});
+});
+if ('serviceWorker' in navigator) {
+navigator.serviceWorker.register('sw.js');
+}
+(function() {
+var t = document.getElementById('themeToggle');
+var saved = localStorage.getItem('theme');
+if (saved) {
+document.documentElement.setAttribute('data-theme', saved);
+t.textContent = saved === 'dark' ? '\u2600' : '\u263E';
+}
+t.addEventListener('click', function() {
+var d = document.documentElement.getAttribute('data-theme') === 'dark' ? '' : 'dark';
+document.documentElement.setAttribute('data-theme', d);
+localStorage.setItem('theme', d);
+t.textContent = d === 'dark' ? '\u2600' : '\u263E';
+});
+})();
+</script>
+</body>
+</html>

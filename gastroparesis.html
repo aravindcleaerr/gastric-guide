@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gastroparesis - GutWise</title>
+<meta name="description" content="Comprehensive guide to gastroparesis: causes, symptoms, diagnosis, dietary management, medications, and living with delayed stomach emptying.">
+<link rel="stylesheet" href="styles.css">
+<script src="lang.js"></script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#4f46e5">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="index.html">GutWise</a>
+    <div style="display:flex;align-items:center;gap:0.5rem;">
+      <a class="home-link" href="index.html">All Topics</a>
+      <a class="lang-switch" href="gastroparesis-kn.html">ಕನ್ನಡ</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container" id="main" role="main">
+  <div class="page-header">
+    <h1>Gastroparesis</h1>
+    <p>Managing delayed stomach emptying and its impact on digestion</p>
+  </div>
+  <p class="last-reviewed">Last reviewed: February 2026</p>
+
+  <!-- Animated SVG Illustration -->
+  <div class="illus">
+    <svg viewBox="0 0 400 260" width="340" height="220" role="img" aria-label="Gastroparesis illustration showing slow stomach emptying">
+      <defs>
+        <linearGradient id="foodInStomach" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1"/>
+          <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1"/>
+        </linearGradient>
+      </defs>
+      <!-- Stomach outline -->
+      <path d="M120 70 Q80 90 90 140 Q100 200 180 210 Q260 220 280 170 Q300 120 270 90 Q240 60 200 60 Q160 60 120 70" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+      <!-- Food stuck in stomach -->
+      <ellipse cx="180" cy="150" rx="65" ry="40" fill="url(#foodInStomach)" opacity="0.8">
+        <animate attributeName="ry" values="40;42;40" dur="3s" repeatCount="indefinite"/>
+      </ellipse>
+      <!-- Food particles -->
+      <circle cx="150" cy="140" r="8" fill="#ea580c"/>
+      <circle cx="175" cy="160" r="10" fill="#d97706"/>
+      <circle cx="200" cy="145" r="7" fill="#ea580c"/>
+      <circle cx="165" cy="155" r="6" fill="#d97706"/>
+      <circle cx="190" cy="165" r="9" fill="#ea580c"/>
+      <!-- Pylorus (exit) - partially blocked/slow -->
+      <ellipse cx="265" cy="175" rx="15" ry="8" fill="#fca5a5" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,2"/>
+      <!-- Slow arrow indicating delayed emptying -->
+      <path d="M230 175 L250 175" stroke="#ef4444" stroke-width="3" marker-end="url(#slowArrow)"/>
+      <defs>
+        <marker id="slowArrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+          <path d="M0,0 L0,6 L9,3 z" fill="#ef4444"/>
+        </marker>
+      </defs>
+      <!-- Clock symbol indicating time -->
+      <g transform="translate(320, 100)">
+        <circle cx="0" cy="0" r="25" fill="#f3f4f6" stroke="#64748b" stroke-width="2"/>
+        <line x1="0" y1="0" x2="0" y2="-15" stroke="#64748b" stroke-width="2"/>
+        <line x1="0" y1="0" x2="10" y2="5" stroke="#ef4444" stroke-width="2"/>
+        <circle cx="0" cy="0" r="3" fill="#64748b"/>
+        <animate attributeName="transform" values="translate(320,100) rotate(0);translate(320,100) rotate(30);translate(320,100) rotate(0)" dur="10s" repeatCount="indefinite"/>
+      </g>
+      <!-- Labels -->
+      <text x="320" y="145" font-size="9" fill="#64748b" text-anchor="middle">Slow</text>
+      <text x="320" y="157" font-size="9" fill="#64748b" text-anchor="middle">emptying</text>
+      <text x="180" y="240" font-size="10" fill="#64748b" text-anchor="middle">Food remains in stomach too long</text>
+      <!-- Turtle symbol for slowness -->
+      <text x="50" y="150" font-size="30">🐢</text>
+    </svg>
+  </div>
+
+  <!-- Introduction -->
+  <div class="section">
+    <h2><span class="icon-sm">🐢</span> What is Gastroparesis?</h2>
+    <p>Gastroparesis, literally meaning "stomach paralysis," is a condition where the stomach takes too long to empty its contents into the small intestine. Normally, after you eat, strong muscular contractions push food through the digestive tract. In gastroparesis, these contractions are weak or uncoordinated, causing food to remain in the stomach for an abnormally long time.</p>
+    <p>This delayed emptying occurs without any physical blockage—the problem lies with the stomach's motility (movement). The condition can significantly impact nutrition, blood sugar control, and quality of life.</p>
+
+    <div class="info-cards">
+      <div class="info-card">
+        <span class="ic-icon">👩</span>
+        <div class="ic-title">4x</div>
+        <div class="ic-text">More common in women</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">🍬</span>
+        <div class="ic-title">Diabetes</div>
+        <div class="ic-text">Most common known cause</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">❓</span>
+        <div class="ic-title">Idiopathic</div>
+        <div class="ic-text">No cause found in ~40%</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">📉</span>
+        <div class="ic-title">Chronic</div>
+        <div class="ic-text">Usually ongoing condition</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Causes -->
+  <div class="section">
+    <h2><span class="icon-sm">⚡</span> Causes of Gastroparesis</h2>
+
+    <h3>Common Causes</h3>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Cause</th>
+          <th>Mechanism</th>
+          <th>Notes</th>
+        </tr>
+        <tr>
+          <td><strong>Diabetes</strong></td>
+          <td>High blood sugar damages vagus nerve</td>
+          <td>Most common identifiable cause; affects 20-50% of long-standing diabetics</td>
+        </tr>
+        <tr>
+          <td><strong>Idiopathic</strong></td>
+          <td>Unknown</td>
+          <td>No cause found in up to 40% of cases</td>
+        </tr>
+        <tr>
+          <td><strong>Post-surgical</strong></td>
+          <td>Vagus nerve damage during surgery</td>
+          <td>After stomach, esophageal, or bariatric surgery</td>
+        </tr>
+        <tr>
+          <td><strong>Post-viral</strong></td>
+          <td>Viral infection triggers nerve damage</td>
+          <td>May follow acute gastroenteritis; often improves over time</td>
+        </tr>
+        <tr>
+          <td><strong>Medications</strong></td>
+          <td>Slow stomach motility as side effect</td>
+          <td>Opioids, anticholinergics, GLP-1 agonists, some antidepressants</td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>Less Common Causes</h3>
+    <ul>
+      <li><strong>Neurological conditions:</strong> Parkinson's disease, multiple sclerosis</li>
+      <li><strong>Connective tissue disorders:</strong> Scleroderma, lupus</li>
+      <li><strong>Hypothyroidism</strong></li>
+      <li><strong>Eating disorders:</strong> Anorexia nervosa, bulimia</li>
+      <li><strong>Amyloidosis</strong></li>
+      <li><strong>Paraneoplastic syndromes:</strong> Associated with certain cancers</li>
+    </ul>
+  </div>
+
+  <!-- Symptoms -->
+  <div class="section">
+    <h2><span class="icon-sm">🔍</span> Symptoms</h2>
+    <p>Symptoms can range from mild to severe and often fluctuate over time:</p>
+
+    <h3>Common Symptoms</h3>
+    <ul>
+      <li><strong>Nausea:</strong> Most common symptom; often worse after eating</li>
+      <li><strong>Vomiting:</strong> May contain undigested food eaten hours earlier</li>
+      <li><strong>Early satiety:</strong> Feeling full after eating very little</li>
+      <li><strong>Bloating:</strong> Feeling uncomfortably full</li>
+      <li><strong>Abdominal pain:</strong> Upper abdominal discomfort</li>
+      <li><strong>Heartburn:</strong> Reflux is common due to delayed emptying</li>
+      <li><strong>Lack of appetite</strong></li>
+      <li><strong>Weight loss:</strong> From reduced food intake</li>
+    </ul>
+
+    <h3>Complications</h3>
+    <ul>
+      <li><strong>Malnutrition:</strong> Inability to eat adequately</li>
+      <li><strong>Dehydration:</strong> From vomiting and poor intake</li>
+      <li><strong>Bezoars:</strong> Hardened masses of undigested food that can cause obstruction</li>
+      <li><strong>Blood sugar fluctuations:</strong> Unpredictable in diabetics</li>
+      <li><strong>Bacterial overgrowth:</strong> Food sitting too long promotes bacteria</li>
+      <li><strong>Reduced quality of life</strong></li>
+    </ul>
+
+    <div class="warning">
+      <strong>Seek medical attention if you experience:</strong>
+      <ul>
+        <li>Severe, persistent vomiting</li>
+        <li>Signs of dehydration (dark urine, dizziness)</li>
+        <li>Severe abdominal pain</li>
+        <li>Inability to keep any food or liquid down</li>
+        <li>Blood in vomit</li>
+        <li>Severe weight loss</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Diagnosis -->
+  <div class="section">
+    <h2><span class="icon-sm">🩺</span> Diagnosis</h2>
+    <p>Diagnosis requires demonstrating delayed stomach emptying after ruling out mechanical obstruction.</p>
+
+    <h3>Diagnostic Tests</h3>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Test</th>
+          <th>Description</th>
+          <th>Notes</th>
+        </tr>
+        <tr>
+          <td><strong>Gastric Emptying Study (GES)</strong></td>
+          <td>Eat radioactive-labeled meal; scanned over 4 hours</td>
+          <td>Gold standard; delayed if &gt;10% retained at 4 hours</td>
+        </tr>
+        <tr>
+          <td><strong>Upper Endoscopy</strong></td>
+          <td>Camera examines stomach</td>
+          <td>Rules out blockage; may show retained food</td>
+        </tr>
+        <tr>
+          <td><strong>SmartPill</strong></td>
+          <td>Swallow capsule that transmits data</td>
+          <td>Measures transit time throughout GI tract</td>
+        </tr>
+        <tr>
+          <td><strong>Gastric Emptying Breath Test</strong></td>
+          <td>Non-radioactive alternative to GES</td>
+          <td>Measures carbon isotope in breath</td>
+        </tr>
+        <tr>
+          <td><strong>CT/MRI</strong></td>
+          <td>Imaging studies</td>
+          <td>Rule out obstruction or other pathology</td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>Important Preparation</h3>
+    <div class="note">
+      Before gastric emptying testing:
+      <ul>
+        <li>Stop medications that affect motility (prokinetics, opioids, anticholinergics) for several days</li>
+        <li>Stop smoking 12 hours before</li>
+        <li>Blood sugar should be &lt;275 mg/dL for accurate results</li>
+        <li>Fast overnight before the test</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Treatment -->
+  <div class="section">
+    <h2><span class="icon-sm">💊</span> Treatment</h2>
+    <p>Treatment focuses on managing symptoms, improving nutrition, and addressing underlying causes.</p>
+
+    <h3>Dietary Management (First Line)</h3>
+    <p>Diet modification is the cornerstone of gastroparesis management:</p>
+    <ul class="checklist">
+      <li>Eat smaller, more frequent meals (5-6 small meals vs. 3 large)</li>
+      <li>Chew food thoroughly</li>
+      <li>Eat slowly</li>
+      <li>Reduce fiber intake (fiber stays in stomach longer)</li>
+      <li>Avoid fatty foods (slow emptying)</li>
+      <li>Choose soft, well-cooked foods</li>
+      <li>Consider liquid or pureed foods during flares</li>
+      <li>Sit upright during and after meals</li>
+      <li>Take a walk after eating (promotes motility)</li>
+      <li>Stay well-hydrated</li>
+    </ul>
+
+    <h3>Foods to Avoid</h3>
+    <ul>
+      <li>High-fat foods (fried foods, fatty meats, rich sauces)</li>
+      <li>High-fiber foods (raw vegetables, whole grains, beans)</li>
+      <li>Tough meats</li>
+      <li>Nuts and seeds</li>
+      <li>Carbonated beverages</li>
+      <li>Alcohol</li>
+      <li>Foods that form bezoars (persimmons, berries with seeds)</li>
+    </ul>
+
+    <h3>Medications</h3>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Type</th>
+          <th>Examples</th>
+          <th>Notes</th>
+        </tr>
+        <tr>
+          <td><strong>Prokinetics</strong></td>
+          <td>Metoclopramide (Reglan), Domperidone, Erythromycin</td>
+          <td>Speed stomach emptying; metoclopramide has significant side effects with long-term use</td>
+        </tr>
+        <tr>
+          <td><strong>Antiemetics</strong></td>
+          <td>Ondansetron, Prochlorperazine, Promethazine</td>
+          <td>Control nausea and vomiting</td>
+        </tr>
+        <tr>
+          <td><strong>Pain management</strong></td>
+          <td>Low-dose tricyclic antidepressants</td>
+          <td>For visceral pain; avoid opioids (worsen gastroparesis)</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="warning">
+      <strong>Metoclopramide warning:</strong> Long-term use (more than 12 weeks) can cause tardive dyskinesia—a serious, often irreversible movement disorder. Use lowest effective dose for shortest duration. FDA "black box" warning applies.
+    </div>
+
+    <h3>Advanced Treatments</h3>
+    <p>For severe, refractory cases:</p>
+    <ul>
+      <li><strong>Gastric Electrical Stimulation (GES):</strong> Implanted device that delivers electrical pulses; FDA approved for nausea reduction</li>
+      <li><strong>Pyloric Botox:</strong> Injection to relax pylorus; temporary benefit</li>
+      <li><strong>Pyloromyotomy (G-POEM):</strong> Endoscopic cutting of pyloric muscle; promising newer option</li>
+      <li><strong>Feeding tubes:</strong> Jejunostomy tube bypasses stomach for nutrition</li>
+      <li><strong>TPN:</strong> IV nutrition for severe cases</li>
+      <li><strong>Gastrectomy:</strong> Rarely, partial or complete stomach removal</li>
+    </ul>
+  </div>
+
+  <!-- For Diabetics -->
+  <div class="section">
+    <h2><span class="icon-sm">🍬</span> Managing Diabetic Gastroparesis</h2>
+    <p>For people with diabetes, gastroparesis creates unique challenges:</p>
+
+    <h3>Blood Sugar Challenges</h3>
+    <ul>
+      <li>Unpredictable stomach emptying makes timing insulin difficult</li>
+      <li>Risk of hypoglycemia if insulin given before food is absorbed</li>
+      <li>Risk of hyperglycemia if food absorption is delayed then rapid</li>
+    </ul>
+
+    <h3>Management Strategies</h3>
+    <ul class="checklist">
+      <li>Maintain blood sugar as close to normal as possible (improves motility)</li>
+      <li>Consider insulin timing adjustments (after meals instead of before)</li>
+      <li>Use faster-acting insulin analogs</li>
+      <li>Consider insulin pump with adjustable delivery</li>
+      <li>Frequent glucose monitoring or continuous glucose monitor</li>
+      <li>Work closely with an endocrinologist</li>
+      <li>Eat consistent amounts at consistent times</li>
+    </ul>
+
+    <div class="note">
+      Good blood sugar control can actually improve gastroparesis symptoms. High blood sugar itself slows stomach emptying, creating a vicious cycle.
+    </div>
+  </div>
+
+  <!-- Living with Gastroparesis -->
+  <div class="section">
+    <h2><span class="icon-sm">🏠</span> Living with Gastroparesis</h2>
+
+    <h3>Daily Management Tips</h3>
+    <ul class="checklist">
+      <li>Keep a food diary to identify trigger foods</li>
+      <li>Eat your largest meal early in the day when stomach works best</li>
+      <li>Avoid lying down for 1-2 hours after eating</li>
+      <li>Stay active—gentle movement helps motility</li>
+      <li>Manage stress (can worsen symptoms)</li>
+      <li>Consider nutritional supplements if needed</li>
+      <li>Carry anti-nausea medication</li>
+      <li>Plan ahead for social eating situations</li>
+    </ul>
+
+    <h3>Nutritional Considerations</h3>
+    <ul>
+      <li>Protein shakes and smoothies can help meet nutritional needs</li>
+      <li>Consider a multivitamin (absorption may be affected)</li>
+      <li>Monitor for deficiencies (iron, B12, fat-soluble vitamins)</li>
+      <li>Work with a registered dietitian specializing in gastroparesis</li>
+    </ul>
+
+    <h3>Emotional Support</h3>
+    <p>Gastroparesis can significantly impact quality of life. Consider:</p>
+    <ul>
+      <li>Joining a gastroparesis support group</li>
+      <li>Talking to a counselor about coping strategies</li>
+      <li>Connecting with others who understand the condition</li>
+      <li>Being open with family and friends about your limitations</li>
+    </ul>
+  </div>
+
+  <!-- FAQ Section -->
+  <div class="section">
+    <h2><span class="icon-sm">❓</span> Frequently Asked Questions</h2>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Can gastroparesis be cured?</div>
+      <div class="accordion-body">
+        It depends on the cause. Post-viral gastroparesis may resolve over months to years. Diabetic gastroparesis can improve significantly with good blood sugar control. However, many cases are chronic and require ongoing management. While there may not be a cure, symptoms can often be controlled with proper treatment.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">What foods are easiest to digest?</div>
+      <div class="accordion-body">
+        Low-fiber, low-fat foods that are soft or liquid are typically best: white bread/rice/pasta, well-cooked vegetables (without skin), lean proteins (ground or pureed), eggs, smooth nut butters, yogurt, pudding, and smoothies. During flares, liquid nutrition may be better tolerated than solid food.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Why do symptoms fluctuate so much?</div>
+      <div class="accordion-body">
+        Gastroparesis symptoms can vary due to many factors: stress, blood sugar levels (in diabetics), hormonal changes, illness, certain foods, medications, and unknown reasons. Many people have "good days" and "bad days." Keeping a symptom diary can help identify patterns and triggers.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Can I still work with gastroparesis?</div>
+      <div class="accordion-body">
+        Many people with gastroparesis can work, though some may need accommodations. Flexible scheduling for meals, access to restrooms, ability to have snacks available, and understanding from employers can help. Severe cases may qualify for disability. Focus on finding strategies that work for your situation.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Are there any promising new treatments?</div>
+      <div class="accordion-body">
+        Yes, research is ongoing. Gastric peroral endoscopic myotomy (G-POEM) shows promising results with long-lasting improvement in many patients. New medications are being studied. Gastric electrical stimulation technology continues to improve. The understanding of gut-brain interactions may lead to new approaches.
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Navigation -->
+  <div class="page-nav">
+    <a href="h-pylori.html" class="prev">H. pylori Infection</a>
+    <a href="index.html" class="next">All Topics</a>
+  </div>
+</div>
+
+<div class="disclaimer">
+  This content is for educational purposes only and does not replace professional medical advice. The creators of GutWise are not medical professionals. Do not start, stop, or change any medication without consulting your doctor. In case of emergency, call 112 (India) or your local emergency number. <a href="terms-of-use.html">Read full Terms of Use & Medical Disclaimer</a>
+</div>
+<div class="privacy-notice">GutWise does not use cookies, collect personal data, or track users.</div>
+<div class="footer">
+  <span class="ai-badge">AI-Assisted Content</span><br>
+  GutWise &bull; Comprehensive Digestive Health Companion &bull; <a href="terms-of-use.html">Terms of Use</a> &bull; Last updated: February 2026
+</div>
+
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
+<button class="scroll-top" aria-label="Scroll to top" id="scrollTop" title="Back to top">&uarr;</button>
+
+<script>
+// Accordion functionality
+document.querySelectorAll('.accordion-header').forEach(function(header) {
+  header.addEventListener('click', function() {
+    var item = this.parentElement;
+    item.classList.toggle('open');
+  });
+});
+
+// Checklist functionality
+document.querySelectorAll('.checklist li').forEach(function(li) {
+  li.addEventListener('click', function() {
+    this.classList.toggle('checked');
+  });
+});
+
+// Scroll to top
+var scrollBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', function() {
+  scrollBtn.classList.toggle('visible', window.scrollY > 400);
+});
+scrollBtn.addEventListener('click', function() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+});
+
+// Theme toggle
+(function(){
+  var t = document.getElementById('themeToggle');
+  var saved = localStorage.getItem('theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+    t.textContent = saved === 'dark' ? '\u2600' : '\u263E';
+  }
+  t.addEventListener('click', function() {
+    var d = document.documentElement.getAttribute('data-theme') === 'dark' ? '' : 'dark';
+    document.documentElement.setAttribute('data-theme', d);
+    localStorage.setItem('theme', d);
+    t.textContent = d === 'dark' ? '\u2600' : '\u263E';
+  });
+})();
+
+// Service Worker Registration
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+</body>
+</html>

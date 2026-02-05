@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barrett's Esophagus - GutWise</title>
+<meta name="description" content="Comprehensive guide to Barrett's esophagus: understanding this precancerous condition, risk factors, surveillance, treatment options, and cancer prevention.">
+<link rel="stylesheet" href="styles.css">
+<script src="lang.js"></script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#4f46e5">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="index.html">GutWise</a>
+    <div style="display:flex;align-items:center;gap:0.5rem;">
+      <a class="home-link" href="index.html">All Topics</a>
+      <a class="lang-switch" href="barretts-esophagus-kn.html">ಕನ್ನಡ</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container" id="main" role="main">
+  <div class="page-header">
+    <h1>Barrett's Esophagus</h1>
+    <p>Understanding this precancerous condition and the importance of monitoring</p>
+  </div>
+  <p class="last-reviewed">Last reviewed: February 2026</p>
+
+  <!-- Animated SVG Illustration -->
+  <div class="illus">
+    <svg viewBox="0 0 400 240" width="340" height="200" role="img" aria-label="Barrett's esophagus illustration showing cell changes">
+      <defs>
+        <linearGradient id="normalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:#fecaca;stop-opacity:1"/>
+          <stop offset="100%" style="stop-color:#fca5a5;stop-opacity:1"/>
+        </linearGradient>
+        <linearGradient id="barrettsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1"/>
+          <stop offset="100%" style="stop-color:#f97316;stop-opacity:1"/>
+        </linearGradient>
+      </defs>
+      <!-- Esophagus outline -->
+      <rect x="150" y="30" width="100" height="140" rx="20" fill="#f5f5f5" stroke="#94a3b8" stroke-width="2"/>
+      <!-- Normal esophageal lining (upper) -->
+      <rect x="160" y="40" width="80" height="50" rx="5" fill="url(#normalGrad)"/>
+      <text x="200" y="70" font-size="9" fill="#7f1d1d" text-anchor="middle">Normal Cells</text>
+      <!-- Barrett's changed lining (lower) -->
+      <rect x="160" y="95" width="80" height="65" rx="5" fill="url(#barrettsGrad)">
+        <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="200" y="130" font-size="9" fill="#7c2d12" text-anchor="middle">Barrett's Cells</text>
+      <!-- Transition zone -->
+      <line x1="160" y1="95" x2="240" y2="95" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,2"/>
+      <!-- Cell representation - normal (flat squamous) -->
+      <g transform="translate(280, 45)">
+        <rect x="0" y="0" width="60" height="40" rx="5" fill="#fef3c7" stroke="#f59e0b"/>
+        <rect x="5" y="5" width="10" height="5" rx="1" fill="#fca5a5"/>
+        <rect x="20" y="5" width="10" height="5" rx="1" fill="#fca5a5"/>
+        <rect x="35" y="5" width="10" height="5" rx="1" fill="#fca5a5"/>
+        <rect x="5" y="15" width="10" height="5" rx="1" fill="#fca5a5"/>
+        <rect x="20" y="15" width="10" height="5" rx="1" fill="#fca5a5"/>
+        <rect x="35" y="15" width="10" height="5" rx="1" fill="#fca5a5"/>
+        <text x="30" y="35" font-size="7" fill="#64748b" text-anchor="middle">Squamous</text>
+      </g>
+      <!-- Cell representation - Barrett's (columnar) -->
+      <g transform="translate(280, 110)">
+        <rect x="0" y="0" width="60" height="40" rx="5" fill="#fef3c7" stroke="#f59e0b"/>
+        <rect x="5" y="5" width="8" height="20" rx="1" fill="#f97316"/>
+        <rect x="15" y="5" width="8" height="20" rx="1" fill="#f97316"/>
+        <rect x="25" y="5" width="8" height="20" rx="1" fill="#f97316"/>
+        <rect x="35" y="5" width="8" height="20" rx="1" fill="#f97316"/>
+        <rect x="45" y="5" width="8" height="20" rx="1" fill="#f97316"/>
+        <text x="30" y="35" font-size="7" fill="#64748b" text-anchor="middle">Columnar</text>
+      </g>
+      <!-- Labels -->
+      <text x="75" y="65" font-size="9" fill="#64748b">Normal</text>
+      <text x="75" y="77" font-size="9" fill="#64748b">lining</text>
+      <text x="75" y="130" font-size="9" fill="#f97316">Barrett's</text>
+      <text x="75" y="142" font-size="9" fill="#f97316">changes</text>
+      <!-- Arrow showing acid damage -->
+      <path d="M200 190 L200 165" stroke="#ef4444" stroke-width="2" marker-end="url(#arrowUp)"/>
+      <text x="200" y="205" font-size="9" fill="#ef4444" text-anchor="middle">Chronic acid exposure</text>
+      <defs>
+        <marker id="arrowUp" markerWidth="10" markerHeight="10" refX="5" refY="10" orient="auto">
+          <path d="M0,10 L5,0 L10,10" fill="none" stroke="#ef4444" stroke-width="2"/>
+        </marker>
+      </defs>
+    </svg>
+  </div>
+
+  <!-- Introduction -->
+  <div class="section">
+    <h2><span class="icon-sm">⚠️</span> What is Barrett's Esophagus?</h2>
+    <p>Barrett's esophagus is a condition in which the normal squamous (flat, scale-like) cells lining the esophagus are replaced by columnar (column-shaped) cells similar to those found in the intestine. This cellular transformation, called intestinal metaplasia, occurs as a result of chronic acid exposure from long-term GERD.</p>
+    <p>Barrett's esophagus is significant because it's considered a precancerous condition—people with Barrett's have an increased risk of developing esophageal adenocarcinoma, a type of esophageal cancer. However, it's important to note that the absolute risk is still relatively low, and with proper surveillance, most cancers can be prevented or caught early.</p>
+
+    <div class="info-cards">
+      <div class="info-card">
+        <span class="ic-icon">📊</span>
+        <div class="ic-title">3-5%</div>
+        <div class="ic-text">Of GERD patients develop it</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">👨</span>
+        <div class="ic-title">2-3x</div>
+        <div class="ic-text">More common in men</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">📈</span>
+        <div class="ic-title">0.5%/year</div>
+        <div class="ic-text">Cancer progression risk</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">🔍</span>
+        <div class="ic-title">Surveillance</div>
+        <div class="ic-text">Key to prevention</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Causes and Risk Factors -->
+  <div class="section">
+    <h2><span class="icon-sm">⚡</span> Causes and Risk Factors</h2>
+
+    <h3>The Primary Cause: Chronic GERD</h3>
+    <p>Barrett's esophagus develops when the esophagus is repeatedly exposed to stomach acid over many years. The body adapts to this hostile environment by replacing the normal esophageal cells with acid-resistant cells—a protective mechanism that unfortunately carries cancer risk.</p>
+
+    <h3>Risk Factors</h3>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Risk Factor</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td><strong>Long-term GERD</strong></td>
+          <td>5+ years of frequent heartburn significantly increases risk</td>
+        </tr>
+        <tr>
+          <td><strong>Age</strong></td>
+          <td>Most commonly diagnosed in people 50+</td>
+        </tr>
+        <tr>
+          <td><strong>Male sex</strong></td>
+          <td>2-3 times more common in men</td>
+        </tr>
+        <tr>
+          <td><strong>Caucasian ethnicity</strong></td>
+          <td>Higher risk in white populations</td>
+        </tr>
+        <tr>
+          <td><strong>Obesity</strong></td>
+          <td>Especially abdominal obesity (central adiposity)</td>
+        </tr>
+        <tr>
+          <td><strong>Smoking</strong></td>
+          <td>Current or past smoking increases risk</td>
+        </tr>
+        <tr>
+          <td><strong>Family history</strong></td>
+          <td>Barrett's or esophageal cancer in relatives</td>
+        </tr>
+        <tr>
+          <td><strong>Hiatal hernia</strong></td>
+          <td>Associated with more severe reflux</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="note">
+      Interestingly, H. pylori infection (which causes ulcers) may actually be protective against Barrett's esophagus, possibly by reducing stomach acid production. However, this doesn't mean H. pylori infection is beneficial—it carries its own serious risks.
+    </div>
+  </div>
+
+  <!-- Symptoms -->
+  <div class="section">
+    <h2><span class="icon-sm">🔍</span> Symptoms</h2>
+    <p>Barrett's esophagus itself typically causes no specific symptoms. Instead, people usually experience symptoms of the underlying GERD:</p>
+    <ul>
+      <li>Frequent heartburn</li>
+      <li>Difficulty swallowing (dysphagia)</li>
+      <li>Chest pain</li>
+      <li>Regurgitation of food or sour liquid</li>
+      <li>Night-time symptoms disrupting sleep</li>
+    </ul>
+
+    <div class="warning">
+      <strong>Paradox:</strong> Some people with Barrett's actually have fewer GERD symptoms because the new cells are more resistant to acid. This can be dangerous because the lack of symptoms may delay diagnosis. If you've had long-term GERD, don't assume improvement means you're "cured."
+    </div>
+
+    <h3>Warning Signs Requiring Immediate Evaluation</h3>
+    <div class="danger">
+      <ul>
+        <li>Progressive difficulty swallowing</li>
+        <li>Unintentional weight loss</li>
+        <li>Vomiting blood or material resembling coffee grounds</li>
+        <li>Black, tarry stools</li>
+        <li>Chest pain (rule out cardiac causes first)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Diagnosis -->
+  <div class="section">
+    <h2><span class="icon-sm">🩺</span> Diagnosis</h2>
+    <p>Barrett's esophagus is diagnosed through upper endoscopy with biopsy:</p>
+
+    <h3>The Diagnostic Process</h3>
+    <ol>
+      <li><strong>Upper Endoscopy (EGD):</strong> A thin, flexible tube with a camera is passed through the mouth into the esophagus</li>
+      <li><strong>Visual Inspection:</strong> Barrett's tissue often appears salmon-colored (pink-red) compared to the normal pale pink esophageal lining</li>
+      <li><strong>Biopsy:</strong> Multiple tissue samples are taken from the abnormal-appearing area</li>
+      <li><strong>Histological Analysis:</strong> Pathologist examines cells under microscope for intestinal metaplasia and dysplasia</li>
+    </ol>
+
+    <h3>Classification of Barrett's</h3>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Finding</th>
+          <th>What It Means</th>
+          <th>Surveillance Interval</th>
+        </tr>
+        <tr>
+          <td><strong>Non-dysplastic Barrett's</strong></td>
+          <td>Changed cells but no precancerous changes</td>
+          <td>Every 3-5 years</td>
+        </tr>
+        <tr>
+          <td><strong>Low-grade dysplasia (LGD)</strong></td>
+          <td>Mild precancerous changes</td>
+          <td>Every 6-12 months, or treatment</td>
+        </tr>
+        <tr>
+          <td><strong>High-grade dysplasia (HGD)</strong></td>
+          <td>Significant precancerous changes</td>
+          <td>Treatment usually recommended</td>
+        </tr>
+        <tr>
+          <td><strong>Intramucosal carcinoma</strong></td>
+          <td>Very early cancer confined to lining</td>
+          <td>Treatment required</td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>Who Should Be Screened?</h3>
+    <p>Guidelines recommend considering screening endoscopy for people with:</p>
+    <ul>
+      <li>Chronic GERD symptoms (5+ years), especially if not well-controlled</li>
+      <li>Multiple risk factors (male, over 50, Caucasian, obese, smoker)</li>
+      <li>Family history of Barrett's or esophageal cancer</li>
+    </ul>
+  </div>
+
+  <!-- Treatment -->
+  <div class="section">
+    <h2><span class="icon-sm">💊</span> Treatment Options</h2>
+
+    <h3>For All Barrett's Patients</h3>
+    <ul class="checklist">
+      <li>Aggressive acid suppression with PPIs (usually once or twice daily)</li>
+      <li>Lifestyle modifications for GERD</li>
+      <li>Weight loss if overweight</li>
+      <li>Smoking cessation</li>
+      <li>Regular surveillance endoscopies</li>
+    </ul>
+
+    <h3>Treatment Based on Dysplasia Status</h3>
+
+    <h4>Non-Dysplastic Barrett's</h4>
+    <ul>
+      <li>PPIs to control acid and potentially prevent progression</li>
+      <li>Surveillance endoscopy every 3-5 years</li>
+      <li>No endoscopic treatment typically needed</li>
+    </ul>
+
+    <h4>Low-Grade Dysplasia</h4>
+    <ul>
+      <li>Confirm diagnosis with expert pathologist review</li>
+      <li>Options: Intensive surveillance OR endoscopic treatment</li>
+      <li>Radiofrequency ablation (RFA) increasingly recommended</li>
+    </ul>
+
+    <h4>High-Grade Dysplasia</h4>
+    <ul>
+      <li>Treatment strongly recommended (high cancer risk)</li>
+      <li>Endoscopic treatment preferred over surgery for most patients</li>
+    </ul>
+
+    <h3>Endoscopic Treatment Options</h3>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Treatment</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td><strong>Radiofrequency Ablation (RFA)</strong></td>
+          <td>Uses heat energy to destroy Barrett's tissue; most common treatment</td>
+        </tr>
+        <tr>
+          <td><strong>Cryotherapy</strong></td>
+          <td>Uses extreme cold to destroy abnormal cells</td>
+        </tr>
+        <tr>
+          <td><strong>Endoscopic Mucosal Resection (EMR)</strong></td>
+          <td>Removes visible nodules or areas of concern</td>
+        </tr>
+        <tr>
+          <td><strong>Photodynamic Therapy (PDT)</strong></td>
+          <td>Light-activated drug destroys abnormal cells (less commonly used)</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="tip">
+      After successful ablation, Barrett's tissue is replaced by normal esophageal cells. However, recurrence is possible, so ongoing surveillance and acid suppression remain important.
+    </div>
+  </div>
+
+  <!-- Cancer Risk -->
+  <div class="section">
+    <h2><span class="icon-sm">🎗️</span> Understanding the Cancer Risk</h2>
+    <p>While Barrett's esophagus does increase cancer risk, it's important to put this in perspective:</p>
+
+    <h3>The Numbers</h3>
+    <ul>
+      <li><strong>Annual cancer risk:</strong> Approximately 0.5% per year for non-dysplastic Barrett's</li>
+      <li><strong>Lifetime risk:</strong> About 5-10% over a lifetime</li>
+      <li><strong>Context:</strong> Most people with Barrett's do NOT develop cancer</li>
+    </ul>
+
+    <h3>Factors That Increase Progression Risk</h3>
+    <ul>
+      <li>Presence and severity of dysplasia</li>
+      <li>Longer segment of Barrett's tissue</li>
+      <li>Continued smoking</li>
+      <li>Obesity</li>
+      <li>Poor acid control</li>
+    </ul>
+
+    <h3>Factors That May Reduce Risk</h3>
+    <ul>
+      <li>Regular PPI use</li>
+      <li>Aspirin use (discuss with doctor—not recommended solely for this purpose)</li>
+      <li>Statin use (some evidence)</li>
+      <li>Maintaining healthy weight</li>
+      <li>Not smoking</li>
+    </ul>
+
+    <div class="note">
+      Surveillance endoscopies save lives by detecting dysplasia and early cancer when treatment is most effective. Adherence to surveillance schedules is crucial.
+    </div>
+  </div>
+
+  <!-- Living with Barrett's -->
+  <div class="section">
+    <h2><span class="icon-sm">🏠</span> Living with Barrett's Esophagus</h2>
+
+    <h3>Daily Management</h3>
+    <ul class="checklist">
+      <li>Take PPIs as prescribed (usually long-term)</li>
+      <li>Follow GERD lifestyle modifications rigorously</li>
+      <li>Maintain a healthy weight</li>
+      <li>Don't smoke—quit if you do</li>
+      <li>Limit alcohol consumption</li>
+      <li>Attend all surveillance appointments</li>
+      <li>Report new or worsening symptoms promptly</li>
+    </ul>
+
+    <h3>Emotional Considerations</h3>
+    <p>Being diagnosed with a precancerous condition can cause significant anxiety. Remember:</p>
+    <ul>
+      <li>Most people with Barrett's never develop cancer</li>
+      <li>Regular surveillance catches problems early</li>
+      <li>Effective treatments exist for dysplasia</li>
+      <li>You're taking proactive steps by being monitored</li>
+      <li>Consider joining a support group if anxiety is significant</li>
+    </ul>
+  </div>
+
+  <!-- FAQ Section -->
+  <div class="section">
+    <h2><span class="icon-sm">❓</span> Frequently Asked Questions</h2>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Can Barrett's esophagus be reversed?</div>
+      <div class="accordion-body">
+        Yes, in some cases. Endoscopic treatments like radiofrequency ablation can successfully eliminate Barrett's tissue, which is then replaced by normal cells. However, even after successful treatment, surveillance continues because recurrence is possible. Acid suppression alone typically doesn't reverse Barrett's but may help prevent progression.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Do I need to take PPIs forever?</div>
+      <div class="accordion-body">
+        Most experts recommend long-term PPI therapy for Barrett's patients. PPIs control acid reflux and may help prevent progression to dysplasia and cancer. While there are concerns about long-term PPI use, for most Barrett's patients, the benefits outweigh the risks. Discuss with your doctor if you have concerns.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">How often do I need endoscopy?</div>
+      <div class="accordion-body">
+        Surveillance intervals depend on your findings: Non-dysplastic Barrett's: every 3-5 years. Low-grade dysplasia: every 6-12 months if not treated. After ablation treatment: at 3 months, then yearly for several years. Your doctor may adjust these based on your specific situation.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Should my family members be screened?</div>
+      <div class="accordion-body">
+        Having a family member with Barrett's or esophageal cancer does increase risk. First-degree relatives (parents, siblings, children) may benefit from screening, especially if they have GERD symptoms. Discuss this with their healthcare provider to determine if screening is appropriate.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">What's the difference between Barrett's and esophageal cancer?</div>
+      <div class="accordion-body">
+        Barrett's esophagus is a precancerous condition—the cells have changed but are not yet cancerous. It can progress through stages (low-grade dysplasia, high-grade dysplasia) before becoming cancer. Most people with Barrett's never develop cancer, especially with proper surveillance and treatment of dysplasia when found.
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Navigation -->
+  <div class="page-nav">
+    <a href="hiatal-hernia.html" class="prev">Hiatal Hernia</a>
+    <a href="gastritis.html" class="next">Gastritis</a>
+  </div>
+</div>
+
+<div class="disclaimer">
+  This content is for educational purposes only and does not replace professional medical advice. The creators of GutWise are not medical professionals. Do not start, stop, or change any medication without consulting your doctor. In case of emergency, call 112 (India) or your local emergency number. <a href="terms-of-use.html">Read full Terms of Use & Medical Disclaimer</a>
+</div>
+<div class="privacy-notice">GutWise does not use cookies, collect personal data, or track users.</div>
+<div class="footer">
+  <span class="ai-badge">AI-Assisted Content</span><br>
+  GutWise &bull; Comprehensive Digestive Health Companion &bull; <a href="terms-of-use.html">Terms of Use</a> &bull; Last updated: February 2026
+</div>
+
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
+<button class="scroll-top" aria-label="Scroll to top" id="scrollTop" title="Back to top">&uarr;</button>
+
+<script>
+// Accordion functionality
+document.querySelectorAll('.accordion-header').forEach(function(header) {
+  header.addEventListener('click', function() {
+    var item = this.parentElement;
+    item.classList.toggle('open');
+  });
+});
+
+// Checklist functionality
+document.querySelectorAll('.checklist li').forEach(function(li) {
+  li.addEventListener('click', function() {
+    this.classList.toggle('checked');
+  });
+});
+
+// Scroll to top
+var scrollBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', function() {
+  scrollBtn.classList.toggle('visible', window.scrollY > 400);
+});
+scrollBtn.addEventListener('click', function() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+});
+
+// Theme toggle
+(function(){
+  var t = document.getElementById('themeToggle');
+  var saved = localStorage.getItem('theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+    t.textContent = saved === 'dark' ? '\u2600' : '\u263E';
+  }
+  t.addEventListener('click', function() {
+    var d = document.documentElement.getAttribute('data-theme') === 'dark' ? '' : 'dark';
+    document.documentElement.setAttribute('data-theme', d);
+    localStorage.setItem('theme', d);
+    t.textContent = d === 'dark' ? '\u2600' : '\u263E';
+  });
+})();
+
+// Service Worker Registration
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+</body>
+</html>

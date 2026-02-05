@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digestive System Overview - GutWise</title>
+<meta name="description" content="Complete guide to the human digestive system anatomy, organs, and their functions. Learn how your GI tract works.">
+<link rel="stylesheet" href="styles.css">
+<script src="lang.js"></script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#4f46e5">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="index.html">GutWise</a>
+    <div style="display:flex;align-items:center;gap:0.5rem;">
+      <a class="home-link" href="index.html">All Topics</a>
+      <a class="lang-switch" href="digestive-system-overview-kn.html">ಕನ್ನಡ</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container" id="main" role="main">
+  <div class="page-header">
+    <h1>Digestive System Overview</h1>
+    <p>Understanding the amazing machinery that breaks down food and fuels your body</p>
+  </div>
+  <p class="last-reviewed">Last reviewed: February 2026</p>
+
+  <!-- Animated SVG Illustration -->
+  <div class="illus">
+    <svg viewBox="0 0 400 300" width="320" height="240" role="img" aria-label="Digestive system illustration">
+      <defs>
+        <linearGradient id="organGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#f97316;stop-opacity:1"/>
+          <stop offset="100%" style="stop-color:#ea580c;stop-opacity:1"/>
+        </linearGradient>
+        <linearGradient id="tubeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:#fb923c;stop-opacity:1"/>
+          <stop offset="100%" style="stop-color:#f97316;stop-opacity:1"/>
+        </linearGradient>
+      </defs>
+      <!-- Body outline -->
+      <ellipse cx="200" cy="150" rx="120" ry="130" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+      <!-- Esophagus -->
+      <path d="M200 30 Q200 50 195 70 Q190 90 195 110" stroke="url(#tubeGrad)" stroke-width="12" fill="none" stroke-linecap="round">
+        <animate attributeName="stroke-dasharray" values="0,200;100,100;0,200" dur="3s" repeatCount="indefinite"/>
+      </path>
+      <!-- Stomach -->
+      <ellipse cx="185" cy="140" rx="40" ry="30" fill="url(#organGrad)">
+        <animate attributeName="rx" values="40;42;40" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="ry" values="30;32;30" dur="2s" repeatCount="indefinite"/>
+      </ellipse>
+      <!-- Small intestine -->
+      <path d="M185 170 Q220 180 210 200 Q200 220 230 230 Q260 240 240 260 Q220 280 180 270 Q140 260 160 240 Q180 220 150 210 Q120 200 140 180" stroke="#10b981" stroke-width="8" fill="none" stroke-linecap="round">
+        <animate attributeName="stroke-dashoffset" values="0;50;0" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <!-- Large intestine -->
+      <path d="M140 180 Q100 180 100 140 Q100 100 140 100 Q180 100 220 100 Q280 100 280 140 Q280 200 280 260 Q280 280 240 280" stroke="#0ea5e9" stroke-width="14" fill="none" stroke-linecap="round" stroke-opacity="0.8"/>
+      <!-- Liver -->
+      <ellipse cx="260" cy="120" rx="35" ry="25" fill="#7c3aed" opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.9;0.7" dur="3s" repeatCount="indefinite"/>
+      </ellipse>
+      <!-- Pancreas -->
+      <ellipse cx="220" cy="165" rx="25" ry="10" fill="#ec4899" opacity="0.7"/>
+      <!-- Labels -->
+      <text x="320" y="50" font-size="10" fill="#64748b">Esophagus</text>
+      <text x="320" y="130" font-size="10" fill="#64748b">Liver</text>
+      <text x="320" y="145" font-size="10" fill="#64748b">Stomach</text>
+      <text x="320" y="175" font-size="10" fill="#64748b">Pancreas</text>
+      <text x="320" y="220" font-size="10" fill="#64748b">Small Intestine</text>
+      <text x="320" y="260" font-size="10" fill="#64748b">Large Intestine</text>
+    </svg>
+  </div>
+
+  <!-- Quick Facts Section -->
+  <div class="section">
+    <h2><span class="icon-sm">📊</span> Quick Facts About Your Digestive System</h2>
+    <div class="info-cards">
+      <div class="info-card">
+        <span class="ic-icon">📏</span>
+        <div class="ic-title">30 Feet Long</div>
+        <div class="ic-text">Total length of adult GI tract</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">⏱️</span>
+        <div class="ic-title">24-72 Hours</div>
+        <div class="ic-text">Complete digestion time</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">💧</span>
+        <div class="ic-title">7 Liters</div>
+        <div class="ic-text">Daily digestive secretions</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">🦠</span>
+        <div class="ic-title">100 Trillion</div>
+        <div class="ic-text">Bacteria in your gut</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- What is the Digestive System -->
+  <div class="section">
+    <h2><span class="icon-sm">🔬</span> What is the Digestive System?</h2>
+    <p>The digestive system is a complex series of organs and glands that process the food you eat. It converts food into essential nutrients that your body uses for energy, growth, and cell repair. The system consists of the gastrointestinal (GI) tract, also called the digestive tract, along with accessory organs including the liver, pancreas, and gallbladder.</p>
+    <p>Think of your digestive system as a sophisticated food processing plant. Food enters through your mouth, travels through a long tube undergoing various mechanical and chemical transformations, and the waste products eventually exit through the rectum. Along this journey, nutrients are extracted and absorbed into your bloodstream to nourish every cell in your body.</p>
+    <div class="note">
+      The digestive system is often called the "second brain" because it contains about 500 million neurons and can operate independently of the brain through the enteric nervous system.
+    </div>
+  </div>
+
+  <!-- Organs of the Digestive System -->
+  <div class="section">
+    <h2><span class="icon-sm">🫀</span> Major Organs of the Digestive System</h2>
+
+    <h3>1. Mouth (Oral Cavity)</h3>
+    <p>Digestion begins in your mouth. Your teeth mechanically break down food through chewing (mastication), while salivary glands produce saliva containing enzymes like amylase that start breaking down carbohydrates. The tongue helps mix food with saliva and forms it into a bolus for swallowing. Adults produce approximately 1-1.5 liters of saliva daily.</p>
+
+    <h3>2. Pharynx and Esophagus</h3>
+    <p>The pharynx (throat) connects the mouth to the esophagus. When you swallow, the epiglottis closes over the trachea to prevent food from entering your airways. The esophagus is a muscular tube about 25 centimeters long that transports food to the stomach through coordinated muscle contractions called peristalsis. This process takes about 6-8 seconds for most foods.</p>
+
+    <h3>3. Stomach</h3>
+    <p>The stomach is a J-shaped muscular organ that serves as a food reservoir and mixing chamber. It can expand to hold up to 1.5 liters of food and liquid. The stomach's main functions include:</p>
+    <ul>
+      <li><strong>Mechanical digestion:</strong> Strong muscular contractions churn and mix food</li>
+      <li><strong>Chemical digestion:</strong> Gastric juices containing hydrochloric acid (pH 1.5-3.5) and pepsin break down proteins</li>
+      <li><strong>Storage:</strong> Food is stored and released gradually into the small intestine</li>
+      <li><strong>Protection:</strong> Acidic environment kills most harmful bacteria</li>
+    </ul>
+    <p>Food typically remains in the stomach for 2-5 hours, depending on its composition. High-fat meals take longer to digest than carbohydrate-rich foods.</p>
+
+    <h3>4. Small Intestine</h3>
+    <p>The small intestine is the primary site of nutrient absorption. Despite its name, it is the longest part of the GI tract, measuring about 6 meters (20 feet) in length. It consists of three sections:</p>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Section</th>
+          <th>Length</th>
+          <th>Primary Function</th>
+        </tr>
+        <tr>
+          <td><strong>Duodenum</strong></td>
+          <td>25-30 cm</td>
+          <td>Receives bile and pancreatic enzymes; continues chemical digestion</td>
+        </tr>
+        <tr>
+          <td><strong>Jejunum</strong></td>
+          <td>2.5 meters</td>
+          <td>Primary site for nutrient absorption</td>
+        </tr>
+        <tr>
+          <td><strong>Ileum</strong></td>
+          <td>3.5 meters</td>
+          <td>Absorbs vitamin B12 and bile salts; connects to large intestine</td>
+        </tr>
+      </table>
+    </div>
+    <p>The inner surface of the small intestine is covered with millions of finger-like projections called villi, which dramatically increase the surface area for absorption to approximately 250 square meters—about the size of a tennis court!</p>
+
+    <h3>5. Large Intestine (Colon)</h3>
+    <p>The large intestine is about 1.5 meters (5 feet) long and 6-7 centimeters in diameter. Its main functions include:</p>
+    <ul>
+      <li>Absorbing water and electrolytes from indigestible food matter</li>
+      <li>Hosting beneficial bacteria that synthesize certain vitamins (K, B12, thiamine, riboflavin)</li>
+      <li>Forming and storing feces until elimination</li>
+      <li>Fermenting unabsorbed material by gut bacteria</li>
+    </ul>
+    <p>The large intestine consists of the cecum, ascending colon, transverse colon, descending colon, sigmoid colon, rectum, and anal canal. Transit through the large intestine typically takes 12-36 hours.</p>
+  </div>
+
+  <!-- Accessory Organs -->
+  <div class="section">
+    <h2><span class="icon-sm">🔧</span> Accessory Digestive Organs</h2>
+
+    <h3>Liver</h3>
+    <p>The liver is the largest internal organ, weighing about 1.5 kg in adults. It performs over 500 vital functions, including:</p>
+    <ul>
+      <li>Producing bile (500-1000 ml daily) to emulsify fats</li>
+      <li>Processing nutrients absorbed from the intestines</li>
+      <li>Detoxifying harmful substances</li>
+      <li>Storing glycogen, vitamins, and minerals</li>
+      <li>Producing proteins essential for blood clotting</li>
+    </ul>
+
+    <h3>Gallbladder</h3>
+    <p>This small, pear-shaped organ stores and concentrates bile produced by the liver. When fatty foods enter the duodenum, the gallbladder contracts and releases bile through the common bile duct to aid fat digestion.</p>
+
+    <h3>Pancreas</h3>
+    <p>The pancreas serves both digestive and endocrine functions. For digestion, it produces:</p>
+    <ul>
+      <li><strong>Pancreatic amylase:</strong> Breaks down carbohydrates</li>
+      <li><strong>Lipase:</strong> Digests fats</li>
+      <li><strong>Trypsin and chymotrypsin:</strong> Break down proteins</li>
+      <li><strong>Bicarbonate:</strong> Neutralizes stomach acid in the duodenum</li>
+    </ul>
+    <div class="tip">
+      The pancreas produces about 1.5 liters of digestive juice daily, containing enzymes essential for the complete digestion of all major nutrients.
+    </div>
+  </div>
+
+  <!-- How Food Travels -->
+  <div class="section">
+    <h2><span class="icon-sm">🚀</span> The Journey of Food Through Your Body</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-title">Mouth (0-30 seconds)</div>
+        <div class="timeline-text">Food is chewed and mixed with saliva. Carbohydrate digestion begins with salivary amylase.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">Esophagus (6-8 seconds)</div>
+        <div class="timeline-text">Peristaltic waves push the food bolus toward the stomach.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">Stomach (2-5 hours)</div>
+        <div class="timeline-text">Food is churned and mixed with gastric juices. Proteins begin breaking down.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">Small Intestine (3-5 hours)</div>
+        <div class="timeline-text">Most chemical digestion and nutrient absorption occurs here.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-title">Large Intestine (12-36 hours)</div>
+        <div class="timeline-text">Water absorption, bacterial fermentation, and feces formation.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Functions Summary -->
+  <div class="section">
+    <h2><span class="icon-sm">⚡</span> Six Essential Functions of Digestion</h2>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Function</th>
+          <th>Description</th>
+          <th>Where It Occurs</th>
+        </tr>
+        <tr>
+          <td><strong>Ingestion</strong></td>
+          <td>Taking food into the body</td>
+          <td>Mouth</td>
+        </tr>
+        <tr>
+          <td><strong>Propulsion</strong></td>
+          <td>Moving food through the GI tract</td>
+          <td>Throughout the tract (peristalsis)</td>
+        </tr>
+        <tr>
+          <td><strong>Mechanical Digestion</strong></td>
+          <td>Physical breakdown of food</td>
+          <td>Mouth, stomach</td>
+        </tr>
+        <tr>
+          <td><strong>Chemical Digestion</strong></td>
+          <td>Enzymatic breakdown of nutrients</td>
+          <td>Mouth, stomach, small intestine</td>
+        </tr>
+        <tr>
+          <td><strong>Absorption</strong></td>
+          <td>Transfer of nutrients to bloodstream</td>
+          <td>Primarily small intestine</td>
+        </tr>
+        <tr>
+          <td><strong>Defecation</strong></td>
+          <td>Elimination of waste products</td>
+          <td>Large intestine, rectum</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Keeping Your Digestive System Healthy -->
+  <div class="section">
+    <h2><span class="icon-sm">💪</span> Tips for a Healthy Digestive System</h2>
+    <ul class="checklist">
+      <li>Eat a fiber-rich diet (25-30 grams daily) including fruits, vegetables, and whole grains</li>
+      <li>Stay well-hydrated by drinking 8-10 glasses of water daily</li>
+      <li>Chew food thoroughly—aim for 20-30 chews per bite</li>
+      <li>Eat regular meals at consistent times</li>
+      <li>Exercise regularly to promote gut motility</li>
+      <li>Manage stress through relaxation techniques</li>
+      <li>Limit processed foods, excess sugar, and unhealthy fats</li>
+      <li>Include probiotic-rich foods like yogurt and fermented vegetables</li>
+      <li>Avoid lying down immediately after eating</li>
+      <li>Limit alcohol consumption and avoid smoking</li>
+    </ul>
+  </div>
+
+  <!-- Warning Signs -->
+  <div class="section">
+    <h2><span class="icon-sm">⚠️</span> When to See a Doctor</h2>
+    <p>While occasional digestive discomfort is normal, certain symptoms warrant medical attention:</p>
+    <div class="warning">
+      <strong>Seek medical advice if you experience:</strong>
+      <ul>
+        <li>Persistent abdominal pain or cramping</li>
+        <li>Unexplained weight loss</li>
+        <li>Blood in stool or black, tarry stools</li>
+        <li>Chronic diarrhea or constipation</li>
+        <li>Difficulty swallowing</li>
+        <li>Persistent heartburn or acid reflux</li>
+        <li>Severe nausea or vomiting</li>
+        <li>Jaundice (yellowing of skin or eyes)</li>
+      </ul>
+    </div>
+    <div class="danger">
+      <strong>Seek immediate emergency care for:</strong> Severe abdominal pain, vomiting blood, or signs of internal bleeding. Call emergency services (112 in India) immediately.
+    </div>
+  </div>
+
+  <!-- FAQ Accordion -->
+  <div class="section">
+    <h2><span class="icon-sm">❓</span> Frequently Asked Questions</h2>
+
+    <div class="accordion-item">
+      <div class="accordion-header">How long does digestion take?</div>
+      <div class="accordion-body">
+        Complete digestion typically takes 24-72 hours. Food spends about 6-8 hours in the stomach and small intestine, while passage through the colon takes the longest—usually 12-36 hours. Factors like fiber content, hydration, and physical activity affect transit time.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Why does my stomach growl?</div>
+      <div class="accordion-body">
+        Stomach growling (borborygmi) occurs when gas and fluids move through the intestines. It's most noticeable when the stomach is empty because there's no food to muffle the sound. This is a normal part of digestive function and not a cause for concern.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Can the digestive system repair itself?</div>
+      <div class="accordion-body">
+        Yes, the digestive system has remarkable regenerative abilities. The stomach lining replaces itself every few days, and the intestinal lining renews every 3-5 days. However, chronic damage from conditions like GERD or IBD can impair this healing process.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">How does stress affect digestion?</div>
+      <div class="accordion-body">
+        Stress activates the "fight or flight" response, diverting blood flow away from digestive organs and slowing digestion. This can cause symptoms like stomach pain, nausea, diarrhea, or constipation. Chronic stress can worsen conditions like IBS and acid reflux.
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Navigation -->
+  <div class="page-nav">
+    <a href="index.html" class="prev">Home</a>
+    <a href="how-digestion-works.html" class="next">How Digestion Works</a>
+  </div>
+</div>
+
+<div class="disclaimer">
+  This content is for educational purposes only and does not replace professional medical advice. The creators of GutWise are not medical professionals. Do not start, stop, or change any medication without consulting your doctor. In case of emergency, call 112 (India) or your local emergency number. <a href="terms-of-use.html">Read full Terms of Use & Medical Disclaimer</a>
+</div>
+<div class="privacy-notice">GutWise does not use cookies, collect personal data, or track users.</div>
+<div class="footer">
+  <span class="ai-badge">AI-Assisted Content</span><br>
+  GutWise &bull; Comprehensive Digestive Health Companion &bull; <a href="terms-of-use.html">Terms of Use</a> &bull; Last updated: February 2026
+</div>
+
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
+<button class="scroll-top" aria-label="Scroll to top" id="scrollTop" title="Back to top">&uarr;</button>
+
+<script>
+// Accordion functionality
+document.querySelectorAll('.accordion-header').forEach(function(header) {
+  header.addEventListener('click', function() {
+    var item = this.parentElement;
+    item.classList.toggle('open');
+  });
+});
+
+// Checklist functionality
+document.querySelectorAll('.checklist li').forEach(function(li) {
+  li.addEventListener('click', function() {
+    this.classList.toggle('checked');
+  });
+});
+
+// Scroll to top
+var scrollBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', function() {
+  scrollBtn.classList.toggle('visible', window.scrollY > 400);
+});
+scrollBtn.addEventListener('click', function() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+});
+
+// Theme toggle
+(function(){
+  var t = document.getElementById('themeToggle');
+  var saved = localStorage.getItem('theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+    t.textContent = saved === 'dark' ? '\u2600' : '\u263E';
+  }
+  t.addEventListener('click', function() {
+    var d = document.documentElement.getAttribute('data-theme') === 'dark' ? '' : 'dark';
+    document.documentElement.setAttribute('data-theme', d);
+    localStorage.setItem('theme', d);
+    t.textContent = d === 'dark' ? '\u2600' : '\u263E';
+  });
+})();
+
+// Service Worker Registration
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+</body>
+</html>

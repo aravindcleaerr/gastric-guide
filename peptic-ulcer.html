@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peptic Ulcer Disease - GutWise</title>
+<meta name="description" content="Comprehensive guide to peptic ulcer disease: gastric and duodenal ulcers, causes, symptoms, diagnosis, treatment, and prevention strategies.">
+<link rel="stylesheet" href="styles.css">
+<script src="lang.js"></script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#4f46e5">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="index.html">GutWise</a>
+    <div style="display:flex;align-items:center;gap:0.5rem;">
+      <a class="home-link" href="index.html">All Topics</a>
+      <a class="lang-switch" href="peptic-ulcer-kn.html">ಕನ್ನಡ</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container" id="main" role="main">
+  <div class="page-header">
+    <h1>Peptic Ulcer Disease</h1>
+    <p>Understanding open sores in the stomach and small intestine lining</p>
+  </div>
+  <p class="last-reviewed">Last reviewed: February 2026</p>
+
+  <!-- Animated SVG Illustration -->
+  <div class="illus">
+    <svg viewBox="0 0 400 240" width="340" height="200" role="img" aria-label="Peptic ulcer illustration">
+      <defs>
+        <linearGradient id="ulcerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1"/>
+          <stop offset="100%" style="stop-color:#b91c1c;stop-opacity:1"/>
+        </linearGradient>
+      </defs>
+      <!-- Stomach -->
+      <path d="M100 70 Q60 90 70 140 Q80 190 160 200 Q240 210 260 160 Q280 110 250 80 Q220 60 180 60 Q140 60 100 70" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+      <!-- Duodenum (small intestine start) -->
+      <path d="M260 150 Q300 145 310 180 Q320 215 280 230" stroke="#fde68a" stroke-width="30" stroke-linecap="round" fill="none"/>
+      <path d="M260 150 Q300 145 310 180 Q320 215 280 230" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" fill="none"/>
+      <!-- Gastric ulcer -->
+      <ellipse cx="150" cy="140" rx="18" ry="12" fill="url(#ulcerGrad)">
+        <animate attributeName="ry" values="12;14;12" dur="2s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="150" cy="140" rx="10" ry="6" fill="#7f1d1d"/>
+      <!-- Duodenal ulcer -->
+      <ellipse cx="305" cy="185" rx="14" ry="10" fill="url(#ulcerGrad)">
+        <animate attributeName="rx" values="14;16;14" dur="2.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="305" cy="185" rx="8" ry="5" fill="#7f1d1d"/>
+      <!-- Labels -->
+      <text x="80" y="140" font-size="9" fill="#ef4444">Gastric</text>
+      <text x="80" y="152" font-size="9" fill="#ef4444">Ulcer</text>
+      <text x="330" y="185" font-size="9" fill="#ef4444">Duodenal</text>
+      <text x="330" y="197" font-size="9" fill="#ef4444">Ulcer</text>
+      <text x="160" y="50" font-size="10" fill="#64748b">Stomach</text>
+      <text x="280" y="245" font-size="10" fill="#64748b">Duodenum</text>
+    </svg>
+  </div>
+
+  <!-- Introduction -->
+  <div class="section">
+    <h2><span class="icon-sm">🩹</span> What is Peptic Ulcer Disease?</h2>
+    <p>Peptic ulcer disease (PUD) refers to open sores that develop on the inner lining of the stomach, upper small intestine (duodenum), or esophagus. These ulcers occur when the protective mucus layer that lines the digestive tract is eroded, allowing digestive acids to damage the tissue beneath.</p>
+    <p>The term "peptic" refers to pepsin, a digestive enzyme in the stomach. The two most common types are gastric ulcers (in the stomach) and duodenal ulcers (in the first part of the small intestine).</p>
+
+    <div class="info-cards">
+      <div class="info-card">
+        <span class="ic-icon">🦠</span>
+        <div class="ic-title">H. pylori</div>
+        <div class="ic-text">Causes 60-80% of ulcers</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">💊</span>
+        <div class="ic-title">NSAIDs</div>
+        <div class="ic-text">Second most common cause</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">📊</span>
+        <div class="ic-title">10%</div>
+        <div class="ic-text">Lifetime risk of developing</div>
+      </div>
+      <div class="info-card">
+        <span class="ic-icon">✅</span>
+        <div class="ic-title">Curable</div>
+        <div class="ic-text">Most ulcers heal with treatment</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Types -->
+  <div class="section">
+    <h2><span class="icon-sm">📋</span> Types of Peptic Ulcers</h2>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Type</th>
+          <th>Location</th>
+          <th>Pain Pattern</th>
+          <th>Notes</th>
+        </tr>
+        <tr>
+          <td><strong>Gastric Ulcer</strong></td>
+          <td>Stomach lining</td>
+          <td>Pain worsens with eating</td>
+          <td>May cause weight loss due to eating avoidance</td>
+        </tr>
+        <tr>
+          <td><strong>Duodenal Ulcer</strong></td>
+          <td>First part of small intestine</td>
+          <td>Pain relieved by eating, worse when hungry</td>
+          <td>More common; often causes nighttime pain</td>
+        </tr>
+        <tr>
+          <td><strong>Esophageal Ulcer</strong></td>
+          <td>Lower esophagus</td>
+          <td>Pain with swallowing</td>
+          <td>Usually related to severe GERD</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Causes -->
+  <div class="section">
+    <h2><span class="icon-sm">⚡</span> Causes of Peptic Ulcers</h2>
+    <p>Contrary to popular belief, stress and spicy foods don't cause ulcers (though they can worsen symptoms). The two main causes are:</p>
+
+    <h3>1. Helicobacter pylori (H. pylori) Infection</h3>
+    <p>This spiral-shaped bacterium lives in the stomach's mucus layer and is responsible for 60-80% of gastric ulcers and up to 95% of duodenal ulcers.</p>
+    <ul>
+      <li>About 50% of the world's population carries H. pylori</li>
+      <li>Most carriers never develop ulcers</li>
+      <li>Spreads through contaminated food, water, or close contact</li>
+      <li>The bacteria weaken the protective mucus barrier</li>
+      <li>Produces enzymes and toxins that damage stomach lining</li>
+    </ul>
+
+    <h3>2. NSAIDs (Non-Steroidal Anti-Inflammatory Drugs)</h3>
+    <p>These common pain relievers account for most ulcers not caused by H. pylori:</p>
+    <ul>
+      <li>Aspirin, ibuprofen (Advil, Motrin), naproxen (Aleve)</li>
+      <li>Block prostaglandins that protect stomach lining</li>
+      <li>Risk increases with higher doses and longer use</li>
+      <li>Risk multiplied if combined with H. pylori infection</li>
+      <li>Even low-dose aspirin for heart protection can cause ulcers</li>
+    </ul>
+
+    <h3>Other Contributing Factors</h3>
+    <ul>
+      <li><strong>Smoking:</strong> Increases risk, delays healing</li>
+      <li><strong>Alcohol:</strong> Irritates stomach lining</li>
+      <li><strong>Severe stress:</strong> Critical illness can cause "stress ulcers"</li>
+      <li><strong>Zollinger-Ellison syndrome:</strong> Rare condition causing excessive acid</li>
+      <li><strong>Radiation therapy</strong></li>
+    </ul>
+
+    <div class="note">
+      If you need to take NSAIDs regularly, talk to your doctor about taking a PPI to protect your stomach.
+    </div>
+  </div>
+
+  <!-- Symptoms -->
+  <div class="section">
+    <h2><span class="icon-sm">🔍</span> Symptoms</h2>
+
+    <h3>Common Symptoms</h3>
+    <ul>
+      <li><strong>Burning stomach pain:</strong> Most common symptom; between navel and breastbone</li>
+      <li><strong>Pain timing:</strong> Worse when stomach is empty (especially duodenal ulcers)</li>
+      <li><strong>Night pain:</strong> Waking up with stomach pain</li>
+      <li><strong>Temporary relief:</strong> From eating or antacids</li>
+      <li><strong>Bloating and fullness</strong></li>
+      <li><strong>Belching</strong></li>
+      <li><strong>Heartburn</strong></li>
+      <li><strong>Nausea</strong></li>
+      <li><strong>Food intolerance:</strong> Especially fatty foods</li>
+    </ul>
+
+    <h3>Silent Ulcers</h3>
+    <p>Some ulcers cause no symptoms and are discovered only when complications occur. This is more common in:</p>
+    <ul>
+      <li>Older adults</li>
+      <li>People taking NSAIDs (which also mask pain)</li>
+      <li>People with diabetes (nerve damage may reduce sensation)</li>
+    </ul>
+
+    <h3>Warning Signs of Complications</h3>
+    <div class="danger">
+      <strong>Seek emergency care immediately for:</strong>
+      <ul>
+        <li><strong>Vomiting blood:</strong> Bright red or looks like coffee grounds</li>
+        <li><strong>Black, tarry stools (melena):</strong> Indicates bleeding</li>
+        <li><strong>Sudden, severe abdominal pain:</strong> May indicate perforation</li>
+        <li><strong>Feeling faint or lightheaded:</strong> Signs of blood loss</li>
+        <li><strong>Difficulty breathing</strong></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Complications -->
+  <div class="section">
+    <h2><span class="icon-sm">⚠️</span> Complications</h2>
+    <p>Untreated ulcers can lead to serious, potentially life-threatening complications:</p>
+
+    <h3>Internal Bleeding</h3>
+    <ul>
+      <li>Can be slow (causing anemia) or rapid (life-threatening)</li>
+      <li>Signs: vomiting blood, black stools, weakness, dizziness</li>
+      <li>May require blood transfusion and endoscopic treatment</li>
+    </ul>
+
+    <h3>Perforation</h3>
+    <ul>
+      <li>Ulcer erodes completely through the stomach or intestinal wall</li>
+      <li>Causes sudden, severe abdominal pain</li>
+      <li>Medical emergency requiring surgery</li>
+    </ul>
+
+    <h3>Obstruction (Gastric Outlet Obstruction)</h3>
+    <ul>
+      <li>Inflammation and scarring block food passage</li>
+      <li>Causes vomiting, early fullness, weight loss</li>
+      <li>May require endoscopic or surgical treatment</li>
+    </ul>
+
+    <h3>Penetration</h3>
+    <ul>
+      <li>Ulcer erodes into adjacent organ (pancreas, liver)</li>
+      <li>Causes persistent pain that may radiate to back</li>
+    </ul>
+  </div>
+
+  <!-- Diagnosis -->
+  <div class="section">
+    <h2><span class="icon-sm">🩺</span> Diagnosis</h2>
+
+    <h3>Testing for H. pylori</h3>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Test</th>
+          <th>Method</th>
+          <th>Notes</th>
+        </tr>
+        <tr>
+          <td><strong>Urea Breath Test</strong></td>
+          <td>Drink solution, blow into container</td>
+          <td>Highly accurate, non-invasive; stop PPIs 2 weeks before</td>
+        </tr>
+        <tr>
+          <td><strong>Stool Antigen Test</strong></td>
+          <td>Stool sample analyzed</td>
+          <td>Accurate, convenient; good for confirming eradication</td>
+        </tr>
+        <tr>
+          <td><strong>Blood Antibody Test</strong></td>
+          <td>Blood sample</td>
+          <td>Can't distinguish current from past infection</td>
+        </tr>
+        <tr>
+          <td><strong>Endoscopy with Biopsy</strong></td>
+          <td>Tissue sample from stomach</td>
+          <td>Most accurate; allows visual examination too</td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>Visualizing the Ulcer</h3>
+    <ul>
+      <li><strong>Upper Endoscopy (EGD):</strong> Gold standard; allows visualization, biopsy, and treatment</li>
+      <li><strong>Barium X-ray:</strong> Less commonly used; drink contrast liquid, take X-rays</li>
+    </ul>
+
+    <div class="note">
+      Endoscopy is recommended for anyone with "alarm" symptoms (bleeding, weight loss, difficulty swallowing) and for people over 55 with new symptoms, to rule out cancer.
+    </div>
+  </div>
+
+  <!-- Treatment -->
+  <div class="section">
+    <h2><span class="icon-sm">💊</span> Treatment</h2>
+
+    <h3>Treatment Goals</h3>
+    <ol>
+      <li>Eliminate H. pylori (if present)</li>
+      <li>Reduce acid production to allow healing</li>
+      <li>Protect the stomach lining</li>
+      <li>Avoid agents that caused the ulcer</li>
+    </ol>
+
+    <h3>H. pylori Eradication Therapy</h3>
+    <p>Triple or quadruple therapy for 10-14 days:</p>
+    <ul>
+      <li><strong>PPI:</strong> Omeprazole, lansoprazole, or similar (twice daily)</li>
+      <li><strong>Clarithromycin:</strong> 500 mg twice daily</li>
+      <li><strong>Amoxicillin:</strong> 1000 mg twice daily (or metronidazole if allergic)</li>
+      <li><strong>Bismuth subsalicylate:</strong> Added in quadruple therapy</li>
+    </ul>
+
+    <div class="warning">
+      Complete the full course of antibiotics even if you feel better. Incomplete treatment leads to antibiotic resistance and treatment failure.
+    </div>
+
+    <h3>Acid-Reducing Medications</h3>
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Type</th>
+          <th>Examples</th>
+          <th>Duration</th>
+        </tr>
+        <tr>
+          <td><strong>PPIs</strong></td>
+          <td>Omeprazole, Pantoprazole, Esomeprazole</td>
+          <td>4-8 weeks (duodenal) or 8-12 weeks (gastric)</td>
+        </tr>
+        <tr>
+          <td><strong>H2 Blockers</strong></td>
+          <td>Famotidine, Ranitidine</td>
+          <td>Can be used as alternative or adjunct</td>
+        </tr>
+        <tr>
+          <td><strong>Antacids</strong></td>
+          <td>Tums, Maalox</td>
+          <td>For symptom relief; not for healing</td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>For NSAID-Induced Ulcers</h3>
+    <ul>
+      <li>Stop the NSAID if possible</li>
+      <li>PPIs are treatment of choice</li>
+      <li>If NSAIDs must continue, add PPI protection</li>
+      <li>Consider COX-2 selective NSAIDs (less GI risk)</li>
+      <li>Test and treat H. pylori before starting chronic NSAID therapy</li>
+    </ul>
+
+    <h3>Follow-Up</h3>
+    <ul>
+      <li>Confirm H. pylori eradication with breath or stool test 4+ weeks after treatment</li>
+      <li>Repeat endoscopy for gastric ulcers to ensure healing and rule out cancer</li>
+      <li>Duodenal ulcers don't usually need follow-up endoscopy if symptoms resolve</li>
+    </ul>
+  </div>
+
+  <!-- Lifestyle and Prevention -->
+  <div class="section">
+    <h2><span class="icon-sm">🛡️</span> Lifestyle and Prevention</h2>
+
+    <h3>During Healing</h3>
+    <ul class="checklist">
+      <li>Take medications exactly as prescribed</li>
+      <li>Avoid NSAIDs (use acetaminophen for pain)</li>
+      <li>Quit smoking (delays healing)</li>
+      <li>Limit or avoid alcohol</li>
+      <li>Eat regular meals (don't skip)</li>
+      <li>Avoid foods that worsen your symptoms</li>
+      <li>Manage stress</li>
+    </ul>
+
+    <h3>Prevention</h3>
+    <ul>
+      <li><strong>Limit NSAID use:</strong> Use the lowest dose for shortest time needed</li>
+      <li><strong>Protect stomach if NSAIDs needed:</strong> Take with food; add PPI</li>
+      <li><strong>Don't smoke</strong></li>
+      <li><strong>Limit alcohol</strong></li>
+      <li><strong>Wash hands:</strong> Reduces H. pylori transmission</li>
+      <li><strong>Properly prepare food:</strong> Cook thoroughly, wash produce</li>
+    </ul>
+
+    <div class="tip">
+      If you need pain relief, acetaminophen (paracetamol/Tylenol) doesn't affect the stomach lining and is a good alternative to NSAIDs for many types of pain.
+    </div>
+  </div>
+
+  <!-- FAQ Section -->
+  <div class="section">
+    <h2><span class="icon-sm">❓</span> Frequently Asked Questions</h2>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Can ulcers come back after treatment?</div>
+      <div class="accordion-body">
+        Yes, ulcers can recur. If H. pylori wasn't completely eradicated, if you continue using NSAIDs without stomach protection, or if you smoke, recurrence is more likely. Successfully treating H. pylori reduces recurrence from about 60% to less than 5%. Lifestyle modifications and avoiding known causes help prevent recurrence.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Do I need to follow a special diet?</div>
+      <div class="accordion-body">
+        There's no specific "ulcer diet," but avoiding foods that worsen your symptoms makes sense. Common irritants include spicy foods, acidic foods, caffeine, and alcohol. Eating regular meals is helpful—don't skip meals. Once healed, most people can gradually return to their normal diet.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Can milk help heal ulcers?</div>
+      <div class="accordion-body">
+        This is a myth. While milk may provide temporary relief, it actually stimulates acid production, which can worsen ulcers. The calcium and protein in milk both trigger acid release. Modern ulcer treatment relies on medications that effectively heal ulcers, not dietary remedies.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">How do I know if my ulcer is healing?</div>
+      <div class="accordion-body">
+        Symptoms typically improve within days of starting treatment, though complete healing takes weeks. Your doctor may recommend a follow-up endoscopy for gastric ulcers to confirm healing. For H. pylori, a breath or stool test 4+ weeks after completing antibiotics confirms eradication.
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">Can ulcers cause cancer?</div>
+      <div class="accordion-body">
+        Most peptic ulcers don't become cancerous. However, chronic H. pylori infection is a risk factor for stomach cancer (though the absolute risk is low). Gastric ulcers should always be biopsied and followed up to ensure they're not cancerous. Duodenal ulcers very rarely become cancerous.
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Navigation -->
+  <div class="page-nav">
+    <a href="gastritis.html" class="prev">Gastritis</a>
+    <a href="h-pylori.html" class="next">H. pylori Infection</a>
+  </div>
+</div>
+
+<div class="disclaimer">
+  This content is for educational purposes only and does not replace professional medical advice. The creators of GutWise are not medical professionals. Do not start, stop, or change any medication without consulting your doctor. In case of emergency, call 112 (India) or your local emergency number. <a href="terms-of-use.html">Read full Terms of Use & Medical Disclaimer</a>
+</div>
+<div class="privacy-notice">GutWise does not use cookies, collect personal data, or track users.</div>
+<div class="footer">
+  <span class="ai-badge">AI-Assisted Content</span><br>
+  GutWise &bull; Comprehensive Digestive Health Companion &bull; <a href="terms-of-use.html">Terms of Use</a> &bull; Last updated: February 2026
+</div>
+
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
+<button class="scroll-top" aria-label="Scroll to top" id="scrollTop" title="Back to top">&uarr;</button>
+
+<script>
+// Accordion functionality
+document.querySelectorAll('.accordion-header').forEach(function(header) {
+  header.addEventListener('click', function() {
+    var item = this.parentElement;
+    item.classList.toggle('open');
+  });
+});
+
+// Checklist functionality
+document.querySelectorAll('.checklist li').forEach(function(li) {
+  li.addEventListener('click', function() {
+    this.classList.toggle('checked');
+  });
+});
+
+// Scroll to top
+var scrollBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', function() {
+  scrollBtn.classList.toggle('visible', window.scrollY > 400);
+});
+scrollBtn.addEventListener('click', function() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+});
+
+// Theme toggle
+(function(){
+  var t = document.getElementById('themeToggle');
+  var saved = localStorage.getItem('theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+    t.textContent = saved === 'dark' ? '\u2600' : '\u263E';
+  }
+  t.addEventListener('click', function() {
+    var d = document.documentElement.getAttribute('data-theme') === 'dark' ? '' : 'dark';
+    document.documentElement.setAttribute('data-theme', d);
+    localStorage.setItem('theme', d);
+    t.textContent = d === 'dark' ? '\u2600' : '\u263E';
+  });
+})();
+
+// Service Worker Registration
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+</body>
+</html>
